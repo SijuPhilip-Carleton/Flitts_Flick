@@ -1,0 +1,2699 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style type="text/css">
+pre { white-space: pre-wrap; }
+.ef0,.f0 { color: #000000; } .eb0,.b0 { background-color: #000000; }
+.ef1,.f1 { color: #AA0000; } .eb1,.b1 { background-color: #AA0000; }
+.ef2,.f2 { color: #00AA00; } .eb2,.b2 { background-color: #00AA00; }
+.ef3,.f3 { color: #AA5500; } .eb3,.b3 { background-color: #AA5500; }
+.ef4,.f4 { color: #0000AA; } .eb4,.b4 { background-color: #0000AA; }
+.ef5,.f5 { color: #AA00AA; } .eb5,.b5 { background-color: #AA00AA; }
+.ef6,.f6 { color: #00AAAA; } .eb6,.b6 { background-color: #00AAAA; }
+.ef7,.f7 { color: #AAAAAA; } .eb7,.b7 { background-color: #AAAAAA; }
+.ef8, .f0 > .bold,.bold > .f0 { color: #555555; font-weight: normal; }
+.ef9, .f1 > .bold,.bold > .f1 { color: #FF5555; font-weight: normal; }
+.ef10,.f2 > .bold,.bold > .f2 { color: #55FF55; font-weight: normal; }
+.ef11,.f3 > .bold,.bold > .f3 { color: #FFFF55; font-weight: normal; }
+.ef12,.f4 > .bold,.bold > .f4 { color: #5555FF; font-weight: normal; }
+.ef13,.f5 > .bold,.bold > .f5 { color: #FF55FF; font-weight: normal; }
+.ef14,.f6 > .bold,.bold > .f6 { color: #55FFFF; font-weight: normal; }
+.ef15,.f7 > .bold,.bold > .f7 { color: #FFFFFF; font-weight: normal; }
+.eb8  { background-color: #555555; }
+.eb9  { background-color: #FF5555; }
+.eb10 { background-color: #55FF55; }
+.eb11 { background-color: #FFFF55; }
+.eb12 { background-color: #5555FF; }
+.eb13 { background-color: #FF55FF; }
+.eb14 { background-color: #55FFFF; }
+.eb15 { background-color: #FFFFFF; }
+.ef16 { color: #000000; } .eb16 { background-color: #000000; }
+.ef17 { color: #00005f; } .eb17 { background-color: #00005f; }
+.ef18 { color: #000087; } .eb18 { background-color: #000087; }
+.ef19 { color: #0000af; } .eb19 { background-color: #0000af; }
+.ef20 { color: #0000d7; } .eb20 { background-color: #0000d7; }
+.ef21 { color: #0000ff; } .eb21 { background-color: #0000ff; }
+.ef22 { color: #005f00; } .eb22 { background-color: #005f00; }
+.ef23 { color: #005f5f; } .eb23 { background-color: #005f5f; }
+.ef24 { color: #005f87; } .eb24 { background-color: #005f87; }
+.ef25 { color: #005faf; } .eb25 { background-color: #005faf; }
+.ef26 { color: #005fd7; } .eb26 { background-color: #005fd7; }
+.ef27 { color: #005fff; } .eb27 { background-color: #005fff; }
+.ef28 { color: #008700; } .eb28 { background-color: #008700; }
+.ef29 { color: #00875f; } .eb29 { background-color: #00875f; }
+.ef30 { color: #008787; } .eb30 { background-color: #008787; }
+.ef31 { color: #0087af; } .eb31 { background-color: #0087af; }
+.ef32 { color: #0087d7; } .eb32 { background-color: #0087d7; }
+.ef33 { color: #0087ff; } .eb33 { background-color: #0087ff; }
+.ef34 { color: #00af00; } .eb34 { background-color: #00af00; }
+.ef35 { color: #00af5f; } .eb35 { background-color: #00af5f; }
+.ef36 { color: #00af87; } .eb36 { background-color: #00af87; }
+.ef37 { color: #00afaf; } .eb37 { background-color: #00afaf; }
+.ef38 { color: #00afd7; } .eb38 { background-color: #00afd7; }
+.ef39 { color: #00afff; } .eb39 { background-color: #00afff; }
+.ef40 { color: #00d700; } .eb40 { background-color: #00d700; }
+.ef41 { color: #00d75f; } .eb41 { background-color: #00d75f; }
+.ef42 { color: #00d787; } .eb42 { background-color: #00d787; }
+.ef43 { color: #00d7af; } .eb43 { background-color: #00d7af; }
+.ef44 { color: #00d7d7; } .eb44 { background-color: #00d7d7; }
+.ef45 { color: #00d7ff; } .eb45 { background-color: #00d7ff; }
+.ef46 { color: #00ff00; } .eb46 { background-color: #00ff00; }
+.ef47 { color: #00ff5f; } .eb47 { background-color: #00ff5f; }
+.ef48 { color: #00ff87; } .eb48 { background-color: #00ff87; }
+.ef49 { color: #00ffaf; } .eb49 { background-color: #00ffaf; }
+.ef50 { color: #00ffd7; } .eb50 { background-color: #00ffd7; }
+.ef51 { color: #00ffff; } .eb51 { background-color: #00ffff; }
+.ef52 { color: #5f0000; } .eb52 { background-color: #5f0000; }
+.ef53 { color: #5f005f; } .eb53 { background-color: #5f005f; }
+.ef54 { color: #5f0087; } .eb54 { background-color: #5f0087; }
+.ef55 { color: #5f00af; } .eb55 { background-color: #5f00af; }
+.ef56 { color: #5f00d7; } .eb56 { background-color: #5f00d7; }
+.ef57 { color: #5f00ff; } .eb57 { background-color: #5f00ff; }
+.ef58 { color: #5f5f00; } .eb58 { background-color: #5f5f00; }
+.ef59 { color: #5f5f5f; } .eb59 { background-color: #5f5f5f; }
+.ef60 { color: #5f5f87; } .eb60 { background-color: #5f5f87; }
+.ef61 { color: #5f5faf; } .eb61 { background-color: #5f5faf; }
+.ef62 { color: #5f5fd7; } .eb62 { background-color: #5f5fd7; }
+.ef63 { color: #5f5fff; } .eb63 { background-color: #5f5fff; }
+.ef64 { color: #5f8700; } .eb64 { background-color: #5f8700; }
+.ef65 { color: #5f875f; } .eb65 { background-color: #5f875f; }
+.ef66 { color: #5f8787; } .eb66 { background-color: #5f8787; }
+.ef67 { color: #5f87af; } .eb67 { background-color: #5f87af; }
+.ef68 { color: #5f87d7; } .eb68 { background-color: #5f87d7; }
+.ef69 { color: #5f87ff; } .eb69 { background-color: #5f87ff; }
+.ef70 { color: #5faf00; } .eb70 { background-color: #5faf00; }
+.ef71 { color: #5faf5f; } .eb71 { background-color: #5faf5f; }
+.ef72 { color: #5faf87; } .eb72 { background-color: #5faf87; }
+.ef73 { color: #5fafaf; } .eb73 { background-color: #5fafaf; }
+.ef74 { color: #5fafd7; } .eb74 { background-color: #5fafd7; }
+.ef75 { color: #5fafff; } .eb75 { background-color: #5fafff; }
+.ef76 { color: #5fd700; } .eb76 { background-color: #5fd700; }
+.ef77 { color: #5fd75f; } .eb77 { background-color: #5fd75f; }
+.ef78 { color: #5fd787; } .eb78 { background-color: #5fd787; }
+.ef79 { color: #5fd7af; } .eb79 { background-color: #5fd7af; }
+.ef80 { color: #5fd7d7; } .eb80 { background-color: #5fd7d7; }
+.ef81 { color: #5fd7ff; } .eb81 { background-color: #5fd7ff; }
+.ef82 { color: #5fff00; } .eb82 { background-color: #5fff00; }
+.ef83 { color: #5fff5f; } .eb83 { background-color: #5fff5f; }
+.ef84 { color: #5fff87; } .eb84 { background-color: #5fff87; }
+.ef85 { color: #5fffaf; } .eb85 { background-color: #5fffaf; }
+.ef86 { color: #5fffd7; } .eb86 { background-color: #5fffd7; }
+.ef87 { color: #5fffff; } .eb87 { background-color: #5fffff; }
+.ef88 { color: #870000; } .eb88 { background-color: #870000; }
+.ef89 { color: #87005f; } .eb89 { background-color: #87005f; }
+.ef90 { color: #870087; } .eb90 { background-color: #870087; }
+.ef91 { color: #8700af; } .eb91 { background-color: #8700af; }
+.ef92 { color: #8700d7; } .eb92 { background-color: #8700d7; }
+.ef93 { color: #8700ff; } .eb93 { background-color: #8700ff; }
+.ef94 { color: #875f00; } .eb94 { background-color: #875f00; }
+.ef95 { color: #875f5f; } .eb95 { background-color: #875f5f; }
+.ef96 { color: #875f87; } .eb96 { background-color: #875f87; }
+.ef97 { color: #875faf; } .eb97 { background-color: #875faf; }
+.ef98 { color: #875fd7; } .eb98 { background-color: #875fd7; }
+.ef99 { color: #875fff; } .eb99 { background-color: #875fff; }
+.ef100 { color: #878700; } .eb100 { background-color: #878700; }
+.ef101 { color: #87875f; } .eb101 { background-color: #87875f; }
+.ef102 { color: #878787; } .eb102 { background-color: #878787; }
+.ef103 { color: #8787af; } .eb103 { background-color: #8787af; }
+.ef104 { color: #8787d7; } .eb104 { background-color: #8787d7; }
+.ef105 { color: #8787ff; } .eb105 { background-color: #8787ff; }
+.ef106 { color: #87af00; } .eb106 { background-color: #87af00; }
+.ef107 { color: #87af5f; } .eb107 { background-color: #87af5f; }
+.ef108 { color: #87af87; } .eb108 { background-color: #87af87; }
+.ef109 { color: #87afaf; } .eb109 { background-color: #87afaf; }
+.ef110 { color: #87afd7; } .eb110 { background-color: #87afd7; }
+.ef111 { color: #87afff; } .eb111 { background-color: #87afff; }
+.ef112 { color: #87d700; } .eb112 { background-color: #87d700; }
+.ef113 { color: #87d75f; } .eb113 { background-color: #87d75f; }
+.ef114 { color: #87d787; } .eb114 { background-color: #87d787; }
+.ef115 { color: #87d7af; } .eb115 { background-color: #87d7af; }
+.ef116 { color: #87d7d7; } .eb116 { background-color: #87d7d7; }
+.ef117 { color: #87d7ff; } .eb117 { background-color: #87d7ff; }
+.ef118 { color: #87ff00; } .eb118 { background-color: #87ff00; }
+.ef119 { color: #87ff5f; } .eb119 { background-color: #87ff5f; }
+.ef120 { color: #87ff87; } .eb120 { background-color: #87ff87; }
+.ef121 { color: #87ffaf; } .eb121 { background-color: #87ffaf; }
+.ef122 { color: #87ffd7; } .eb122 { background-color: #87ffd7; }
+.ef123 { color: #87ffff; } .eb123 { background-color: #87ffff; }
+.ef124 { color: #af0000; } .eb124 { background-color: #af0000; }
+.ef125 { color: #af005f; } .eb125 { background-color: #af005f; }
+.ef126 { color: #af0087; } .eb126 { background-color: #af0087; }
+.ef127 { color: #af00af; } .eb127 { background-color: #af00af; }
+.ef128 { color: #af00d7; } .eb128 { background-color: #af00d7; }
+.ef129 { color: #af00ff; } .eb129 { background-color: #af00ff; }
+.ef130 { color: #af5f00; } .eb130 { background-color: #af5f00; }
+.ef131 { color: #af5f5f; } .eb131 { background-color: #af5f5f; }
+.ef132 { color: #af5f87; } .eb132 { background-color: #af5f87; }
+.ef133 { color: #af5faf; } .eb133 { background-color: #af5faf; }
+.ef134 { color: #af5fd7; } .eb134 { background-color: #af5fd7; }
+.ef135 { color: #af5fff; } .eb135 { background-color: #af5fff; }
+.ef136 { color: #af8700; } .eb136 { background-color: #af8700; }
+.ef137 { color: #af875f; } .eb137 { background-color: #af875f; }
+.ef138 { color: #af8787; } .eb138 { background-color: #af8787; }
+.ef139 { color: #af87af; } .eb139 { background-color: #af87af; }
+.ef140 { color: #af87d7; } .eb140 { background-color: #af87d7; }
+.ef141 { color: #af87ff; } .eb141 { background-color: #af87ff; }
+.ef142 { color: #afaf00; } .eb142 { background-color: #afaf00; }
+.ef143 { color: #afaf5f; } .eb143 { background-color: #afaf5f; }
+.ef144 { color: #afaf87; } .eb144 { background-color: #afaf87; }
+.ef145 { color: #afafaf; } .eb145 { background-color: #afafaf; }
+.ef146 { color: #afafd7; } .eb146 { background-color: #afafd7; }
+.ef147 { color: #afafff; } .eb147 { background-color: #afafff; }
+.ef148 { color: #afd700; } .eb148 { background-color: #afd700; }
+.ef149 { color: #afd75f; } .eb149 { background-color: #afd75f; }
+.ef150 { color: #afd787; } .eb150 { background-color: #afd787; }
+.ef151 { color: #afd7af; } .eb151 { background-color: #afd7af; }
+.ef152 { color: #afd7d7; } .eb152 { background-color: #afd7d7; }
+.ef153 { color: #afd7ff; } .eb153 { background-color: #afd7ff; }
+.ef154 { color: #afff00; } .eb154 { background-color: #afff00; }
+.ef155 { color: #afff5f; } .eb155 { background-color: #afff5f; }
+.ef156 { color: #afff87; } .eb156 { background-color: #afff87; }
+.ef157 { color: #afffaf; } .eb157 { background-color: #afffaf; }
+.ef158 { color: #afffd7; } .eb158 { background-color: #afffd7; }
+.ef159 { color: #afffff; } .eb159 { background-color: #afffff; }
+.ef160 { color: #d70000; } .eb160 { background-color: #d70000; }
+.ef161 { color: #d7005f; } .eb161 { background-color: #d7005f; }
+.ef162 { color: #d70087; } .eb162 { background-color: #d70087; }
+.ef163 { color: #d700af; } .eb163 { background-color: #d700af; }
+.ef164 { color: #d700d7; } .eb164 { background-color: #d700d7; }
+.ef165 { color: #d700ff; } .eb165 { background-color: #d700ff; }
+.ef166 { color: #d75f00; } .eb166 { background-color: #d75f00; }
+.ef167 { color: #d75f5f; } .eb167 { background-color: #d75f5f; }
+.ef168 { color: #d75f87; } .eb168 { background-color: #d75f87; }
+.ef169 { color: #d75faf; } .eb169 { background-color: #d75faf; }
+.ef170 { color: #d75fd7; } .eb170 { background-color: #d75fd7; }
+.ef171 { color: #d75fff; } .eb171 { background-color: #d75fff; }
+.ef172 { color: #d78700; } .eb172 { background-color: #d78700; }
+.ef173 { color: #d7875f; } .eb173 { background-color: #d7875f; }
+.ef174 { color: #d78787; } .eb174 { background-color: #d78787; }
+.ef175 { color: #d787af; } .eb175 { background-color: #d787af; }
+.ef176 { color: #d787d7; } .eb176 { background-color: #d787d7; }
+.ef177 { color: #d787ff; } .eb177 { background-color: #d787ff; }
+.ef178 { color: #d7af00; } .eb178 { background-color: #d7af00; }
+.ef179 { color: #d7af5f; } .eb179 { background-color: #d7af5f; }
+.ef180 { color: #d7af87; } .eb180 { background-color: #d7af87; }
+.ef181 { color: #d7afaf; } .eb181 { background-color: #d7afaf; }
+.ef182 { color: #d7afd7; } .eb182 { background-color: #d7afd7; }
+.ef183 { color: #d7afff; } .eb183 { background-color: #d7afff; }
+.ef184 { color: #d7d700; } .eb184 { background-color: #d7d700; }
+.ef185 { color: #d7d75f; } .eb185 { background-color: #d7d75f; }
+.ef186 { color: #d7d787; } .eb186 { background-color: #d7d787; }
+.ef187 { color: #d7d7af; } .eb187 { background-color: #d7d7af; }
+.ef188 { color: #d7d7d7; } .eb188 { background-color: #d7d7d7; }
+.ef189 { color: #d7d7ff; } .eb189 { background-color: #d7d7ff; }
+.ef190 { color: #d7ff00; } .eb190 { background-color: #d7ff00; }
+.ef191 { color: #d7ff5f; } .eb191 { background-color: #d7ff5f; }
+.ef192 { color: #d7ff87; } .eb192 { background-color: #d7ff87; }
+.ef193 { color: #d7ffaf; } .eb193 { background-color: #d7ffaf; }
+.ef194 { color: #d7ffd7; } .eb194 { background-color: #d7ffd7; }
+.ef195 { color: #d7ffff; } .eb195 { background-color: #d7ffff; }
+.ef196 { color: #ff0000; } .eb196 { background-color: #ff0000; }
+.ef197 { color: #ff005f; } .eb197 { background-color: #ff005f; }
+.ef198 { color: #ff0087; } .eb198 { background-color: #ff0087; }
+.ef199 { color: #ff00af; } .eb199 { background-color: #ff00af; }
+.ef200 { color: #ff00d7; } .eb200 { background-color: #ff00d7; }
+.ef201 { color: #ff00ff; } .eb201 { background-color: #ff00ff; }
+.ef202 { color: #ff5f00; } .eb202 { background-color: #ff5f00; }
+.ef203 { color: #ff5f5f; } .eb203 { background-color: #ff5f5f; }
+.ef204 { color: #ff5f87; } .eb204 { background-color: #ff5f87; }
+.ef205 { color: #ff5faf; } .eb205 { background-color: #ff5faf; }
+.ef206 { color: #ff5fd7; } .eb206 { background-color: #ff5fd7; }
+.ef207 { color: #ff5fff; } .eb207 { background-color: #ff5fff; }
+.ef208 { color: #ff8700; } .eb208 { background-color: #ff8700; }
+.ef209 { color: #ff875f; } .eb209 { background-color: #ff875f; }
+.ef210 { color: #ff8787; } .eb210 { background-color: #ff8787; }
+.ef211 { color: #ff87af; } .eb211 { background-color: #ff87af; }
+.ef212 { color: #ff87d7; } .eb212 { background-color: #ff87d7; }
+.ef213 { color: #ff87ff; } .eb213 { background-color: #ff87ff; }
+.ef214 { color: #ffaf00; } .eb214 { background-color: #ffaf00; }
+.ef215 { color: #ffaf5f; } .eb215 { background-color: #ffaf5f; }
+.ef216 { color: #ffaf87; } .eb216 { background-color: #ffaf87; }
+.ef217 { color: #ffafaf; } .eb217 { background-color: #ffafaf; }
+.ef218 { color: #ffafd7; } .eb218 { background-color: #ffafd7; }
+.ef219 { color: #ffafff; } .eb219 { background-color: #ffafff; }
+.ef220 { color: #ffd700; } .eb220 { background-color: #ffd700; }
+.ef221 { color: #ffd75f; } .eb221 { background-color: #ffd75f; }
+.ef222 { color: #ffd787; } .eb222 { background-color: #ffd787; }
+.ef223 { color: #ffd7af; } .eb223 { background-color: #ffd7af; }
+.ef224 { color: #ffd7d7; } .eb224 { background-color: #ffd7d7; }
+.ef225 { color: #ffd7ff; } .eb225 { background-color: #ffd7ff; }
+.ef226 { color: #ffff00; } .eb226 { background-color: #ffff00; }
+.ef227 { color: #ffff5f; } .eb227 { background-color: #ffff5f; }
+.ef228 { color: #ffff87; } .eb228 { background-color: #ffff87; }
+.ef229 { color: #ffffaf; } .eb229 { background-color: #ffffaf; }
+.ef230 { color: #ffffd7; } .eb230 { background-color: #ffffd7; }
+.ef231 { color: #ffffff; } .eb231 { background-color: #ffffff; }
+.ef232 { color: #080808; } .eb232 { background-color: #080808; }
+.ef233 { color: #121212; } .eb233 { background-color: #121212; }
+.ef234 { color: #1c1c1c; } .eb234 { background-color: #1c1c1c; }
+.ef235 { color: #262626; } .eb235 { background-color: #262626; }
+.ef236 { color: #303030; } .eb236 { background-color: #303030; }
+.ef237 { color: #3a3a3a; } .eb237 { background-color: #3a3a3a; }
+.ef238 { color: #444444; } .eb238 { background-color: #444444; }
+.ef239 { color: #4e4e4e; } .eb239 { background-color: #4e4e4e; }
+.ef240 { color: #585858; } .eb240 { background-color: #585858; }
+.ef241 { color: #626262; } .eb241 { background-color: #626262; }
+.ef242 { color: #6c6c6c; } .eb242 { background-color: #6c6c6c; }
+.ef243 { color: #767676; } .eb243 { background-color: #767676; }
+.ef244 { color: #808080; } .eb244 { background-color: #808080; }
+.ef245 { color: #8a8a8a; } .eb245 { background-color: #8a8a8a; }
+.ef246 { color: #949494; } .eb246 { background-color: #949494; }
+.ef247 { color: #9e9e9e; } .eb247 { background-color: #9e9e9e; }
+.ef248 { color: #a8a8a8; } .eb248 { background-color: #a8a8a8; }
+.ef249 { color: #b2b2b2; } .eb249 { background-color: #b2b2b2; }
+.ef250 { color: #bcbcbc; } .eb250 { background-color: #bcbcbc; }
+.ef251 { color: #c6c6c6; } .eb251 { background-color: #c6c6c6; }
+.ef252 { color: #d0d0d0; } .eb252 { background-color: #d0d0d0; }
+.ef253 { color: #dadada; } .eb253 { background-color: #dadada; }
+.ef254 { color: #e4e4e4; } .eb254 { background-color: #e4e4e4; }
+.ef255 { color: #eeeeee; } .eb255 { background-color: #eeeeee; }
+
+.f9 { color: #000000; }
+.b9 { background-color: #FFFFFF; }
+.f9 > .bold,.bold > .f9, body.f9 > pre > .bold {
+  /* Bold is heavy black on white, or bright white
+     depending on the default background */
+  color: #000000;
+  font-weight: bold;
+}
+.reverse {
+  /* CSS does not support swapping fg and bg colours unfortunately,
+     so just hardcode something that will look OK on all backgrounds. */
+  color: #000000; background-color: #AAAAAA;
+}
+.underline { text-decoration: underline; }
+.line-through { text-decoration: line-through; }
+.blink { text-decoration: blink; }
+
+/* Avoid pixels between adjacent span elements.
+   Note this only works for lines less than 80 chars
+   where we close span elements on the same line.
+span { display: inline-block; }
+*/
+</style>
+</head>
+
+<body class="f9 b9">
+<pre>
+<span class="bold">diff --git a/app/src/main/java/ca/yorku/cse/mack/fittstilt/Circle.java b/app/src/main/java/ca/yorku/cse/mack/fittstilt/Circle.java
+index c52b7f5..28c2147 100644</span>
+<span class="bold">--- a/app/src/main/java/ca/yorku/cse/mack/fittstilt/Circle.java</span>
+<span class="bold">+++ b/app/src/main/java/ca/yorku/cse/mack/fittstilt/Circle.java</span>
+<span class="f6">@@ -1,26 +1,48 @@</span>
+<span class="f1">-package ca.yorku.cse.mack.fittstilt;</span>
+<span class="f1">-</span>
+<span class="f1">-public class Circle</span>
+<span class="f1">-{</span>
+<span class="f1">-	final static int NORMAL = 1;</span>
+<span class="f1">-	final static int TARGET = 2;</span>
+<span class="f1">-	</span>
+<span class="f1">-	public float x, y, radius;</span>
+<span class="f1">-	int status; // indicates if this circle is the target circle or a normal circle</span>
+<span class="f1">-</span>
+<span class="f1">-	Circle(float xArg, float yArg, float radiusArg, int statusArg)</span>
+<span class="f1">-	{</span>
+<span class="f1">-		x = xArg;</span>
+<span class="f1">-		y = yArg;</span>
+<span class="f1">-		radius = radiusArg;</span>
+<span class="f1">-		status = statusArg;</span>
+<span class="f1">-	}</span>
+<span class="f1">-	</span>
+<span class="f1">-	public boolean inCircle(float xTest, float yTest, float diameterArg)</span>
+<span class="f1">-	{</span>
+<span class="f1">-		float dx = xTest - x;</span>
+<span class="f1">-		float dy = yTest - y;</span>
+<span class="f1">-		float distanceFromCenter = (float)Math.sqrt(dx * dx + dy * dy);</span>
+<span class="f1">-		return distanceFromCenter + diameterArg / 2f &lt; radius;</span>
+<span class="f1">-	} </span>
+<span class="f2">+package ca.yorku.cse.mack.fittstilt;</span>
+<span class="f2">+</span>
+<span class="f2">+import android.util.Log;</span>
+<span class="f2">+</span>
+<span class="f2">+import static java.lang.Math.abs;</span>
+<span class="f2">+</span>
+<span class="f2">+public class Circle</span>
+<span class="f2">+{</span>
+<span class="f2">+</span>	<span class="f2">final static int NORMAL = 1;</span>
+<span class="f2">+</span>	<span class="f2">final static int TARGET = 2;</span>
+<span class="f2">+</span><span class="b1">	</span>
+<span class="f2">+</span>	<span class="f2">public float x, y, radius;</span>
+<span class="f2">+</span>	<span class="f2">int status; // indicates if this circle is the target circle or a normal circle</span>
+<span class="f2">+</span>
+<span class="f2">+</span>	<span class="f2">Circle(float xArg, float yArg, float radiusArg, int statusArg)</span>
+<span class="f2">+</span>	<span class="f2">{</span>
+<span class="f2">+</span>		<span class="f2">x = xArg;</span>
+<span class="f2">+</span>		<span class="f2">y = yArg;</span>
+<span class="f2">+</span>		<span class="f2">radius = radiusArg;</span>
+<span class="f2">+</span>		<span class="f2">status = statusArg;</span>
+<span class="f2">+</span>	<span class="f2">}</span>
+<span class="f2">+</span><span class="b1">	</span>
+<span class="f2">+</span>	<span class="f2">public boolean inCircle(float xTest, float yTest, float diameterArg)</span>
+<span class="f2">+</span>	<span class="f2">{</span>
+<span class="f2">+</span>		<span class="f2">float dx = xTest - x;</span>
+<span class="f2">+</span>		<span class="f2">float dy = yTest - y;</span>
+<span class="f2">+</span>		<span class="f2">float distanceFromCenter = (float)Math.sqrt(dx * dx + dy * dy);</span>
+<span class="f2">+</span>		<span class="f2">return distanceFromCenter + diameterArg / 2f &lt; radius;</span>
+<span class="f2">+</span>	<span class="f2">}</span>
+<span class="f2">+</span>
+<span class="f2">+    public boolean collidedWithCircle(float xCurrent, float yCurrent, float xPrev, float yPrev, float diameterArg){</span>
+<span class="f2">+        float dx = xCurrent - x;</span>
+<span class="f2">+        float dy = yCurrent - y;</span>
+<span class="f2">+        float dxCurrentPrev = xPrev - x;</span>
+<span class="f2">+        float dyCurrentPrev = yPrev - y;</span>
+<span class="f2">+        float distanceFromCenter = (float)Math.sqrt(dx * dx + dy * dy);</span>
+<span class="f2">+        float distanceFromCenterOld = (float)Math.sqrt(dxCurrentPrev * dxCurrentPrev + dyCurrentPrev * dyCurrentPrev);</span>
+<span class="f2">+        if(distanceFromCenter &gt; distanceFromCenterOld</span>
+<span class="f2">+                &amp;&amp;</span>
+<span class="f2">+                (distanceFromCenterOld &lt; radius*1.5 ))</span>
+<span class="f2">+        {</span>
+<span class="f2">+                return true;</span>
+<span class="f2">+        }</span>
+<span class="f2">+        else{</span>
+<span class="f2">+</span>	<span class="f2">        return false;</span>
+<span class="f2">+        }</span>
+<span class="f2">+    }</span>
+ }
+\ No newline at end of file
+<span class="bold">diff --git a/app/src/main/java/ca/yorku/cse/mack/fittstilt/ExperimentPanel.java b/app/src/main/java/ca/yorku/cse/mack/fittstilt/ExperimentPanel.java
+index 2345913..2c68d44 100644</span>
+<span class="bold">--- a/app/src/main/java/ca/yorku/cse/mack/fittstilt/ExperimentPanel.java</span>
+<span class="bold">+++ b/app/src/main/java/ca/yorku/cse/mack/fittstilt/ExperimentPanel.java</span>
+<span class="f6">@@ -1,161 +1,205 @@</span>
+<span class="f1">-package ca.yorku.cse.mack.fittstilt;</span>
+<span class="f1">-</span>
+<span class="f1">-import android.content.Context;</span>
+<span class="f1">-import android.graphics.Bitmap;</span>
+<span class="f1">-import android.graphics.BitmapFactory;</span>
+<span class="f1">-import android.graphics.Canvas;</span>
+<span class="f1">-import android.graphics.Color;</span>
+<span class="f1">-import android.graphics.Paint;</span>
+<span class="f1">-import android.util.AttributeSet;</span>
+<span class="f1">-import android.view.View;</span>
+<span class="f1">-</span>
+<span class="f1">-/**</span>
+<span class="f1">- * ExperimentPanel -- panel to present the targets</span>
+<span class="f1">- * &lt;p&gt;</span>
+<span class="f1">- *</span>
+<span class="f1">- * @author Scott MacKenziem 2011-2016</span>
+<span class="f1">- */</span>
+<span class="f1">-public class ExperimentPanel extends View</span>
+<span class="f1">-{</span>
+<span class="f1">-    // size and positioning constants (density-independent pixels)</span>
+<span class="f1">-    final int START_TEXT_SIZE = 18;</span>
+<span class="f1">-    final int GAP = 10; // gap between lines</span>
+<span class="f1">-    final int DEFAULT_BALL_DIAMETER = 22;</span>
+<span class="f1">-    final int START_CIRCLE_RADIUS = 20;</span>
+<span class="f1">-    final int X_OFFSET = 20;</span>
+<span class="f1">-    final int Y_OFFSET = 20;</span>
+<span class="f1">-</span>
+<span class="f1">-    float xBall, yBall;</span>
+<span class="f1">-    Bitmap ball; // initialized from main activity (see onWindowFocusChanged)</span>
+<span class="f1">-    Circle[] taskCircles;</span>
+<span class="f1">-    Circle targetCircle; // the destination target to select</span>
+<span class="f1">-    Circle fromTargetCircle; // the source target from where the trial began</span>
+<span class="f1">-    Circle startCircle;</span>
+<span class="f1">-    Circle practiceCircle;</span>
+<span class="f1">-    boolean done = false;</span>
+<span class="f1">-    boolean waitStartCircleSelect, waitPracticeCircleSelect;</span>
+<span class="f1">-    Paint targetPaint, targetRimPaint, normalPaint, startPaint, practicePaint;</span>
+<span class="f1">-    String[] results = {&quot;Start&quot;};</span>
+<span class="f1">-    String[] practice;</span>
+<span class="f1">-    float pixelDensity;</span>
+<span class="f1">-    //int ballDiameter;</span>
+<span class="f1">-    int gap, xOffset, yOffset1, yOffset2, yOffset3;</span>
+<span class="f1">-    int startTextSize, startCircleRadius;</span>
+<span class="f1">-    //float ballScale;</span>
+<span class="f1">-    boolean readyToDraw;</span>
+<span class="f1">-</span>
+<span class="f1">-    public ExperimentPanel(Context contextArg)</span>
+<span class="f1">-    {</span>
+<span class="f1">-        super(contextArg);</span>
+<span class="f1">-        initialize(contextArg);</span>
+<span class="f1">-    }</span>
+<span class="f1">-</span>
+<span class="f1">-    public ExperimentPanel(Context contextArg, AttributeSet attrs)</span>
+<span class="f1">-    {</span>
+<span class="f1">-        super(contextArg, attrs);</span>
+<span class="f1">-        initialize(contextArg);</span>
+<span class="f1">-    }</span>
+<span class="f1">-</span>
+<span class="f1">-    public ExperimentPanel(Context contextArg, AttributeSet attrs, int defStyle)</span>
+<span class="f1">-    {</span>
+<span class="f1">-        super(contextArg, attrs, defStyle);</span>
+<span class="f1">-        initialize(contextArg);</span>
+<span class="f1">-    }</span>
+<span class="f1">-</span>
+<span class="f1">-    // things that can be initialized from within this View</span>
+<span class="f1">-    private void initialize(Context c)</span>
+<span class="f1">-    {</span>
+<span class="f1">-        readyToDraw = false; // don't draw UI until ball onWindowFocusChanged finishes in main activity</span>
+<span class="f1">-</span>
+<span class="f1">-        pixelDensity = c.getResources().getDisplayMetrics().density;</span>
+<span class="f1">-        gap = GAP * (int)(pixelDensity);</span>
+<span class="f1">-        startTextSize = (int)(START_TEXT_SIZE * pixelDensity);</span>
+<span class="f1">-        startCircleRadius = (int)(START_CIRCLE_RADIUS * pixelDensity); // same for practice circle</span>
+<span class="f1">-        xOffset = (int)(X_OFFSET * pixelDensity);</span>
+<span class="f1">-        yOffset1 = (int)(Y_OFFSET * pixelDensity);</span>
+<span class="f1">-        yOffset2 = yOffset1 + 2 * startCircleRadius + startTextSize + gap + 2 * startCircleRadius;</span>
+<span class="f1">-        yOffset3 = yOffset1 + 2 * startCircleRadius + yOffset1 + 2 * startCircleRadius + startTextSize + gap;</span>
+<span class="f1">-</span>
+<span class="f1">-        startCircle = new Circle(xOffset + startCircleRadius, yOffset1 + startCircleRadius, startCircleRadius, Circle</span>
+<span class="f1">-                .NORMAL);</span>
+<span class="f1">-        practiceCircle = new Circle(xOffset + startCircleRadius, yOffset2, startCircleRadius, Circle.NORMAL);</span>
+<span class="f1">-</span>
+<span class="f1">-        // create bitmap for ball (will be replaced with scaled bitmap from main activity (see onWindowFocusChanged)</span>
+<span class="f1">-        ball = BitmapFactory.decodeResource(getResources(), R.drawable.ball);</span>
+<span class="f1">-</span>
+<span class="f1">-        targetCircle = new Circle(1, 1, 1, 1);</span>
+<span class="f1">-</span>
+<span class="f1">-        targetPaint = new Paint();</span>
+<span class="f1">-        targetPaint.setColor(0xffffaaaa);</span>
+<span class="f1">-        targetPaint.setStyle(Paint.Style.FILL);</span>
+<span class="f1">-        targetPaint.setAntiAlias(true);</span>
+<span class="f1">-</span>
+<span class="f1">-        targetRimPaint = new Paint();</span>
+<span class="f1">-        targetRimPaint.setColor(Color.RED);</span>
+<span class="f1">-        targetRimPaint.setStyle(Paint.Style.STROKE);</span>
+<span class="f1">-        targetRimPaint.setStrokeWidth(2);</span>
+<span class="f1">-        targetRimPaint.setAntiAlias(true);</span>
+<span class="f1">-</span>
+<span class="f1">-        normalPaint = new Paint();</span>
+<span class="f1">-        normalPaint.setColor(0xffff9999); // lighter red (to minimize distraction)</span>
+<span class="f1">-        normalPaint.setStyle(Paint.Style.STROKE);</span>
+<span class="f1">-        normalPaint.setStrokeWidth(2);</span>
+<span class="f1">-        normalPaint.setAntiAlias(true);</span>
+<span class="f1">-</span>
+<span class="f1">-        startPaint = new Paint();</span>
+<span class="f1">-        startPaint.setColor(0xff0000ff);</span>
+<span class="f1">-        startPaint.setStyle(Paint.Style.FILL);</span>
+<span class="f1">-        startPaint.setAntiAlias(true);</span>
+<span class="f1">-        startPaint.setTextSize(startTextSize);</span>
+<span class="f1">-</span>
+<span class="f1">-        practicePaint = new Paint();</span>
+<span class="f1">-        practicePaint.setColor(0xff008800);</span>
+<span class="f1">-        practicePaint.setStyle(Paint.Style.FILL);</span>
+<span class="f1">-        practicePaint.setAntiAlias(true);</span>
+<span class="f1">-        practicePaint.setTextSize(startTextSize);</span>
+<span class="f1">-</span>
+<span class="f1">-        waitStartCircleSelect = true;</span>
+<span class="f1">-        waitPracticeCircleSelect = true;</span>
+<span class="f1">-</span>
+<span class="f1">-        this.setBackgroundColor(Color.LTGRAY);</span>
+<span class="f1">-    }</span>
+<span class="f1">-</span>
+<span class="f1">-    protected void onDraw(Canvas canvas)</span>
+<span class="f1">-    {</span>
+<span class="f1">-        if (!readyToDraw)</span>
+<span class="f1">-            return;</span>
+<span class="f1">-</span>
+<span class="f1">-        if (waitStartCircleSelect) // draw start circle (and results string)</span>
+<span class="f1">-        {</span>
+<span class="f1">-            // draw the start circle</span>
+<span class="f1">-            canvas.drawCircle(startCircle.x, startCircle.y, startCircle.radius, startPaint);</span>
+<span class="f1">-</span>
+<span class="f1">-            // draw the results text</span>
+<span class="f1">-            for (int i = 0; i &lt; results.length; ++i)</span>
+<span class="f1">-                canvas.drawText(results[i], xOffset, yOffset1 + 2 * startCircle.radius + (i + 1) * (startTextSize +</span>
+<span class="f1">-                        gap), startPaint);</span>
+<span class="f1">-</span>
+<span class="f1">-            if (waitPracticeCircleSelect) // only at beginning of a block</span>
+<span class="f1">-            {</span>
+<span class="f1">-                // draw the practice circle</span>
+<span class="f1">-                canvas.drawCircle(practiceCircle.x, practiceCircle.y, practiceCircle.radius, practicePaint);</span>
+<span class="f1">-</span>
+<span class="f1">-                // draw the practice greeting (also indicates the order of control, tilt gain, and selection method)</span>
+<span class="f1">-                for (int i = 0; i &lt; practice.length; ++i)</span>
+<span class="f1">-                    canvas.drawText(practice[i], xOffset, yOffset3 + (i + 1) * (startTextSize + gap), practicePaint);</span>
+<span class="f1">-            }</span>
+<span class="f1">-        } else if (!done) // draw task circles</span>
+<span class="f1">-        {</span>
+<span class="f1">-            for (Circle c : taskCircles)</span>
+<span class="f1">-                canvas.drawCircle(c.x, c.y, c.radius, normalPaint);</span>
+<span class="f1">-</span>
+<span class="f1">-            // draw target circle last (so it is on top of any overlapping circles)</span>
+<span class="f1">-            canvas.drawCircle(targetCircle.x, targetCircle.y, targetCircle.radius, targetPaint);</span>
+<span class="f1">-            canvas.drawCircle(targetCircle.x, targetCircle.y, targetCircle.radius, targetRimPaint);</span>
+<span class="f1">-        }</span>
+<span class="f1">-</span>
+<span class="f1">-        // draw the ball in its new location</span>
+<span class="f1">-        canvas.drawBitmap(ball, xBall, yBall, null);</span>
+<span class="f1">-</span>
+<span class="f1">-    } // end onDraw</span>
+<span class="f1">-}</span>
+<span class="f2">+package ca.yorku.cse.mack.fittstilt;</span>
+<span class="f2">+</span>
+<span class="f2">+import android.content.Context;</span>
+<span class="f2">+import android.graphics.Bitmap;</span>
+<span class="f2">+import android.graphics.BitmapFactory;</span>
+<span class="f2">+import android.graphics.Canvas;</span>
+<span class="f2">+import android.graphics.Color;</span>
+<span class="f2">+import android.graphics.Paint;</span>
+<span class="f2">+import android.util.AttributeSet;</span>
+<span class="f2">+import android.view.View;</span>
+<span class="f2">+</span>
+<span class="f2">+/**</span>
+<span class="f2">+ * ExperimentPanel -- panel to present the targets</span>
+<span class="f2">+ * &lt;p&gt;</span>
+<span class="f2">+ *</span>
+<span class="f2">+ * @author Scott MacKenziem 2011-2016</span>
+<span class="f2">+ */</span>
+<span class="f2">+public class ExperimentPanel extends View</span>
+<span class="f2">+{</span>
+<span class="f2">+    // size and positioning constants (density-independent pixels)</span>
+<span class="f2">+    final int START_TEXT_SIZE = 18;</span>
+<span class="f2">+    final int GAP = 10; // gap between lines</span>
+<span class="f2">+    final int DEFAULT_BALL_DIAMETER = 22;</span>
+<span class="f2">+    final int START_CIRCLE_RADIUS = 20;</span>
+<span class="f2">+    final int X_OFFSET = 20;</span>
+<span class="f2">+    final int Y_OFFSET = 20;</span>
+<span class="f2">+</span>
+<span class="f2">+    float xBall, yBall;</span>
+<span class="f2">+    float startX, startY, practiceX, practiceY;</span>
+<span class="f2">+    Bitmap ball; // initialized from main activity (see onWindowFocusChanged)</span>
+<span class="f2">+    Circle[] taskCircles;</span>
+<span class="f2">+    Circle targetCircle; // the destination target to select</span>
+<span class="f2">+    Circle fromTargetCircle; // the source target from where the trial began</span>
+<span class="f2">+    Circle startCircle;</span>
+<span class="f2">+    Circle practiceCircle;</span>
+<span class="f2">+    Circle startCircleFlick;</span>
+<span class="f2">+    Circle getPracticeCircleFlick;</span>
+<span class="f2">+    String orderOfControl;</span>
+<span class="f2">+    boolean done = false;</span>
+<span class="f2">+    boolean waitStartCircleSelect, waitPracticeCircleSelect;</span>
+<span class="f2">+    Paint targetPaint, targetRimPaint, normalPaint, startPaint, practicePaint;</span>
+<span class="f2">+    String[] results = {&quot;Start&quot;};</span>
+<span class="f2">+    String[] practice;</span>
+<span class="f2">+    float pixelDensity;</span>
+<span class="f2">+    //int ballDiameter;</span>
+<span class="f2">+    int gap, xOffset, yOffset1, yOffset2, yOffset3;</span>
+<span class="f2">+    int startTextSize, startCircleRadius;</span>
+<span class="f2">+    //float ballScale;</span>
+<span class="f2">+    boolean readyToDraw;</span>
+<span class="f2">+</span>
+<span class="f2">+    public ExperimentPanel(Context contextArg)</span>
+<span class="f2">+    {</span>
+<span class="f2">+        super(contextArg);</span>
+<span class="f2">+        initialize(contextArg);</span>
+<span class="f2">+    }</span>
+<span class="f2">+</span>
+<span class="f2">+    public ExperimentPanel(Context contextArg, AttributeSet attrs)</span>
+<span class="f2">+    {</span>
+<span class="f2">+        super(contextArg, attrs);</span>
+<span class="f2">+        initialize(contextArg);</span>
+<span class="f2">+    }</span>
+<span class="f2">+</span>
+<span class="f2">+    public ExperimentPanel(Context contextArg, AttributeSet attrs, int defStyle)</span>
+<span class="f2">+    {</span>
+<span class="f2">+        super(contextArg, attrs, defStyle);</span>
+<span class="f2">+        initialize(contextArg);</span>
+<span class="f2">+    }</span>
+<span class="f2">+</span>
+<span class="f2">+    // things that can be initialized from within this View</span>
+<span class="f2">+    private void initialize(Context c)</span>
+<span class="f2">+    {</span>
+<span class="f2">+        readyToDraw = false; // don't draw UI until ball onWindowFocusChanged finishes in main activity</span>
+<span class="f2">+</span>
+<span class="f2">+        pixelDensity = c.getResources().getDisplayMetrics().density;</span>
+<span class="f2">+        gap = GAP * (int)(pixelDensity);</span>
+<span class="f2">+        startTextSize = (int)(START_TEXT_SIZE * pixelDensity);</span>
+<span class="f2">+        startCircleRadius = (int)(START_CIRCLE_RADIUS * pixelDensity); // same for practice circle</span>
+<span class="f2">+        xOffset = (int)(X_OFFSET * pixelDensity);</span>
+<span class="f2">+        yOffset1 = (int)(Y_OFFSET * pixelDensity);</span>
+<span class="f2">+        yOffset2 = yOffset1 + 2 * startCircleRadius + startTextSize + gap + 2 * startCircleRadius;</span>
+<span class="f2">+        yOffset3 = yOffset1 + 2 * startCircleRadius + yOffset1 + 2 * startCircleRadius + startTextSize + gap;</span>
+<span class="f2">+//        if(orderOfControl.equals(&quot;Flicker&quot;)){</span>
+<span class="f2">+//            startCircle = new Circle(xBall + xOffset + startCircleRadius, yBall+yOffset1+ startCircleRadius,</span>
+<span class="f2">+//                    startCircleRadius, Circle.NORMAL);</span>
+<span class="f2">+//            practiceCircle = new Circle(yBall + startCircleRadius, yBall +  yOffset2, startCircleRadius, Circle.NORMAL);</span>
+<span class="f2">+//        }</span>
+<span class="f2">+//        else {</span>
+<span class="f2">+            startCircle = new Circle(xOffset + startCircleRadius, yOffset1 + startCircleRadius, startCircleRadius, Circle</span>
+<span class="f2">+                    .NORMAL);</span>
+<span class="f2">+            practiceCircle = new Circle(xOffset + startCircleRadius, yOffset2, startCircleRadius, Circle.NORMAL);</span>
+<span class="f2">+       // }</span>
+<span class="f2">+        // create bitmap for ball (will be replaced with scaled bitmap from main activity (see onWindowFocusChanged)</span>
+<span class="f2">+        ball = BitmapFactory.decodeResource(getResources(), R.drawable.ball);</span>
+<span class="f2">+</span>
+<span class="f2">+        targetCircle = new Circle(1, 1, 1, 1);</span>
+<span class="f2">+</span>
+<span class="f2">+        targetPaint = new Paint();</span>
+<span class="f2">+        targetPaint.setColor(0xffffaaaa);</span>
+<span class="f2">+        targetPaint.setStyle(Paint.Style.FILL);</span>
+<span class="f2">+        targetPaint.setAntiAlias(true);</span>
+<span class="f2">+</span>
+<span class="f2">+        targetRimPaint = new Paint();</span>
+<span class="f2">+        targetRimPaint.setColor(Color.RED);</span>
+<span class="f2">+        targetRimPaint.setStyle(Paint.Style.STROKE);</span>
+<span class="f2">+        targetRimPaint.setStrokeWidth(2);</span>
+<span class="f2">+        targetRimPaint.setAntiAlias(true);</span>
+<span class="f2">+</span>
+<span class="f2">+        normalPaint = new Paint();</span>
+<span class="f2">+        normalPaint.setColor(0xffff9999); // lighter red (to minimize distraction)</span>
+<span class="f2">+        normalPaint.setStyle(Paint.Style.STROKE);</span>
+<span class="f2">+        normalPaint.setStrokeWidth(2);</span>
+<span class="f2">+        normalPaint.setAntiAlias(true);</span>
+<span class="f2">+</span>
+<span class="f2">+        startPaint = new Paint();</span>
+<span class="f2">+        startPaint.setColor(0xff0000ff);</span>
+<span class="f2">+        startPaint.setStyle(Paint.Style.FILL);</span>
+<span class="f2">+        startPaint.setAntiAlias(true);</span>
+<span class="f2">+        startPaint.setTextSize(startTextSize);</span>
+<span class="f2">+</span>
+<span class="f2">+        practicePaint = new Paint();</span>
+<span class="f2">+        practicePaint.setColor(0xff008800);</span>
+<span class="f2">+        practicePaint.setStyle(Paint.Style.FILL);</span>
+<span class="f2">+        practicePaint.setAntiAlias(true);</span>
+<span class="f2">+        practicePaint.setTextSize(startTextSize);</span>
+<span class="f2">+</span>
+<span class="f2">+        waitStartCircleSelect = true;</span>
+<span class="f2">+        waitPracticeCircleSelect = true;</span>
+<span class="f2">+</span>
+<span class="f2">+        this.setBackgroundColor(Color.LTGRAY);</span>
+<span class="f2">+    }</span>
+<span class="f2">+</span>
+<span class="f2">+    protected void onDraw(Canvas canvas)</span>
+<span class="f2">+    {</span>
+<span class="f2">+        if (!readyToDraw)</span>
+<span class="f2">+            return;</span>
+<span class="f2">+</span>
+<span class="f2">+        if (waitStartCircleSelect) // draw start circle (and results string)</span>
+<span class="f2">+        {</span>
+<span class="f2">+            if(orderOfControl.equals(&quot;Flicker&quot;)){</span>
+<span class="f2">+                startCircle.x = startX;</span>
+<span class="f2">+                startCircle.y = startY;</span>
+<span class="f2">+            }</span>
+<span class="f2">+</span>
+<span class="f2">+            // draw the start circle</span>
+<span class="f2">+            canvas.drawCircle(startCircle.x, startCircle.y, startCircle.radius, startPaint);</span>
+<span class="f2">+</span>
+<span class="f2">+</span>
+<span class="f2">+            // draw the results text</span>
+<span class="f2">+                if(orderOfControl.equals(&quot;Flicker&quot;)){</span>
+<span class="f2">+                    canvas.drawText(results[0], startCircle.x - 2*gap, startCircle.y + 2*startCircle.radius + gap, startPaint);</span>
+<span class="f2">+</span>
+<span class="f2">+                    if(results.length &gt; 1){</span>
+<span class="f2">+                    for (int i = 1; i &lt; results.length; ++i){</span>
+<span class="f2">+                        canvas.drawText(results[i], xOffset, yOffset1 + 2 * startCircle.radius + (i + 1) * (startTextSize +</span>
+<span class="f2">+                                gap), startPaint);</span>
+<span class="f2">+                    }}</span>
+<span class="f2">+                }</span>
+<span class="f2">+                else{</span>
+<span class="f2">+                    for (int i = 0; i &lt; results.length; ++i)</span>
+<span class="f2">+                canvas.drawText(results[i], xOffset, yOffset1 + 2 * startCircle.radius + (i + 1) * (startTextSize +</span>
+<span class="f2">+                        gap), startPaint);</span>
+<span class="f2">+                }</span>
+<span class="f2">+</span>
+<span class="f2">+            if (waitPracticeCircleSelect) // only at beginning of a block</span>
+<span class="f2">+            {</span>
+<span class="f2">+                if(orderOfControl.equals(&quot;Flicker&quot;)){</span>
+<span class="f2">+                    practiceCircle.x = practiceX;</span>
+<span class="f2">+                    practiceCircle.y = practiceY;</span>
+<span class="f2">+                }</span>
+<span class="f2">+                    // draw the practice circle</span>
+<span class="f2">+                    canvas.drawCircle(practiceCircle.x, practiceCircle.y, practiceCircle.radius, practicePaint);</span>
+<span class="f2">+</span>
+<span class="f2">+</span>
+<span class="f2">+                // draw the practice greeting (also indicates the order of control, tilt gain, and selection method)</span>
+<span class="f2">+                if(orderOfControl.equals(&quot;Flicker&quot;)){</span>
+<span class="f2">+                    canvas.drawText(practice[0], practiceCircle.x - 2*gap, practiceCircle.y + 2*practiceCircle.radius + gap, practicePaint);</span>
+<span class="f2">+                    for (int i = 1; i &lt; practice.length; ++i)</span>
+<span class="f2">+                    {</span>
+<span class="f2">+                        canvas.drawText(practice[i], xOffset, yOffset3 + (i + 1) * (startTextSize + gap), practicePaint);</span>
+<span class="f2">+                    }</span>
+<span class="f2">+</span>
+<span class="f2">+                }</span>
+<span class="f2">+                else{</span>
+<span class="f2">+                    for (int i = 0; i &lt; practice.length; ++i)</span>
+<span class="f2">+                    {</span>
+<span class="f2">+                        canvas.drawText(practice[i], xOffset, yOffset3 + (i + 1) * (startTextSize + gap), practicePaint);</span>
+<span class="f2">+                    }</span>
+<span class="f2">+                }</span>
+<span class="f2">+            }</span>
+<span class="f2">+        } else if (!done) // draw task circles</span>
+<span class="f2">+        {</span>
+<span class="f2">+            for (Circle c : taskCircles)</span>
+<span class="f2">+                if(c != null){</span>
+<span class="f2">+                canvas.drawCircle(c.x, c.y, c.radius, normalPaint);}</span>
+<span class="f2">+</span>
+<span class="f2">+            // draw target circle last (so it is on top of any overlapping circles)</span>
+<span class="f2">+            canvas.drawCircle(targetCircle.x, targetCircle.y, targetCircle.radius, targetPaint);</span>
+<span class="f2">+            canvas.drawCircle(targetCircle.x, targetCircle.y, targetCircle.radius, targetRimPaint);</span>
+<span class="f2">+        }</span>
+<span class="f2">+</span>
+<span class="f2">+        // draw the ball in its new location</span>
+<span class="f2">+        canvas.drawBitmap(ball, xBall, yBall, null);</span>
+<span class="f2">+</span>
+<span class="f2">+    } // end onDraw</span>
+<span class="f2">+}</span>
+<span class="bold">diff --git a/app/src/main/java/ca/yorku/cse/mack/fittstilt/FittsTiltActivity.java b/app/src/main/java/ca/yorku/cse/mack/fittstilt/FittsTiltActivity.java
+index 4a22527..abe98e1 100644</span>
+<span class="bold">--- a/app/src/main/java/ca/yorku/cse/mack/fittstilt/FittsTiltActivity.java</span>
+<span class="bold">+++ b/app/src/main/java/ca/yorku/cse/mack/fittstilt/FittsTiltActivity.java</span>
+<span class="f6">@@ -2,7 +2,6 @@</span> package ca.yorku.cse.mack.fittstilt;
+ 
+ import android.app.Activity;
+ import android.content.Context;
+<span class="f1">-import android.content.Intent;</span>
+ import android.content.pm.ActivityInfo;
+ import android.content.res.Configuration;
+ import android.graphics.Bitmap;
+<span class="f6">@@ -24,22 +23,19 @@</span> import android.view.MotionEvent;
+ import android.view.Surface;
+ import android.view.View;
+ import android.view.WindowManager;
+<span class="f1">-import android.widget.Toast;</span>
+ 
+ import java.io.BufferedWriter;
+ import java.io.File;
+ import java.io.FileWriter;
+ import java.io.IOException;
+ import java.util.ArrayList;
+<span class="f1">-import java.util.Calendar;</span>
+<span class="f1">-import java.util.Date;</span>
+<span class="f2">+import java.util.Arrays;</span>
+ import java.util.Locale;
+ import java.util.Random;
+<span class="f1">-import java.util.regex.Matcher;</span>
+ 
+<span class="f1">-import static android.R.attr.height;</span>
+ import static java.lang.Math.abs;
+ import static java.lang.Math.floor;
+<span class="f2">+import static java.lang.Math.max;</span>
+ 
+ /**
+  * &lt;h1&gt;FittsTilt&lt;/h1&gt;
+<span class="f6">@@ -197,7 +193,7 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+     final String WORKING_DIRECTORY = &quot;/FittsTiltData/&quot;;
+     final String SD1_HEADER = &quot;App,Participant,Session,Block,Group,Condition,OrderOfControl,Gain,Trial,A,W,fromX,&quot; +
+             &quot;fromY,targetX,targetY,selectX,selectY,transformedSelectX,transformedSelectY,positioningTime,&quot; +
+<span class="f1">-            &quot;selectionTime,movementTime,tre,tac,mdc,odc,mv,me,mo,maxTilt\n&quot;;</span>
+<span class="f2">+            &quot;selectionTime,movementTime,tre,tac,mdc,odc,mv,me,mo,errorFlicker,maxTilt\n&quot;;</span>
+     final String SD2_HEADER = &quot;App,Participant,Session,Block,Group,Condition,OrderOfControl,Gain,SelectionMode,&quot;
+             + &quot;Trials,A,W,ID,&quot; + &quot;Ae,sdx,We,IDe,TP',PT(ms),ST(ms),MT(ms),TP(bps),&quot;
+             + &quot;TRE,TAC,MDC,ODC,MV,ME,MO,MaxTilt\n&quot;;
+<span class="f6">@@ -208,7 +204,11 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+     final float LOG_TWO = 0.693147181f;
+     final int VIBRATION_PULSE_DURATION = 5;
+     final int REFRESH_INTERVAL = 20; // milliseconds (i.e., updates @ 50 Hz)
+<span class="f1">-    public float velocityXinit, velocityYInit = 0.0f;</span>
+<span class="f2">+    public float velocityXinit, velocityYinit = 0.0f;</span>
+<span class="f2">+    public float prevXvelocity, prevYvelocity = 0.0f;</span>
+<span class="f2">+    public float prevXposition, prevYposition = 0.0f;</span>
+<span class="f2">+</span>
+<span class="f2">+    int touchRadius = 100;</span>
+ 
+ 
+     // setup parameters
+<span class="f6">@@ -218,6 +218,8 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+     float[] amplitude, width;
+     float ballScale; // scaling factor for ball (relative to smallest width)
+     String orderOfControl;
+<span class="f2">+    int radius;</span>
+<span class="f2">+    String hand;</span>
+     float frictionCoefficient;
+     int flicker_multiplier;
+     float gain;
+<span class="f6">@@ -289,6 +291,7 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+     int sensorMode;
+     private SensorManager sm;
+     private Sensor sO, sA, sM;
+<span class="f2">+    int errorCount = 0;</span>
+ 
+     /**
+      * Called when the activity is first created.
+<span class="f6">@@ -298,29 +301,40 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+     {
+         super.onCreate(savedInstanceState);
+         setContentView(R.layout.main);
+<span class="f1">-        ep = (ExperimentPanel)findViewById(R.id.experimentpanel);</span>
+ 
+         // init study parameters
+         Bundle b = getIntent().getExtras();
+<span class="f2">+        orderOfControl = b.getString(&quot;orderOfControl&quot;);</span>
+<span class="f2">+        ep = (ExperimentPanel)findViewById(R.id.experimentpanel);</span>
+<span class="f2">+        radius = Integer.parseInt(b.getString(&quot;radius&quot;));</span>
+<span class="f2">+        ep.orderOfControl = orderOfControl;</span>
+         participantCode = b.getString(&quot;participantCode&quot;);
+         sessionCode = b.getString(&quot;sessionCode&quot;);
+         // blockCode = b.getString(&quot;blockCode&quot;);
+         groupCode = b.getString(&quot;groupCode&quot;);
+         conditionCode = b.getString(&quot;conditionCode&quot;);
+         numberOfTargets = b.getInt(&quot;numberOfTargets&quot;);
+<span class="f1">-        amplitude = getValues(b.getString(&quot;amplitudes&quot;));</span>
+<span class="f2">+        String amplitudeStr = b.getString(&quot;amplitudes&quot;);</span>
+<span class="f2">+        if(amplitudeStr.equals(&quot;auto&quot;)){</span>
+<span class="f2">+            amplitude = getAutoValues();</span>
+<span class="f2">+        }</span>
+<span class="f2">+        else{</span>
+<span class="f2">+            amplitude = getValues(amplitudeStr);</span>
+<span class="f2">+        }</span>
+         width = getValues(b.getString(&quot;widths&quot;));
+         ballScale = b.getFloat(&quot;ballScale&quot;);
+<span class="f1">-        orderOfControl = b.getString(&quot;orderOfControl&quot;);</span>
+<span class="f2">+</span>
+<span class="f2">+        hand = b.getString(&quot;hand&quot;);</span>
+         frictionCoefficient = Float.parseFloat(b.getString(&quot;frictionCoefficient&quot;));
+         flicker_multiplier = Integer.parseInt(b.getString(&quot;flickMultiplier&quot;));
+         gain = b.getInt(&quot;gain&quot;);
+         selectionMode = b.getString(&quot;selectionMode&quot;);
+         vibrotactileFeedback = b.getBoolean(&quot;vibrotactileFeedback&quot;);
+         auditoryFeedback = b.getBoolean(&quot;auditoryFeedback&quot;);
+<span class="f2">+        auditoryFeedback = b.getBoolean(&quot;auditoryFeedback&quot;);</span>
+         screenOrientation = b.getInt(&quot;screenOrientation&quot;);
+<span class="f1">-        //Reads the touch events if its Physics2</span>
+<span class="f1">-        if(orderOfControl.equals(&quot;Physics2&quot;)){</span>
+<span class="f2">+        //Reads the touch events if its Flicker</span>
+<span class="f2">+        if(orderOfControl.equals(&quot;Flicker&quot;)){</span>
+             ep.setOnTouchListener(new View.OnTouchListener() {
+                 @Override
+                 public boolean onTouch(View view, MotionEvent motionEvent) {
+<span class="f6">@@ -496,6 +510,17 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+ 
+     } // end onCreate
+ 
+<span class="f2">+    private float[] getAutoValues() {</span>
+<span class="f2">+        DisplayMetrics displayMetrics = new DisplayMetrics();</span>
+<span class="f2">+        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);</span>
+<span class="f2">+        float maxAmplitude = displayMetrics.heightPixels * .8f;</span>
+<span class="f2">+        float[] output = new float[3];</span>
+<span class="f2">+        output[0] = maxAmplitude * 1/3;</span>
+<span class="f2">+        output[1] = maxAmplitude * 2/3;</span>
+<span class="f2">+        output[2] = maxAmplitude;</span>
+<span class="f2">+        return output;</span>
+<span class="f2">+    }</span>
+<span class="f2">+</span>
+     /*
+     * Event Listener for Touch Events
+     * */
+<span class="f6">@@ -510,12 +535,11 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+             //Checks if the screen has been touched saves the info at that time.
+             if (eventAction == MotionEvent.ACTION_DOWN) {
+ 
+<span class="f1">-                if ((X &gt;= (ep.xBall - 50) &amp;&amp; X &lt;= (ep.xBall + 50)) &amp;&amp; (Y &gt;= (ep.yBall - 50) &amp;&amp; Y &lt;= (ep.yBall + 50))) {</span>
+<span class="f2">+                if ((X &gt;= (ep.xBall - touchRadius) &amp;&amp; X &lt;= (ep.xBall + touchRadius)) &amp;&amp; (Y &gt;= (ep.yBall - touchRadius) &amp;&amp; Y &lt;= (ep.yBall + touchRadius))) {
+</span>                     startTimeTouch = System.currentTimeMillis();
+                     canFlick = true;
+                     startX = X;
+                     startY = Y;
+<span class="f1">-</span>
+                 }
+             }
+         }
+<span class="f6">@@ -524,35 +548,38 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+                 stopX = X;
+                 stopY = Y;
+                 if (canFlick) {
+<span class="f2">+                    positionInitX =0;</span>
+<span class="f2">+                    positionInitY = 0;</span>
+                     float deltaX = stopX - startX;
+                     float deltaY = stopY - startY;
+                     double difference;
+<span class="f1">-                    if ((deltaX &gt;= -50 &amp;&amp; deltaX &lt;= 50)) {</span>
+<span class="f1">-                        deltaX = 0;</span>
+<span class="f1">-                    }</span>
+<span class="f1">-                    if ((deltaY &gt;= -50 &amp;&amp; deltaY &lt;= 50)) {</span>
+<span class="f1">-                        deltaY = 0;</span>
+<span class="f1">-                    }</span>
+<span class="f2">+//                    if ((deltaX &gt;= -50 &amp;&amp; deltaX &lt;= 50)) {</span>
+<span class="f2">+//                        deltaX = 0;</span>
+<span class="f2">+//                    }</span>
+<span class="f2">+//                    if ((deltaY &gt;= -50 &amp;&amp; deltaY &lt;= 50)) {</span>
+<span class="f2">+//                        deltaY = 0;</span>
+<span class="f2">+//                    }</span>
+                     deltaX = deltaX / displayMetrics.xdpi;
+                     deltaY = deltaY / displayMetrics.ydpi;
+                     long stopTime = System.currentTimeMillis();
+                     difference = (stopTime - startTimeTouch) * 0.001;
+ 
+<span class="f2">+</span>
+                     velocityXinit = flicker_multiplier * (deltaX / (float) difference);
+<span class="f1">-                    velocityYInit = flicker_multiplier * (deltaY / (float) difference);</span>
+<span class="f2">+                    velocityYinit = flicker_multiplier * (deltaY / (float) difference);</span>
+<span class="f2">+//                    float maxVal = Math.max(abs(velocityXinit), abs(velocityYinit));</span>
+<span class="f2">+//                    velocityXinit = velocityXinit&lt;0?maxVal*(-1):maxVal;</span>
+<span class="f2">+//                    velocityYinit = velocityYinit&lt;0?maxVal*(-1):maxVal;</span>
+                     accXinit = frictionCoefficient * ((float) 286);
+                     accYinit = frictionCoefficient * ((float) 286);
+                     if (accXinit != 0 &amp;&amp; accYinit != 0) {
+                         totalXtravel = abs((velocityXinit) / (-1 * (accXinit)));
+<span class="f1">-                        totalYtravel = abs((velocityYInit) / (-1 * (accXinit)));</span>
+<span class="f2">+                        totalYtravel = abs((velocityYinit) / (-1 * (accXinit)));</span>
+                     } else {
+                         totalXtravel = 1;
+                         totalYtravel = 1;
+<span class="f1">-</span>
+                     }
+ 
+<span class="f1">-</span>
+<span class="f1">-                    Log.d(&quot;velocity&quot;, &quot;X: &quot; + velocityXinit + &quot; Y:&quot; + velocityYInit + &quot; difference: &quot; + difference + &quot; acc: &quot; + accXinit);</span>
+                     startMoving = true;
+                     startX = stopX;
+                     startY = stopY;
+<span class="f6">@@ -574,13 +601,31 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+         panelHeight = ep.getHeight();
+         xCenter = panelWidth / 2f;
+         yCenter = panelHeight / 2f;
+<span class="f1">-        ep.xBall = xCenter; // start the ball in the center of the display</span>
+<span class="f1">-        if(orderOfControl.equals(&quot;Physics2&quot;))</span>
+<span class="f2">+        if(orderOfControl.equals(&quot;Flicker&quot;))</span>
+         {
+<span class="f1">-        ep.yBall = panelHeight - 50;</span>
+<span class="f2">+</span>
+<span class="f2">+            if(hand.equals(&quot;Left&quot;)){</span>
+<span class="f2">+                ep.xBall = radius;</span>
+<span class="f2">+                ep.yBall = panelHeight - radius;</span>
+<span class="f2">+                ep.startX = radius - 300 ;</span>
+<span class="f2">+                ep.startY = panelHeight - radius ;</span>
+<span class="f2">+                ep.practiceX = radius;</span>
+<span class="f2">+                ep.practiceY = panelHeight - radius - 300;</span>
+<span class="f2">+            }</span>
+<span class="f2">+            else{</span>
+<span class="f2">+            ep.xBall = panelWidth - radius;</span>
+<span class="f2">+            ep.yBall = panelHeight - (radius);</span>
+<span class="f2">+</span>
+<span class="f2">+                ep.startX = panelWidth - radius - 300 ;</span>
+<span class="f2">+                ep.startY = panelHeight - radius ;</span>
+<span class="f2">+                ep.practiceX = panelWidth - radius;</span>
+<span class="f2">+                ep.practiceY = panelHeight - radius - 300;</span>
+<span class="f2">+            }</span>
+         }
+         else{
+<span class="f1">-        ep.yBall = yCenter;</span>
+<span class="f2">+        ep.xBall = xCenter;</span>
+<span class="f2">+        ep.yBall = yCenter; // start the ball in the center of the display</span>
+<span class="f2">+</span>
+         }
+ 
+         // scale target amplitudes and widths as appropriate for screen size
+<span class="f6">@@ -599,12 +644,21 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+         // compute scaling factor
+         float scaleFactor = span / (largestAmplitude + largestWidth); // scale factor computed
+ 
+<span class="f1">-        // now do the scaling</span>
+<span class="f1">-        for (int i = 0; i &lt; amplitude.length; ++i) // scale amplitudes</span>
+<span class="f1">-            amplitude[i] *= scaleFactor;</span>
+<span class="f1">-        for (int i = 0; i &lt; width.length; ++i) // scale widths</span>
+<span class="f1">-            width[i] *= scaleFactor;</span>
+<span class="f1">-</span>
+<span class="f2">+        if(orderOfControl.equals(&quot;Flicker&quot;)){</span>
+<span class="f2">+            // now do the scaling</span>
+<span class="f2">+            scaleFactor = 1;</span>
+<span class="f2">+            for (int i = 0; i &lt; amplitude.length; ++i) // scale amplitudes</span>
+<span class="f2">+                amplitude[i] *= scaleFactor;</span>
+<span class="f2">+            for (int i = 0; i &lt; width.length; ++i) // scale widths</span>
+<span class="f2">+                width[i] *= scaleFactor;</span>
+<span class="f2">+        }</span>
+<span class="f2">+        else {</span>
+<span class="f2">+            // now do the scaling</span>
+<span class="f2">+            for (int i = 0; i &lt; amplitude.length; ++i) // scale amplitudes</span>
+<span class="f2">+                amplitude[i] *= scaleFactor;</span>
+<span class="f2">+            for (int i = 0; i &lt; width.length; ++i) // scale widths</span>
+<span class="f2">+                width[i] *= scaleFactor;</span>
+<span class="f2">+        }</span>
+         // get an amplitude-width array (from the scaled amplitudes and widths)
+         aw = getAmplitudeWidthArray(amplitude, width);
+         awIdx = 0;
+<span class="f6">@@ -739,11 +793,53 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+ 
+     private void configureTaskCircles(int awIdx)
+     {
+<span class="f1">-        for (int i = 0; i &lt; numberOfCircles; ++i)</span>
+<span class="f1">-        {</span>
+<span class="f1">-            float x = xCenter + (aw[awIdx].a / 2f) * (float)Math.cos(TWO_TIMES_PI * ((float)i / numberOfCircles));</span>
+<span class="f1">-            float y = yCenter + (aw[awIdx].a / 2f) * (float)Math.sin(TWO_TIMES_PI * ((float)i / numberOfCircles));</span>
+<span class="f1">-            ep.taskCircles[i] = new Circle(x, y, aw[awIdx].w / 2f, Circle.NORMAL);</span>
+<span class="f2">+        if(orderOfControl.equals(&quot;Flicker&quot;)){</span>
+<span class="f2">+            int i = 0;</span>
+<span class="f2">+            float radius = (aw[awIdx].a);</span>
+<span class="f2">+</span>
+<span class="f2">+            //Getting the angle of the arch via start and end points</span>
+<span class="f2">+            float xCenter = ep.xBall;</span>
+<span class="f2">+            float yCenter = ep.yBall;</span>
+<span class="f2">+            float endX = panelWidth-(panelWidth*0.9f);</span>
+<span class="f2">+            float dX = (endX-xCenter);</span>
+<span class="f2">+            float endY = (float)Math.sqrt((radius*radius)-(dX*dX));</span>
+<span class="f2">+            float dY = (yCenter-endY) - (yCenter-radius);</span>
+<span class="f2">+            float dis = (float) Math.sqrt(dX*dX + dY*dY); //distance between the points</span>
+<span class="f2">+            double a = Math.acos(1-((dis*dis)/(2*(radius*radius)))); //the angle between the points is 1 - (dis^2/2radius^2)</span>
+<span class="f2">+            float diff = xCenter/numberOfCircles-1; //Getting the distance between the points</span>
+<span class="f2">+            float prevPoint = xCenter;</span>
+<span class="f2">+            if(radius&gt;700) {</span>
+<span class="f2">+                while (i &lt; numberOfCircles) {</span>
+<span class="f2">+                    float x = prevPoint;</span>
+<span class="f2">+                    float difX = x-xCenter;</span>
+<span class="f2">+                    float y = (float) Math.sqrt((radius * radius) - (difX * difX));</span>
+<span class="f2">+                    ep.taskCircles[i] = new Circle(x, abs(yCenter - y), aw[awIdx].w / 2f, Circle.NORMAL);</span>
+<span class="f2">+                    prevPoint = prevPoint - diff;</span>
+<span class="f2">+                    i++;</span>
+<span class="f2">+                }</span>
+<span class="f2">+            }</span>
+<span class="f2">+            else{</span>
+<span class="f2">+                while(i&lt;numberOfCircles)</span>
+<span class="f2">+                {</span>
+<span class="f2">+                    float x = ep.xBall - (aw[awIdx].a) * (float)Math.cos(a * ((float)i/ (numberOfCircles)));</span>
+<span class="f2">+                    if(x&lt;0){</span>
+<span class="f2">+                        x = xCenter + x;</span>
+<span class="f2">+                    }</span>
+<span class="f2">+                    float y = ep.yBall - (aw[awIdx].a) * (float)Math.sin(a * ((float)i/ (numberOfCircles)));</span>
+<span class="f2">+                    ep.taskCircles[i] = new Circle(abs(x), abs(y), aw[awIdx].w / 2f, Circle.NORMAL);</span>
+<span class="f2">+                    i++;</span>
+<span class="f2">+                }</span>
+<span class="f2">+            }</span>
+<span class="f2">+</span>
+<span class="f2">+        }</span>
+<span class="f2">+        else{</span>
+<span class="f2">+            for (int i = 0; i &lt; numberOfCircles; ++i)</span>
+<span class="f2">+            {</span>
+<span class="f2">+                float x = xCenter + (aw[awIdx].a / 2f) * (float)Math.cos(TWO_TIMES_PI * ((float)i / numberOfCircles));</span>
+<span class="f2">+                float y = yCenter + (aw[awIdx].a / 2f) * (float)Math.sin(TWO_TIMES_PI * ((float)i / numberOfCircles));</span>
+<span class="f2">+                ep.taskCircles[i] = new Circle(x, y, aw[awIdx].w / 2f, Circle.NORMAL);</span>
+<span class="f2">+            }</span>
+<span class="f2">+</span>
+         }
+         id = (float)Math.log(aw[awIdx].a / (aw[awIdx].w - ballDiameter) + 1f) / LOG_TWO;
+ 
+<span class="f6">@@ -770,6 +866,7 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+ 
+     private void doStartCircleClicked()
+     {
+<span class="f2">+        resetPosition();</span>
+         if (ep.done) // start circle displayed after last sequence, select to finish
+             doEndBlock();
+ 
+<span class="f6">@@ -794,8 +891,9 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+         {
+             ep.taskCircles = new Circle[numberOfCircles];
+             configureTaskCircles(awIdx);
+<span class="f1">-        }</span>
+ 
+<span class="f2">+        }</span>
+<span class="f2">+//        ep.taskCircles = Arrays.copyOfRange(ep.taskCircles, 0, numberOfCircles);</span>
+         ep.taskCircles[0].status = Circle.TARGET;
+         ep.targetCircle = ep.taskCircles[0];
+         selectionCount = 0;
+<span class="f6">@@ -803,6 +901,7 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+ 
+     private void doPracticeCircleClicked()
+     {
+<span class="f2">+        resetPosition();</span>
+         // provide feedback (as per setup)
+         if (vibrotactileFeedback)
+             vib.vibrate(VIBRATION_PULSE_DURATION);
+<span class="f6">@@ -857,10 +956,35 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+         }
+         this.finish();
+     }
+<span class="f2">+    void resetPosition(){</span>
+<span class="f2">+        if(orderOfControl.equals(&quot;Flicker&quot;)){</span>
+<span class="f2">+            startMoving = false;</span>
+<span class="f2">+            canFlick = false;</span>
+<span class="f2">+            if(hand.equals(&quot;Left&quot;)){</span>
+<span class="f2">+                ep.xBall = radius;</span>
+<span class="f2">+                ep.yBall = panelHeight - radius;</span>
+<span class="f2">+            }</span>
+<span class="f2">+            else{</span>
+<span class="f2">+            ep.xBall = panelWidth - radius;</span>
+<span class="f2">+            ep.yBall = panelHeight - radius;</span>
+<span class="f2">+            }</span>
+<span class="f2">+        }</span>
+<span class="f2">+    }</span>
+<span class="f2">+    void failed(){</span>
+<span class="f2">+        errorCount++;</span>
+<span class="f2">+        if (vibrotactileFeedback)</span>
+<span class="f2">+            vib.vibrate(VIBRATION_PULSE_DURATION);</span>
+<span class="f2">+        if (auditoryFeedback)</span>
+<span class="f2">+            clickSound.start();</span>
+<span class="f2">+    }</span>
+<span class="f2">+</span>
+<span class="f2">+</span>
+ 
+     void doTargetSelected()
+     {
+         // provide feedback (as per setup)
+<span class="f2">+            resetPosition();</span>
+<span class="f2">+</span>
+         if (vibrotactileFeedback)
+             vib.vibrate(VIBRATION_PULSE_DURATION);
+         if (auditoryFeedback)
+<span class="f6">@@ -910,7 +1034,7 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+ 
+             sb1.append(String.format(Locale.CANADA, &quot;%s,%s,%s,%s,%s,%s,%s,%d,%s,%d,%s,%.1f\n&quot;, APP, participantCode,
+                     sessionCode, blockCode, groupCode, conditionCode, orderOfControl, (int)tiltGain, selectionMode,
+<span class="f1">-                    selectionCount, t.getMeasures(), maxTiltTrial));</span>
+<span class="f2">+                    selectionCount, t.getMeasures(),errorCount,maxTiltTrial));</span>
+ 
+             String base = awIdx + &quot;,&quot; + aw[awIdx].a + &quot;,&quot; + aw[awIdx].w + &quot;,&quot; + selectionCount + &quot;,&quot;
+                     + ep.fromTargetCircle.x + &quot;,&quot; + ep.fromTargetCircle.y + &quot;,&quot; + ep.targetCircle.x + &quot;,&quot;
+<span class="f6">@@ -1018,8 +1142,11 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+     {
+         int i;
+         for (i = 0; i &lt; ep.taskCircles.length; ++i)
+<span class="f1">-            if (ep.taskCircles[i].status == Circle.TARGET)</span>
+<span class="f1">-                break; // i is index of current target</span>
+<span class="f2">+            if(ep.taskCircles != null) {</span>
+<span class="f2">+                if (ep.taskCircles[i].status == Circle.TARGET)</span>
+<span class="f2">+                    break; // i is index of current target</span>
+<span class="f2">+            }</span>
+<span class="f2">+</span>
+ 
+         ep.taskCircles[i].status = Circle.NORMAL; // change current target to &quot;normal&quot;, then find the next target
+         int halfWay = ep.taskCircles.length / 2;
+<span class="f6">@@ -1288,7 +1415,7 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+ 
+ 
+             }
+<span class="f1">-            else if (orderOfControl.equals(&quot;Physics2&quot;))</span>
+<span class="f2">+            else if (orderOfControl.equals(&quot;Flicker&quot;))</span>
+             {
+                 //The Flick Order of Control for Testing
+                 DisplayMetrics displayMetrics = new DisplayMetrics();
+<span class="f6">@@ -1297,43 +1424,116 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+                 int width = displayMetrics.widthPixels;
+ 
+                 if(startMoving) {
+<span class="f1">-                    accXinit = ((velocityXinit&lt;0)? accXinit*(-1) : accXinit);</span>
+<span class="f1">-                    accYinit = ((velocityYInit&lt;0)? accYinit*(-1) : accYinit);</span>
+<span class="f2">+                    accXinit = ((velocityXinit&gt;0)? accXinit*(-1) : accXinit);</span>
+<span class="f2">+                    accYinit = ((velocityYinit &gt;0)? accYinit*(-1) : accYinit);</span>
+                     float positionX = velocityXinit*dT - ((accXinit/2)*(float)Math.pow(((double) dT),2));
+                     positionX = (positionX) * displayMetrics.xdpi;
+<span class="f1">-                    float positionY = velocityYInit*dT - ((accYinit/2)*(float)Math.pow(((double) dT),2));</span>
+<span class="f2">+                    float positionY = velocityYinit *dT - ((accYinit/2)*(float)Math.pow(((double) dT),2));</span>
+                     positionY = (positionY) * displayMetrics.ydpi;
+                     float x = ep.xBall + positionX;
+<span class="f1">-                    float y = ep.yBall + positionY ;</span>
+<span class="f1">-</span>
+<span class="f2">+                    float y = ep.yBall + positionY;</span>
+                     if(x&lt;width &amp;&amp; x&gt;0)
+                     {
+                         ep.xBall += positionX;
+                         positionInitX = positionX - positionInitX;
+                         totalTime += dT;
+<span class="f2">+                        prevXvelocity = velocityXinit;</span>
+<span class="f2">+                        float f = velocityXinit + accYinit*dT;</span>
+<span class="f2">+                        if(f&gt;0 &amp;&amp; velocityXinit&gt;0){</span>
+<span class="f2">+                            velocityXinit = f;</span>
+<span class="f2">+                        }</span>
+<span class="f2">+                        else if(f&lt;0 &amp;&amp;  velocityXinit&lt;0){</span>
+<span class="f2">+                            velocityXinit = f;</span>
+<span class="f2">+                        }</span>
+<span class="f2">+                        else{</span>
+<span class="f2">+                            velocityXinit = 0;</span>
+<span class="f2">+                            positionInitX = 0;</span>
+<span class="f2">+                        }</span>
+                     }
+                     else{
+<span class="f1">-                        velocityXinit = velocityXinit*(-1);</span>
+<span class="f2">+                        positionX = 0;</span>
+<span class="f2">+</span>
+<span class="f2">+                        try {</span>
+<span class="f2">+                            Thread.sleep(100);</span>
+<span class="f2">+                        } catch (InterruptedException e) {</span>
+<span class="f2">+                            e.printStackTrace();</span>
+<span class="f2">+                        }</span>
+<span class="f2">+                        resetPosition();</span>
+<span class="f2">+                        failed();</span>
+                     }
+ 
+<span class="f1">-</span>
+                     if(y&lt;height &amp;&amp; y&gt;0)
+                     {
+                         ep.yBall += positionY;
+                         positionInitY = positionY - positionInitY;
+                         totalTime += dT;
+<span class="f2">+                        prevYvelocity = velocityYinit;</span>
+<span class="f2">+                        float f = velocityYinit +accYinit*dT;</span>
+<span class="f2">+                        if(f&gt;0 &amp;&amp; velocityYinit &gt;0){</span>
+<span class="f2">+                            velocityYinit = f;</span>
+<span class="f2">+                        }</span>
+<span class="f2">+                        else if(f&lt;0 &amp;&amp;  velocityYinit &lt;0){</span>
+<span class="f2">+                            velocityYinit = f;</span>
+<span class="f2">+                        }</span>
+<span class="f2">+                        else{</span>
+<span class="f2">+                            velocityYinit = 0;</span>
+<span class="f2">+                            positionInitY = 0;</span>
+<span class="f2">+</span>
+<span class="f2">+                        }</span>
+                     }
+                     else{
+<span class="f1">-                        velocityYInit = velocityYInit*(-1);</span>
+<span class="f1">-                    }</span>
+<span class="f1">-</span>
+<span class="f1">-                    if(totalTime&gt;=((totalXtravel+totalYtravel)*20)){</span>
+<span class="f2">+                        positionY = 0;</span>
+                         startMoving = false;
+<span class="f1">-                        canFlick = false;</span>
+<span class="f1">-                        totalTime = 0;</span>
+ 
+<span class="f2">+                        try {</span>
+<span class="f2">+                            Thread.sleep(100);</span>
+<span class="f2">+                        } catch (InterruptedException e) {</span>
+<span class="f2">+                            e.printStackTrace();</span>
+<span class="f2">+                        }</span>
+<span class="f2">+                        resetPosition();</span>
+<span class="f2">+                        failed();</span>
+                     }
+<span class="f1">-</span>
+<span class="f2">+//                    Log.d(&quot;testing_passed&quot;, &quot;X: &quot;+ ep.xBall+ &quot;, targetX:&quot;+ep.targetCircle.x+&quot; ,y:&quot;+ep.yBall+&quot; ,targetY:&quot;+ep.targetCircle.y);</span>
+<span class="f2">+</span>
+<span class="f2">+//                    if(prevXvelocity != 0 &amp;&amp; velocityXinit == 0 ){</span>
+<span class="f2">+//                    }else if(prevYposition != 0 &amp;&amp; velocityYinit==0){</span>
+<span class="f2">+//                        Log.d(&quot;movements&quot;, &quot;stopY&quot;);</span>
+<span class="f2">+//</span>
+<span class="f2">+//                    }</span>
+<span class="f2">+</span>
+<span class="f2">+                    Log.d(&quot;movements&quot;, &quot;prevY:&quot;+prevYvelocity+&quot;, velocityY:&quot;+velocityYinit+&quot;, prevX:&quot;+prevXvelocity+&quot;, velocityX:&quot;+velocityXinit);</span>
+<span class="f2">+//</span>
+<span class="f2">+                    if((prevYvelocity == 0 &amp;&amp; velocityYinit == 0) &amp;&amp; velocityXinit == 0){</span>
+<span class="f2">+                        Log.d(&quot;movements&quot;, &quot;stopY&quot;);</span>
+<span class="f2">+</span>
+<span class="f2">+                        try {</span>
+<span class="f2">+                            Thread.sleep(100);</span>
+<span class="f2">+                        } catch (InterruptedException e) {</span>
+<span class="f2">+                            e.printStackTrace();</span>
+<span class="f2">+                        }</span>
+<span class="f2">+                        resetPosition();</span>
+<span class="f2">+                        failed();</span>
+<span class="f2">+                    }</span>
+<span class="f2">+                    else if((prevXvelocity == 0 &amp;&amp; velocityXinit == 0) &amp;&amp; velocityYinit == 0){</span>
+<span class="f2">+                        Log.d(&quot;movements&quot;, &quot;stopX&quot;);</span>
+<span class="f2">+</span>
+<span class="f2">+                        try {</span>
+<span class="f2">+                            Thread.sleep(100);</span>
+<span class="f2">+                        } catch (InterruptedException e) {</span>
+<span class="f2">+                            e.printStackTrace();</span>
+<span class="f2">+                        }</span>
+<span class="f2">+                        resetPosition();</span>
+<span class="f2">+                        failed();}</span>
+<span class="f2">+//                    }else if((prevXvelocity != 0 &amp;&amp; velocityXinit == 0) || (prevYvelocity!=0 &amp;&amp; velocityYinit == 0)){</span>
+<span class="f2">+//                        //ep.targetCircle.collidedWithCircle(ep.xBall, ep.yBall);</span>
+<span class="f2">+//                        try {</span>
+<span class="f2">+//                            Thread.sleep(100);</span>
+<span class="f2">+//                        } catch (InterruptedException e) {</span>
+<span class="f2">+//                            e.printStackTrace();</span>
+<span class="f2">+//                        }</span>
+<span class="f2">+//                        resetPosition();</span>
+<span class="f2">+//                        failed();</span>
+<span class="f2">+//                    }</span>
+                 }
+             }
+ 
+<span class="f6">@@ -1356,25 +1556,52 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+                 maxTiltTrial = Math.max(tiltMagnitude, maxTiltTrial);
+             }
+ 
+<span class="f1">-            // Is the ball inside target circle?</span>
+<span class="f1">-            if (!ep.waitStartCircleSelect &amp;&amp; ep.targetCircle != null</span>
+<span class="f1">-                    &amp;&amp; ep.targetCircle.inCircle(xBallCenter, yBallCenter, ballDiameter)) // YES</span>
+<span class="f1">-            {</span>
+<span class="f1">-                if (selectionMode.equals(&quot;First_Entry&quot;)) // CAUTION: potential string edit bug</span>
+<span class="f1">-                    doTargetSelected();</span>
+<span class="f1">-                else</span>
+<span class="f1">-                // dwell-time selection</span>
+<span class="f2">+            if(orderOfControl.equals(&quot;Flicker&quot;)){</span>
+<span class="f2">+                if (!ep.waitStartCircleSelect &amp;&amp; ep.targetCircle != null</span>
+<span class="f2">+                        &amp;&amp; (ep.targetCircle.inCircle(xBallCenter, yBallCenter, ballDiameter)</span>
+<span class="f2">+                        || ep.targetCircle.collidedWithCircle(xBallCenter, yBallCenter, prevXposition, prevYposition, ballDiameter)</span>
+<span class="f2">+                )</span>
+<span class="f2">+                        )// YES</span>
+                 {
+<span class="f1">-                    if (sequenceStarted &amp;&amp; !targetEntered)</span>
+<span class="f1">-                        targetEntered = true;</span>
+<span class="f1">-                    if (!dwellPending)</span>
+<span class="f2">+</span>
+<span class="f2">+                    if (selectionMode.equals(&quot;First_Entry&quot;)) // CAUTION: potential string edit bug</span>
+<span class="f2">+                        doTargetSelected();</span>
+<span class="f2">+                    else</span>
+<span class="f2">+                    // dwell-time selection</span>
+                     {
+<span class="f1">-                        dwellPending = true;</span>
+<span class="f1">-                        dwellTimer.start();</span>
+<span class="f2">+                        if (sequenceStarted &amp;&amp; !targetEntered)</span>
+<span class="f2">+                            targetEntered = true;</span>
+<span class="f2">+                        if (!dwellPending) {</span>
+<span class="f2">+                            dwellPending = true;</span>
+<span class="f2">+                            dwellTimer.start();</span>
+<span class="f2">+                        }</span>
+<span class="f2">+                    }</span>
+<span class="f2">+                }</span>
+<span class="f2">+</span>
+<span class="f2">+            }else {</span>
+<span class="f2">+                // Is the ball inside target circle?</span>
+<span class="f2">+                if (!ep.waitStartCircleSelect &amp;&amp; ep.targetCircle != null</span>
+<span class="f2">+                        &amp;&amp; ep.targetCircle.inCircle(xBallCenter, yBallCenter, ballDiameter)</span>
+<span class="f2">+                )</span>
+<span class="f2">+                        // YES</span>
+<span class="f2">+                {</span>
+<span class="f2">+</span>
+<span class="f2">+                    if (selectionMode.equals(&quot;First_Entry&quot;)) // CAUTION: potential string edit bug</span>
+<span class="f2">+                        doTargetSelected();</span>
+<span class="f2">+                    else</span>
+<span class="f2">+                    // dwell-time selection</span>
+<span class="f2">+                    {</span>
+<span class="f2">+                        if (sequenceStarted &amp;&amp; !targetEntered)</span>
+<span class="f2">+                            targetEntered = true;</span>
+<span class="f2">+                        if (!dwellPending) {</span>
+<span class="f2">+                            dwellPending = true;</span>
+<span class="f2">+                            dwellTimer.start();</span>
+<span class="f2">+                        }</span>
+                     }
+                 }
+             }
+ 
+<span class="f2">+</span>
+             // Is there a need to cancel the dwell timer?
+             if (!selectionMode.equals(FittsTiltSetup.FIRST_ENTRY) &amp;&amp; dwellPending
+                     &amp;&amp; !ep.targetCircle.inCircle(xBallCenter, yBallCenter, ballDiameter)) // YES
+<span class="f6">@@ -1382,16 +1609,26 @@</span> public class FittsTiltActivity extends Activity implements SensorEventListener
+                 dwellPending = false;
+                 dwellTimer.cancel();
+             }
+<span class="f1">-</span>
+<span class="f2">+            if(orderOfControl.equals(&quot;Flicker&quot;))</span>
+<span class="f2">+            {</span>
+<span class="f2">+                if (ep.waitStartCircleSelect &amp;&amp; (ep.startCircle.inCircle(xBallCenter, yBallCenter, ballDiameter) || ep.startCircle.collidedWithCircle(xBallCenter, yBallCenter, prevXposition, prevYposition, ballDiameter)))
++                    doStartCircleClicked();</span>
+<span class="f2">+                else if (ep.waitPracticeCircleSelect &amp;&amp; !sequenceStarted</span>
+<span class="f2">+                        &amp;&amp; (ep.practiceCircle.inCircle(xBallCenter, yBallCenter, ballDiameter) || ep.practiceCircle.collidedWithCircle(xBallCenter, yBallCenter, prevXposition, prevYposition, ballDiameter)))</span>
+<span class="f2">+                    doPracticeCircleClicked();</span>
+<span class="f2">+            }</span>
+<span class="f2">+            else{</span>
+<span class="f2">+                if (ep.waitStartCircleSelect &amp;&amp; ep.startCircle.inCircle(xBallCenter, yBallCenter, ballDiameter))</span>
+<span class="f2">+                    doStartCircleClicked();</span>
+<span class="f2">+                else if (ep.waitPracticeCircleSelect &amp;&amp; !sequenceStarted</span>
+<span class="f2">+                        &amp;&amp; ep.practiceCircle.inCircle(xBallCenter, yBallCenter, ballDiameter))</span>
+<span class="f2">+                    doPracticeCircleClicked();</span>
+<span class="f2">+            }</span>
+             // Did the ball enter the start or practice circle?
+<span class="f1">-            if (ep.waitStartCircleSelect &amp;&amp; ep.startCircle.inCircle(xBallCenter, yBallCenter, ballDiameter))</span>
+<span class="f1">-                doStartCircleClicked();</span>
+<span class="f1">-            else if (ep.waitPracticeCircleSelect &amp;&amp; !sequenceStarted</span>
+<span class="f1">-                    &amp;&amp; ep.practiceCircle.inCircle(xBallCenter, yBallCenter, ballDiameter))</span>
+<span class="f1">-                doPracticeCircleClicked();</span>
+ 
+             ep.invalidate(); // will cause onDraw to run again immediately
+<span class="f1">-</span>
+<span class="f2">+            prevXposition = ep.xBall + ballDiameter / 2f;</span>
+<span class="f2">+            prevYposition = ep.yBall + ballDiameter / 2f;</span>
+             this.start(); // prepare for next screen refresh (REFRESH_INTERVAL milliseconds from now)
+         }
+     }
+<span class="bold">diff --git a/app/src/main/java/ca/yorku/cse/mack/fittstilt/FittsTiltSetup.java b/app/src/main/java/ca/yorku/cse/mack/fittstilt/FittsTiltSetup.java</span>
+<span class="bold">index b3c9f86..8452036 100644</span>
+<span class="bold">--- a/app/src/main/java/ca/yorku/cse/mack/fittstilt/FittsTiltSetup.java</span>
+<span class="bold">+++ b/app/src/main/java/ca/yorku/cse/mack/fittstilt/FittsTiltSetup.java</span>
+<span class="f6">@@ -1,351 +1,386 @@</span>
+<span class="f1">-package ca.yorku.cse.mack.fittstilt;</span>
+<span class="f1">-</span>
+<span class="f1">-import android.app.Activity;</span>
+<span class="f1">-import android.content.Intent;</span>
+<span class="f1">-import android.content.SharedPreferences;</span>
+<span class="f1">-import android.os.Bundle;</span>
+<span class="f1">-import android.view.View;</span>
+<span class="f1">-import android.widget.ArrayAdapter;</span>
+<span class="f1">-import android.widget.CheckBox;</span>
+<span class="f1">-import android.widget.Spinner;</span>
+<span class="f1">-import android.widget.Toast;</span>
+<span class="f1">-</span>
+<span class="f1">-@SuppressWarnings(&quot;unused&quot;)</span>
+<span class="f1">-public class FittsTiltSetup extends Activity</span>
+<span class="f1">-{</span>
+<span class="f1">-    final String MYDEBUG = &quot;MYDEBUG&quot;; // for Log.i messages</span>
+<span class="f1">-</span>
+<span class="f1">-    // ORDER OF CONTROL</span>
+<span class="f1">-    final static String VELOCITY = &quot;Velocity&quot;;</span>
+<span class="f1">-    final static String POSITION = &quot;Position&quot;;</span>
+<span class="f1">-    final static String PHYSICS1 = &quot;Physics1&quot;;</span>
+<span class="f1">-    final static String PHYSICS2 = &quot;Physics2&quot;;</span>
+<span class="f1">-    final static String FRICTION = &quot;Friction&quot;;</span>
+<span class="f1">-</span>
+<span class="f1">-    //Friction Coefficient</span>
+<span class="f1">-    final static String WOOD_METAL_0 = &quot;0.0&quot;;</span>
+<span class="f1">-    final static String WOOD_METAL_1 = &quot;0.1&quot;;</span>
+<span class="f1">-    final static String WOOD_METAL_2 = &quot;0.2&quot;;</span>
+<span class="f1">-    final static String WOOD_METAL_3 = &quot;0.3&quot;;</span>
+<span class="f1">-    final static String WOOD_METAL_4 = &quot;0.4&quot;;</span>
+<span class="f1">-    final static String WOOD_METAL_5 = &quot;0.5&quot;;</span>
+<span class="f1">-    final static String WOOD_METAL_6 = &quot;0.6&quot;;</span>
+<span class="f1">-    final static String WOOD_METAL_7 = &quot;0.7&quot;;</span>
+<span class="f1">-    final static String WOOD_METAL_8 = &quot;0.8&quot;;</span>
+<span class="f1">-    final static String WOOD_METAL_9 = &quot;0.9&quot;;</span>
+<span class="f1">-    final static String WOOD_METAL_10 = &quot;1.0&quot;;</span>
+<span class="f1">-</span>
+<span class="f1">-    final static String Flicker_1 = &quot;1&quot;;</span>
+<span class="f1">-    final static String Flicker_2 = &quot;2&quot;;</span>
+<span class="f1">-    final static String Flicker_3 = &quot;3&quot;;</span>
+<span class="f1">-    final static String Flicker_4 = &quot;4&quot;;</span>
+<span class="f1">-    final static String Flicker_5 = &quot;5&quot;;</span>
+<span class="f1">-    final static String Flicker_6 = &quot;6&quot;;</span>
+<span class="f1">-    final static String Flicker_7 = &quot;7&quot;;</span>
+<span class="f1">-    final static String Flicker_8 = &quot;8&quot;;</span>
+<span class="f1">-    final static String Flicker_9 = &quot;9&quot;;</span>
+<span class="f1">-    final static String Flicker_10 = &quot;10&quot;;</span>
+<span class="f1">-</span>
+<span class="f1">-    // GAIN</span>
+<span class="f1">-    final static String VERY_LOW = &quot;Very low&quot;;</span>
+<span class="f1">-    final static String LOW = &quot;Low&quot;;</span>
+<span class="f1">-    final static String MEDIUM = &quot;Medium&quot;;</span>
+<span class="f1">-    final static String HIGH = &quot;High&quot;;</span>
+<span class="f1">-    final static String VERY_HIGH = &quot;Very high&quot;;</span>
+<span class="f1">-</span>
+<span class="f1">-    // somewhat arbitrary mappings for gain by order of control</span>
+<span class="f1">-    final static int[] GAIN_ARG_POSITION_CONTROL = {5, 10, 20, 40, 80};</span>
+<span class="f1">-    final static int[] GAIN_ARG_VELOCITY_CONTROL = {25, 50, 100, 200, 400};</span>
+<span class="f1">-    final static int[] GAIN_ARG_PHYSICS1_CONTROL = {25, 50, 100, 200, 400};</span>
+<span class="f1">-    final static int[] GAIN_ARG_PHYSICS2_CONTROL = {25, 50, 100, 200, 400};</span>
+<span class="f1">-</span>
+<span class="f1">-    // selection mode</span>
+<span class="f1">-    final static String FIRST_ENTRY = &quot;First_Entry&quot;;</span>
+<span class="f1">-    final static String DWELL_500 = &quot;Dwell_500&quot;;</span>
+<span class="f1">-    final static String DWELL_400 = &quot;Dwell_400&quot;;</span>
+<span class="f1">-    final static String DWELL_300 = &quot;Dwell_300&quot;;</span>
+<span class="f1">-</span>
+<span class="f1">-    String[] participantCode = {&quot;P01&quot;, &quot;P01&quot;, &quot;P02&quot;, &quot;P03&quot;, &quot;P04&quot;, &quot;P05&quot;,</span>
+<span class="f1">-            &quot;P06&quot;, &quot;P07&quot;, &quot;P08&quot;, &quot;P09&quot;, &quot;P10&quot;, &quot;P11&quot;, &quot;P12&quot;, &quot;P13&quot;, &quot;P14&quot;, &quot;P15&quot;,</span>
+<span class="f1">-            &quot;P16&quot;, &quot;P17&quot;, &quot;P18&quot;, &quot;P19&quot;, &quot;P20&quot;, &quot;P21&quot;, &quot;P22&quot;, &quot;P23&quot;, &quot;P24&quot;, &quot;P25&quot;};</span>
+<span class="f1">-    String[] sessionCode = {&quot;S01&quot;, &quot;S01&quot;, &quot;S02&quot;, &quot;S03&quot;, &quot;S04&quot;, &quot;S05&quot;, &quot;S06&quot;, &quot;S07&quot;, &quot;S08&quot;, &quot;S09&quot;, &quot;S10&quot;, &quot;S11&quot;,</span>
+<span class="f1">-            &quot;S12&quot;, &quot;S13&quot;, &quot;S14&quot;, &quot;S15&quot;, &quot;S16&quot;, &quot;S17&quot;, &quot;S18&quot;, &quot;S19&quot;, &quot;S20&quot;, &quot;S21&quot;, &quot;S22&quot;, &quot;S23&quot;, &quot;S24&quot;, &quot;S25&quot;};</span>
+<span class="f1">-    String[] blockCode = {&quot;(auto)&quot;};</span>
+<span class="f1">-    String[] groupCode = {&quot;G01&quot;, &quot;G01&quot;, &quot;G02&quot;, &quot;G03&quot;, &quot;G04&quot;, &quot;G05&quot;, &quot;G06&quot;, &quot;G07&quot;, &quot;G08&quot;, &quot;G09&quot;, &quot;G10&quot;, &quot;G11&quot;, &quot;G12&quot;,</span>
+<span class="f1">-            &quot;G13&quot;, &quot;G14&quot;, &quot;G15&quot;, &quot;G16&quot;, &quot;G17&quot;, &quot;G18&quot;, &quot;G19&quot;, &quot;G20&quot;, &quot;G21&quot;, &quot;G22&quot;, &quot;G23&quot;, &quot;G24&quot;, &quot;G25&quot;};</span>
+<span class="f1">-    String[] conditionCode = {&quot;C01&quot;, &quot;C01&quot;, &quot;C02&quot;, &quot;C03&quot;, &quot;C04&quot;, &quot;C05&quot;, &quot;C06&quot;, &quot;C07&quot;, &quot;C08&quot;, &quot;C09&quot;, &quot;C10&quot;, &quot;C11&quot;,</span>
+<span class="f1">-            &quot;C12&quot;, &quot;C13&quot;, &quot;C14&quot;, &quot;C15&quot;, &quot;C16&quot;, &quot;C17&quot;, &quot;C18&quot;, &quot;C19&quot;, &quot;C20&quot;, &quot;C21&quot;, &quot;C22&quot;, &quot;C23&quot;, &quot;C24&quot;, &quot;C25&quot;};</span>
+<span class="f1">-    String[] numberOfTargetsArray = {&quot;15&quot;, &quot;4&quot;, &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot;, &quot;9&quot;, &quot;10&quot;, &quot;11&quot;, &quot;12&quot;, &quot;13&quot;, &quot;14&quot;, &quot;15&quot;, &quot;16&quot;,</span>
+<span class="f1">-            &quot;17&quot;, &quot;18&quot;, &quot;19&quot;, &quot;20&quot;, &quot;21&quot;, &quot;22&quot;, &quot;23&quot;, &quot;24&quot;, &quot;25&quot;, &quot;26&quot;, &quot;27&quot;, &quot;28&quot;, &quot;29&quot;, &quot;30&quot; };</span>
+<span class="f1">-    String[] amplitudesArray = {&quot;125, 250, 500&quot;, &quot;125, 250, 500&quot;, &quot;250, 500&quot;, &quot;500&quot;};</span>
+<span class="f1">-    String[] widthsArray = {&quot;40, 60, 100&quot;, &quot;40, 60, 100&quot;, &quot;60, 100&quot;, &quot;100&quot;};</span>
+<span class="f1">-    String[] ballScaleArray = {&quot;0.5&quot;, &quot;0.1&quot;, &quot;0.2&quot;, &quot;0.3&quot;, &quot;0.4&quot;, &quot;0.5&quot;, &quot;0.6&quot;, &quot;0.7&quot;, &quot;0.8&quot;, &quot;0.9&quot;,&quot;1.0&quot;};</span>
+<span class="f1">-    String[] orderOfControlArray = {VELOCITY, VELOCITY, POSITION, PHYSICS1, PHYSICS2, FRICTION};</span>
+<span class="f1">-    String[] frictionCoefficientArray = {WOOD_METAL_5, WOOD_METAL_0,WOOD_METAL_1, WOOD_METAL_2,WOOD_METAL_3,WOOD_METAL_4,WOOD_METAL_5,WOOD_METAL_6,WOOD_METAL_7,WOOD_METAL_8,WOOD_METAL_9, WOOD_METAL_10};</span>
+<span class="f1">-    String[] flickerMultiplier = {&quot;1&quot;, Flicker_1, Flicker_2, Flicker_3, Flicker_4, Flicker_5, Flicker_6, Flicker_7, Flicker_8, Flicker_9, Flicker_10 };</span>
+<span class="f1">-    String[] gainArray = {MEDIUM, VERY_LOW, LOW, MEDIUM, HIGH, VERY_HIGH};</span>
+<span class="f1">-    String gainString;</span>
+<span class="f1">-    String[] selectionModeArray = {FIRST_ENTRY, FIRST_ENTRY, DWELL_500, DWELL_400, DWELL_300};</span>
+<span class="f1">-    boolean vibrotactileFeedback = true;</span>
+<span class="f1">-    boolean auditoryFeedback = false;</span>
+<span class="f1">-</span>
+<span class="f1">-    SharedPreferences sp;</span>
+<span class="f1">-    SharedPreferences.Editor spe;</span>
+<span class="f1">-</span>
+<span class="f1">-    private Spinner spinParticipant, spinSession, spinGroup, spinCondition;</span>
+<span class="f1">-    private Spinner spinNumTargets, spinAmplitude, spinWidth, spinBallScale;</span>
+<span class="f1">-    private Spinner spinOrderOfControl;</span>
+<span class="f1">-    private Spinner spinFrictionCoefficient, spinFlickMult;</span>
+<span class="f1">-    private Spinner spinTG;</span>
+<span class="f1">-    private Spinner spinSelectionMode;</span>
+<span class="f1">-    private CheckBox checkVibrotactileFeedback;</span>
+<span class="f1">-    private CheckBox checkAuditoryFeedback;</span>
+<span class="f1">-</span>
+<span class="f1">-    /**</span>
+<span class="f1">-     * Called when the activity is first created.</span>
+<span class="f1">-     */</span>
+<span class="f1">-    @Override</span>
+<span class="f1">-    public void onCreate(Bundle savedInstanceState)</span>
+<span class="f1">-    {</span>
+<span class="f1">-        super.onCreate(savedInstanceState);</span>
+<span class="f1">-        setContentView(R.layout.setup);</span>
+<span class="f1">-</span>
+<span class="f1">-        sp = this.getPreferences(MODE_PRIVATE);</span>
+<span class="f1">-</span>
+<span class="f1">-        // load preferences</span>
+<span class="f1">-        sp = this.getPreferences(MODE_PRIVATE);</span>
+<span class="f1">-        participantCode[0] = sp.getString(&quot;participantCode&quot;, participantCode[0]);</span>
+<span class="f1">-        sessionCode[0] = sp.getString(&quot;sessionCode&quot;, sessionCode[0]);</span>
+<span class="f1">-        // block code initialized in main activity (based on existing filenames)</span>
+<span class="f1">-        groupCode[0] = sp.getString(&quot;groupCode&quot;, groupCode[0]);</span>
+<span class="f1">-        conditionCode[0] = sp.getString(&quot;conditionCode&quot;, conditionCode[0]);</span>
+<span class="f1">-        numberOfTargetsArray[0] = sp.getString(&quot;numberOfTargets&quot;, numberOfTargetsArray[0]);</span>
+<span class="f1">-        amplitudesArray[0] = sp.getString(&quot;amplitudes&quot;, amplitudesArray[0]);</span>
+<span class="f1">-        orderOfControlArray[0] = sp.getString(&quot;orderOfControl&quot;, orderOfControlArray[0]);</span>
+<span class="f1">-        frictionCoefficientArray[0] = sp.getString(&quot;frictionCoefficient&quot;, frictionCoefficientArray[0]);</span>
+<span class="f1">-        flickerMultiplier[0] = sp.getString(&quot;flickMultiplier&quot;, flickerMultiplier[0]);</span>
+<span class="f1">-        widthsArray[0] = sp.getString(&quot;widths&quot;, widthsArray[0]);</span>
+<span class="f1">-        ballScaleArray[0] = sp.getString(&quot;ballScale&quot;, ballScaleArray[0]);</span>
+<span class="f1">-        gainArray[0] = sp.getString(&quot;gain&quot;, gainArray[0]);</span>
+<span class="f1">-        selectionModeArray[0] = sp.getString(&quot;selectionMode&quot;, selectionModeArray[0]);</span>
+<span class="f1">-        vibrotactileFeedback = sp.getBoolean(&quot;vibrotactileFeedback&quot;, vibrotactileFeedback);</span>
+<span class="f1">-        auditoryFeedback = sp.getBoolean(&quot;auditoryFeedback&quot;, auditoryFeedback);</span>
+<span class="f1">-</span>
+<span class="f1">-        // get references to widget elements</span>
+<span class="f1">-        spinParticipant = (Spinner)findViewById(R.id.paramPart);</span>
+<span class="f1">-        spinSession = (Spinner)findViewById(R.id.paramSess);</span>
+<span class="f1">-        Spinner spinBlock = (Spinner)findViewById(R.id.paramBlock);</span>
+<span class="f1">-        spinFrictionCoefficient = (Spinner) findViewById(R.id.paramFrictionCoefficient);</span>
+<span class="f1">-        spinFlickMult = (Spinner) findViewById(R.id.paramFlicketMultiplier);</span>
+<span class="f1">-        spinGroup = (Spinner)findViewById(R.id.paramGroup);</span>
+<span class="f1">-        spinCondition = (Spinner)findViewById(R.id.paramCondition);</span>
+<span class="f1">-        spinNumTargets = (Spinner)findViewById(R.id.paramTargets);</span>
+<span class="f1">-        spinAmplitude = (Spinner)findViewById(R.id.paramAmplitude);</span>
+<span class="f1">-        spinWidth = (Spinner)findViewById(R.id.paramWidth);</span>
+<span class="f1">-        spinBallScale = (Spinner)findViewById(R.id.paramBallScale);</span>
+<span class="f1">-        spinOrderOfControl = (Spinner)findViewById(R.id.paramOrderOfControl);</span>
+<span class="f1">-        spinTG = (Spinner)findViewById(R.id.paramTG);</span>
+<span class="f1">-        spinSelectionMode = (Spinner)findViewById(R.id.paramSelectionMode);</span>
+<span class="f1">-        checkVibrotactileFeedback = (CheckBox)findViewById(R.id.paramVibrotactileFeedback);</span>
+<span class="f1">-        checkAuditoryFeedback = (CheckBox)findViewById(R.id.paramAuditoryFeedback);</span>
+<span class="f1">-</span>
+<span class="f1">-        // initialise spinner adapters</span>
+<span class="f1">-        ArrayAdapter&lt;CharSequence&gt; adapterPC</span>
+<span class="f1">-                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, participantCode);</span>
+<span class="f1">-        spinParticipant.setAdapter(adapterPC);</span>
+<span class="f1">-</span>
+<span class="f1">-        ArrayAdapter&lt;CharSequence&gt; adapterSS</span>
+<span class="f1">-                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, sessionCode);</span>
+<span class="f1">-        spinSession.setAdapter(adapterSS);</span>
+<span class="f1">-</span>
+<span class="f1">-        ArrayAdapter&lt;CharSequence&gt; adapterB</span>
+<span class="f1">-                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, blockCode);</span>
+<span class="f1">-        spinBlock.setAdapter(adapterB);</span>
+<span class="f1">-</span>
+<span class="f1">-        ArrayAdapter&lt;CharSequence&gt; adapterG</span>
+<span class="f1">-                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, groupCode);</span>
+<span class="f1">-        spinGroup.setAdapter(adapterG);</span>
+<span class="f1">-</span>
+<span class="f1">-        ArrayAdapter&lt;CharSequence&gt; adapterC</span>
+<span class="f1">-                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, conditionCode);</span>
+<span class="f1">-        spinCondition.setAdapter(adapterC);</span>
+<span class="f1">-</span>
+<span class="f1">-        ArrayAdapter&lt;CharSequence&gt; adapterNP</span>
+<span class="f1">-                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, numberOfTargetsArray);</span>
+<span class="f1">-        spinNumTargets.setAdapter(adapterNP);</span>
+<span class="f1">-</span>
+<span class="f1">-        ArrayAdapter&lt;CharSequence&gt; adapterA</span>
+<span class="f1">-                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, amplitudesArray);</span>
+<span class="f1">-        spinAmplitude.setAdapter(adapterA);</span>
+<span class="f1">-</span>
+<span class="f1">-        ArrayAdapter&lt;CharSequence&gt; adapterW</span>
+<span class="f1">-                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, widthsArray);</span>
+<span class="f1">-        spinWidth.setAdapter(adapterW);</span>
+<span class="f1">-</span>
+<span class="f1">-        ArrayAdapter&lt;CharSequence&gt; adapterBS</span>
+<span class="f1">-                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, ballScaleArray);</span>
+<span class="f1">-        spinBallScale.setAdapter(adapterBS);</span>
+<span class="f1">-</span>
+<span class="f1">-        ArrayAdapter&lt;CharSequence&gt; adapterOC</span>
+<span class="f1">-                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, orderOfControlArray);</span>
+<span class="f1">-        spinOrderOfControl.setAdapter(adapterOC);</span>
+<span class="f1">-</span>
+<span class="f1">-        ArrayAdapter&lt;CharSequence&gt; adapterFriction</span>
+<span class="f1">-                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, frictionCoefficientArray);</span>
+<span class="f1">-        spinFrictionCoefficient.setAdapter(adapterFriction);</span>
+<span class="f1">-</span>
+<span class="f1">-        ArrayAdapter&lt;CharSequence&gt; adapterFlicker</span>
+<span class="f1">-                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, flickerMultiplier);</span>
+<span class="f1">-        spinFlickMult.setAdapter(adapterFlicker);</span>
+<span class="f1">-</span>
+<span class="f1">-        ArrayAdapter&lt;CharSequence&gt; adapterTVG</span>
+<span class="f1">-                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, gainArray);</span>
+<span class="f1">-        spinTG.setAdapter(adapterTVG);</span>
+<span class="f1">-</span>
+<span class="f1">-        ArrayAdapter&lt;CharSequence&gt; adapterSM</span>
+<span class="f1">-                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, selectionModeArray);</span>
+<span class="f1">-        spinSelectionMode.setAdapter(adapterSM);</span>
+<span class="f1">-</span>
+<span class="f1">-        checkVibrotactileFeedback.setChecked(vibrotactileFeedback);</span>
+<span class="f1">-        checkAuditoryFeedback.setChecked(auditoryFeedback);</span>
+<span class="f1">-    }</span>
+<span class="f1">-</span>
+<span class="f1">-    // called when the &quot;OK&quot; button is pressed</span>
+<span class="f1">-    public void clickOK(View view)</span>
+<span class="f1">-    {</span>
+<span class="f1">-        // get user's choices</span>
+<span class="f1">-        String part = participantCode[spinParticipant.getSelectedItemPosition()];</span>
+<span class="f1">-        String sess = sessionCode[spinSession.getSelectedItemPosition()];</span>
+<span class="f1">-        //String block = BLOCK_CODES[spinBlock.getSelectedItemPosition()];</span>
+<span class="f1">-        String group = groupCode[spinGroup.getSelectedItemPosition()];</span>
+<span class="f1">-        String condition = conditionCode[spinCondition.getSelectedItemPosition()];</span>
+<span class="f1">-        int numTargets = Integer.parseInt(numberOfTargetsArray[spinNumTargets.getSelectedItemPosition()]);</span>
+<span class="f1">-        String amplitude = amplitudesArray[spinAmplitude.getSelectedItemPosition()];</span>
+<span class="f1">-        String width = widthsArray[spinWidth.getSelectedItemPosition()];</span>
+<span class="f1">-        String bScaleString = ballScaleArray[spinBallScale.getSelectedItemPosition()];</span>
+<span class="f1">-        String frictionCoefficient = frictionCoefficientArray[spinFrictionCoefficient.getSelectedItemPosition()];</span>
+<span class="f1">-        String flickMutliplier = flickerMultiplier[spinFlickMult.getSelectedItemPosition()];</span>
+<span class="f1">-        String orderOfControl = orderOfControlArray[spinOrderOfControl.getSelectedItemPosition()];</span>
+<span class="f1">-        String gainString = gainArray[spinTG.getSelectedItemPosition()];</span>
+<span class="f1">-</span>
+<span class="f1">-        // actual gain value depends on order of control</span>
+<span class="f1">-        int gain = getGain(orderOfControl, gainString);</span>
+<span class="f1">-        float bScale = Float.parseFloat(bScaleString);</span>
+<span class="f1">-</span>
+<span class="f1">-        String selectionMode = selectionModeArray[spinSelectionMode.getSelectedItemPosition()];</span>
+<span class="f1">-        boolean vibrotactileFeedback = checkVibrotactileFeedback.isChecked();</span>
+<span class="f1">-        boolean auditoryFeedback = checkAuditoryFeedback.isChecked();</span>
+<span class="f1">-</span>
+<span class="f1">-        // put the setup up parameters in a bundle</span>
+<span class="f1">-        Bundle b = new Bundle();</span>
+<span class="f1">-        b.putString(&quot;participantCode&quot;, part);</span>
+<span class="f1">-        b.putString(&quot;sessionCode&quot;, sess);</span>
+<span class="f1">-        //b.putString(&quot;blockCode&quot;, block);</span>
+<span class="f1">-        b.putString(&quot;groupCode&quot;, group);</span>
+<span class="f1">-        b.putString(&quot;conditionCode&quot;, condition);</span>
+<span class="f1">-        b.putInt(&quot;numberOfTargets&quot;, numTargets);</span>
+<span class="f1">-        b.putString(&quot;amplitudes&quot;, amplitude);</span>
+<span class="f1">-        b.putString(&quot;widths&quot;, width);</span>
+<span class="f1">-        b.putFloat(&quot;ballScale&quot;, bScale);</span>
+<span class="f1">-        b.putString(&quot;orderOfControl&quot;, orderOfControl);</span>
+<span class="f1">-        b.putString(&quot;frictionCoefficient&quot;, frictionCoefficient);</span>
+<span class="f1">-        b.putString(&quot;flickMultiplier&quot;, flickMutliplier);</span>
+<span class="f1">-        b.putInt(&quot;gain&quot;, gain);</span>
+<span class="f1">-        b.putString(&quot;selectionMode&quot;, selectionMode);</span>
+<span class="f1">-        b.putBoolean(&quot;vibrotactileFeedback&quot;, vibrotactileFeedback);</span>
+<span class="f1">-        b.putBoolean(&quot;auditoryFeedback&quot;, auditoryFeedback);</span>
+<span class="f1">-</span>
+<span class="f1">-        // start experiment activity (passing along the bundle)</span>
+<span class="f1">-        Intent i = new Intent(getApplicationContext(), FittsTiltActivity.class);</span>
+<span class="f1">-        i.putExtras(b);</span>
+<span class="f1">-        startActivity(i);</span>
+<span class="f1">-        finish();</span>
+<span class="f1">-    }</span>
+<span class="f1">-</span>
+<span class="f1">-    // called when the &quot;Save button is pressed</span>
+<span class="f1">-    public void clickSave(View view)</span>
+<span class="f1">-    {</span>
+<span class="f1">-        spe = sp.edit();</span>
+<span class="f1">-        spe.putString(&quot;participantCode&quot;, participantCode[spinParticipant.getSelectedItemPosition()]);</span>
+<span class="f1">-        spe.putString(&quot;sessionCode&quot;, sessionCode[spinSession.getSelectedItemPosition()]);</span>
+<span class="f1">-        spe.putString(&quot;groupCode&quot;, groupCode[spinGroup.getSelectedItemPosition()]);</span>
+<span class="f1">-        spe.putString(&quot;conditionCode&quot;, conditionCode[spinCondition.getSelectedItemPosition()]);</span>
+<span class="f1">-        spe.putString(&quot;numberOfTargets&quot;, numberOfTargetsArray[spinNumTargets.getSelectedItemPosition()]);</span>
+<span class="f1">-        spe.putString(&quot;amplitudes&quot;, amplitudesArray[spinAmplitude.getSelectedItemPosition()]);</span>
+<span class="f1">-        spe.putString(&quot;widths&quot;, widthsArray[spinWidth.getSelectedItemPosition()]);</span>
+<span class="f1">-        spe.putString(&quot;ballScale&quot;, ballScaleArray[spinBallScale.getSelectedItemPosition()]);</span>
+<span class="f1">-        spe.putString(&quot;orderOfControl&quot;, orderOfControlArray[spinOrderOfControl.getSelectedItemPosition()]);</span>
+<span class="f1">-        spe.putString(&quot;gain&quot;, gainArray[spinTG.getSelectedItemPosition()]);</span>
+<span class="f1">-        spe.putString(&quot;frictionCoefficient&quot;, frictionCoefficientArray[spinFrictionCoefficient.getSelectedItemPosition()]);</span>
+<span class="f1">-        spe.putString(&quot;selectionMode&quot;, selectionModeArray[spinSelectionMode.getSelectedItemPosition()]);</span>
+<span class="f1">-        spe.putBoolean(&quot;vibrotactileFeedback&quot;, checkVibrotactileFeedback.isChecked());</span>
+<span class="f1">-        spe.putBoolean(&quot;auditoryFeedback&quot;, checkAuditoryFeedback.isChecked());</span>
+<span class="f1">-        spe.apply();</span>
+<span class="f1">-        Toast.makeText(this, &quot;Preferences saved!&quot;, Toast.LENGTH_SHORT).show();</span>
+<span class="f1">-    }</span>
+<span class="f1">-</span>
+<span class="f1">-    // called when the &quot;Exit&quot; button is pressed</span>
+<span class="f1">-    public void clickExit(View view)</span>
+<span class="f1">-    {</span>
+<span class="f1">-        super.onDestroy(); // cleanup</span>
+<span class="f1">-        this.finish(); // terminate</span>
+<span class="f1">-    }</span>
+<span class="f1">-</span>
+<span class="f1">-    // convoluted way to get gain (should probably use a key-value Map)</span>
+<span class="f1">-    public int getGain(String orderOfControl, String gainArg)</span>
+<span class="f1">-    {</span>
+<span class="f1">-        int gain = -1;</span>
+<span class="f1">-        if (orderOfControl.equals(VELOCITY))</span>
+<span class="f1">-        {</span>
+<span class="f1">-            if (gainArg.equals(VERY_LOW))</span>
+<span class="f1">-                gain = GAIN_ARG_VELOCITY_CONTROL[0];</span>
+<span class="f1">-            else if (gainArg.equals(LOW))</span>
+<span class="f1">-                gain = GAIN_ARG_VELOCITY_CONTROL[1];</span>
+<span class="f1">-            else if (gainArg.equals(MEDIUM))</span>
+<span class="f1">-                gain = GAIN_ARG_VELOCITY_CONTROL[2];</span>
+<span class="f1">-            else if (gainArg.equals(HIGH))</span>
+<span class="f1">-                gain = GAIN_ARG_VELOCITY_CONTROL[3];</span>
+<span class="f1">-            else if (gainArg.equals(VERY_HIGH))</span>
+<span class="f1">-                gain = GAIN_ARG_VELOCITY_CONTROL[4];</span>
+<span class="f1">-        } else if (orderOfControl.equals(POSITION))</span>
+<span class="f1">-        {</span>
+<span class="f1">-            if (gainArg.equals(VERY_LOW))</span>
+<span class="f1">-                gain = GAIN_ARG_POSITION_CONTROL[0];</span>
+<span class="f1">-            else if (gainArg.equals(LOW))</span>
+<span class="f1">-                gain = GAIN_ARG_POSITION_CONTROL[1];</span>
+<span class="f1">-            else if (gainArg.equals(MEDIUM))</span>
+<span class="f1">-                gain = GAIN_ARG_POSITION_CONTROL[2];</span>
+<span class="f1">-            else if (gainArg.equals(HIGH))</span>
+<span class="f1">-                gain = GAIN_ARG_POSITION_CONTROL[3];</span>
+<span class="f1">-            else if (gainArg.equals(VERY_HIGH))</span>
+<span class="f1">-                gain = GAIN_ARG_POSITION_CONTROL[4];</span>
+<span class="f1">-</span>
+<span class="f1">-        } else if (orderOfControl.equals(PHYSICS1))</span>
+<span class="f1">-        {</span>
+<span class="f1">-            if (gainArg.equals(VERY_LOW))</span>
+<span class="f1">-                gain = GAIN_ARG_PHYSICS1_CONTROL[0];</span>
+<span class="f1">-            else if (gainArg.equals(LOW))</span>
+<span class="f1">-                gain = GAIN_ARG_PHYSICS1_CONTROL[1];</span>
+<span class="f1">-            else if (gainArg.equals(MEDIUM))</span>
+<span class="f1">-                gain = GAIN_ARG_PHYSICS1_CONTROL[2];</span>
+<span class="f1">-            else if (gainArg.equals(HIGH))</span>
+<span class="f1">-                gain = GAIN_ARG_PHYSICS1_CONTROL[3];</span>
+<span class="f1">-            else if (gainArg.equals(VERY_HIGH))</span>
+<span class="f1">-                gain = GAIN_ARG_PHYSICS1_CONTROL[4];</span>
+<span class="f1">-</span>
+<span class="f1">-        }else if (orderOfControl.equals(PHYSICS2))</span>
+<span class="f1">-        {</span>
+<span class="f1">-            if (gainArg.equals(VERY_LOW))</span>
+<span class="f1">-                gain = GAIN_ARG_PHYSICS2_CONTROL[0];</span>
+<span class="f1">-            else if (gainArg.equals(LOW))</span>
+<span class="f1">-                gain = GAIN_ARG_PHYSICS2_CONTROL[1];</span>
+<span class="f1">-            else if (gainArg.equals(MEDIUM))</span>
+<span class="f1">-                gain = GAIN_ARG_PHYSICS2_CONTROL[2];</span>
+<span class="f1">-            else if (gainArg.equals(HIGH))</span>
+<span class="f1">-                gain = GAIN_ARG_PHYSICS2_CONTROL[3];</span>
+<span class="f1">-            else if (gainArg.equals(VERY_HIGH))</span>
+<span class="f1">-                gain = GAIN_ARG_PHYSICS2_CONTROL[4];</span>
+<span class="f1">-        }</span>
+<span class="f1">-        return gain;</span>
+<span class="f1">-    }</span>
+<span class="f1">-}</span>
+<span class="f2">+package ca.yorku.cse.mack.fittstilt;</span>
+<span class="f2">+</span>
+<span class="f2">+import android.app.Activity;</span>
+<span class="f2">+import android.content.Intent;</span>
+<span class="f2">+import android.content.SharedPreferences;</span>
+<span class="f2">+import android.os.Bundle;</span>
+<span class="f2">+import android.view.View;</span>
+<span class="f2">+import android.widget.ArrayAdapter;</span>
+<span class="f2">+import android.widget.CheckBox;</span>
+<span class="f2">+import android.widget.Spinner;</span>
+<span class="f2">+import android.widget.Toast;</span>
+<span class="f2">+</span>
+<span class="f2">+@SuppressWarnings(&quot;unused&quot;)</span>
+<span class="f2">+public class FittsTiltSetup extends Activity</span>
+<span class="f2">+{</span>
+<span class="f2">+    final String MYDEBUG = &quot;MYDEBUG&quot;; // for Log.i messages</span>
+<span class="f2">+</span>
+<span class="f2">+    // ORDER OF CONTROL</span>
+<span class="f2">+    final static String VELOCITY = &quot;Velocity&quot;;</span>
+<span class="f2">+    final static String POSITION = &quot;Position&quot;;</span>
+<span class="f2">+    final static String PHYSICS1 = &quot;Physics1&quot;;</span>
+<span class="f2">+    final static String FLICKER = &quot;Flicker&quot;;</span>
+<span class="f2">+    final static String FRICTION = &quot;Friction&quot;;</span>
+<span class="f2">+</span>
+<span class="f2">+    //Friction Coefficient</span>
+<span class="f2">+    final static String WOOD_METAL_0 = &quot;0.0&quot;;</span>
+<span class="f2">+    final static String WOOD_METAL_1 = &quot;0.1&quot;;</span>
+<span class="f2">+    final static String WOOD_METAL_2 = &quot;0.2&quot;;</span>
+<span class="f2">+    final static String WOOD_METAL_3 = &quot;0.3&quot;;</span>
+<span class="f2">+    final static String WOOD_METAL_4 = &quot;0.4&quot;;</span>
+<span class="f2">+    final static String WOOD_METAL_5 = &quot;0.5&quot;;</span>
+<span class="f2">+    final static String WOOD_METAL_6 = &quot;0.6&quot;;</span>
+<span class="f2">+    final static String WOOD_METAL_7 = &quot;0.7&quot;;</span>
+<span class="f2">+    final static String WOOD_METAL_8 = &quot;0.8&quot;;</span>
+<span class="f2">+    final static String WOOD_METAL_9 = &quot;0.9&quot;;</span>
+<span class="f2">+    final static String WOOD_METAL_10 = &quot;1.0&quot;;</span>
+<span class="f2">+</span>
+<span class="f2">+    //Radius</span>
+<span class="f2">+    final static String RADIUS_1 = &quot;50&quot;;</span>
+<span class="f2">+    final static String RADIUS_2 = &quot;60&quot;;</span>
+<span class="f2">+    final static String RADIUS_3 = &quot;70&quot;;</span>
+<span class="f2">+    final static String RADIUS_4 = &quot;80&quot;;</span>
+<span class="f2">+    final static String RADIUS_5 = &quot;90&quot;;</span>
+<span class="f2">+    final static String RADIUS_6 = &quot;100&quot;;</span>
+<span class="f2">+    final static String RADIUS_7 = &quot;150&quot;;</span>
+<span class="f2">+</span>
+<span class="f2">+    //Hand</span>
+<span class="f2">+    final static String RIGHT = &quot;Right&quot;;</span>
+<span class="f2">+    final static String LEFT = &quot;Left&quot;;</span>
+<span class="f2">+</span>
+<span class="f2">+</span>
+<span class="f2">+    final static String Flicker_1 = &quot;1&quot;;</span>
+<span class="f2">+    final static String Flicker_2 = &quot;2&quot;;</span>
+<span class="f2">+    final static String Flicker_3 = &quot;3&quot;;</span>
+<span class="f2">+    final static String Flicker_4 = &quot;4&quot;;</span>
+<span class="f2">+    final static String Flicker_5 = &quot;5&quot;;</span>
+<span class="f2">+    final static String Flicker_6 = &quot;6&quot;;</span>
+<span class="f2">+    final static String Flicker_7 = &quot;7&quot;;</span>
+<span class="f2">+    final static String Flicker_8 = &quot;8&quot;;</span>
+<span class="f2">+    final static String Flicker_9 = &quot;9&quot;;</span>
+<span class="f2">+    final static String Flicker_10 = &quot;10&quot;;</span>
+<span class="f2">+</span>
+<span class="f2">+    // GAIN</span>
+<span class="f2">+    final static String VERY_LOW = &quot;Very low&quot;;</span>
+<span class="f2">+    final static String LOW = &quot;Low&quot;;</span>
+<span class="f2">+    final static String MEDIUM = &quot;Medium&quot;;</span>
+<span class="f2">+    final static String HIGH = &quot;High&quot;;</span>
+<span class="f2">+    final static String VERY_HIGH = &quot;Very high&quot;;</span>
+<span class="f2">+</span>
+<span class="f2">+    // somewhat arbitrary mappings for gain by order of control</span>
+<span class="f2">+    final static int[] GAIN_ARG_POSITION_CONTROL = {5, 10, 20, 40, 80};</span>
+<span class="f2">+    final static int[] GAIN_ARG_VELOCITY_CONTROL = {25, 50, 100, 200, 400};</span>
+<span class="f2">+    final static int[] GAIN_ARG_PHYSICS1_CONTROL = {25, 50, 100, 200, 400};</span>
+<span class="f2">+    final static int[] GAIN_ARG_PHYSICS2_CONTROL = {25, 50, 100, 200, 400};</span>
+<span class="f2">+</span>
+<span class="f2">+    // selection mode</span>
+<span class="f2">+    final static String FIRST_ENTRY = &quot;First_Entry&quot;;</span>
+<span class="f2">+    final static String DWELL_500 = &quot;Dwell_500&quot;;</span>
+<span class="f2">+    final static String DWELL_400 = &quot;Dwell_400&quot;;</span>
+<span class="f2">+    final static String DWELL_300 = &quot;Dwell_300&quot;;</span>
+<span class="f2">+</span>
+<span class="f2">+    String[] participantCode = {&quot;P01&quot;, &quot;P01&quot;, &quot;P02&quot;, &quot;P03&quot;, &quot;P04&quot;, &quot;P05&quot;,</span>
+<span class="f2">+            &quot;P06&quot;, &quot;P07&quot;, &quot;P08&quot;, &quot;P09&quot;, &quot;P10&quot;, &quot;P11&quot;, &quot;P12&quot;, &quot;P13&quot;, &quot;P14&quot;, &quot;P15&quot;,</span>
+<span class="f2">+            &quot;P16&quot;, &quot;P17&quot;, &quot;P18&quot;, &quot;P19&quot;, &quot;P20&quot;, &quot;P21&quot;, &quot;P22&quot;, &quot;P23&quot;, &quot;P24&quot;, &quot;P25&quot;};</span>
+<span class="f2">+    String[] sessionCode = {&quot;S01&quot;, &quot;S01&quot;, &quot;S02&quot;, &quot;S03&quot;, &quot;S04&quot;, &quot;S05&quot;, &quot;S06&quot;, &quot;S07&quot;, &quot;S08&quot;, &quot;S09&quot;, &quot;S10&quot;, &quot;S11&quot;,</span>
+<span class="f2">+            &quot;S12&quot;, &quot;S13&quot;, &quot;S14&quot;, &quot;S15&quot;, &quot;S16&quot;, &quot;S17&quot;, &quot;S18&quot;, &quot;S19&quot;, &quot;S20&quot;, &quot;S21&quot;, &quot;S22&quot;, &quot;S23&quot;, &quot;S24&quot;, &quot;S25&quot;};</span>
+<span class="f2">+    String[] blockCode = {&quot;(auto)&quot;, &quot;4&quot;};</span>
+<span class="f2">+    String[] groupCode = {&quot;G01&quot;, &quot;G01&quot;, &quot;G02&quot;, &quot;G03&quot;, &quot;G04&quot;, &quot;G05&quot;, &quot;G06&quot;, &quot;G07&quot;, &quot;G08&quot;, &quot;G09&quot;, &quot;G10&quot;, &quot;G11&quot;, &quot;G12&quot;,</span>
+<span class="f2">+            &quot;G13&quot;, &quot;G14&quot;, &quot;G15&quot;, &quot;G16&quot;, &quot;G17&quot;, &quot;G18&quot;, &quot;G19&quot;, &quot;G20&quot;, &quot;G21&quot;, &quot;G22&quot;, &quot;G23&quot;, &quot;G24&quot;, &quot;G25&quot;};</span>
+<span class="f2">+    String[] conditionCode = {&quot;C01&quot;, &quot;C01&quot;, &quot;C02&quot;, &quot;C03&quot;, &quot;C04&quot;, &quot;C05&quot;, &quot;C06&quot;, &quot;C07&quot;, &quot;C08&quot;, &quot;C09&quot;, &quot;C10&quot;, &quot;C11&quot;,</span>
+<span class="f2">+            &quot;C12&quot;, &quot;C13&quot;, &quot;C14&quot;, &quot;C15&quot;, &quot;C16&quot;, &quot;C17&quot;, &quot;C18&quot;, &quot;C19&quot;, &quot;C20&quot;, &quot;C21&quot;, &quot;C22&quot;, &quot;C23&quot;, &quot;C24&quot;, &quot;C25&quot;};</span>
+<span class="f2">+    String[] numberOfTargetsArray = {&quot;15&quot;, &quot;4&quot;, &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot;, &quot;9&quot;, &quot;10&quot;, &quot;11&quot;, &quot;12&quot;, &quot;13&quot;, &quot;14&quot;, &quot;15&quot;, &quot;16&quot;,</span>
+<span class="f2">+            &quot;17&quot;, &quot;18&quot;, &quot;19&quot;, &quot;20&quot;, &quot;21&quot;, &quot;22&quot;, &quot;23&quot;, &quot;24&quot;, &quot;25&quot;, &quot;26&quot;, &quot;27&quot;, &quot;28&quot;, &quot;29&quot;, &quot;30&quot; };</span>
+<span class="f2">+    String[] amplitudesArray = {&quot;125, 250, 500&quot;, &quot;125, 250, 500&quot;, &quot;250, 500&quot;, &quot;500&quot;, &quot;500&quot;, &quot;750&quot;, &quot;1000&quot;, &quot;1500&quot;, &quot;auto&quot;};</span>
+<span class="f2">+    String[] widthsArray = {&quot;40, 60, 100&quot;, &quot;40, 60, 100&quot;, &quot;60, 100&quot;, &quot;100&quot;, &quot;150&quot;, &quot;200&quot;,  &quot;100, 150, 200&quot;};</span>
+<span class="f2">+    String[] ballScaleArray = {&quot;0.5&quot;, &quot;0.1&quot;, &quot;0.2&quot;, &quot;0.3&quot;, &quot;0.4&quot;, &quot;0.5&quot;, &quot;0.6&quot;, &quot;0.7&quot;, &quot;0.8&quot;, &quot;0.9&quot;,&quot;1.0&quot;};</span>
+<span class="f2">+    String[] orderOfControlArray = {VELOCITY, VELOCITY, POSITION, PHYSICS1, FLICKER, FRICTION};</span>
+<span class="f2">+    String[] frictionCoefficientArray = {WOOD_METAL_5, WOOD_METAL_0,WOOD_METAL_1, WOOD_METAL_2,WOOD_METAL_3,WOOD_METAL_4,WOOD_METAL_5,WOOD_METAL_6,WOOD_METAL_7,WOOD_METAL_8,WOOD_METAL_9, WOOD_METAL_10};</span>
+<span class="f2">+    String[] flickerMultiplier = {&quot;1&quot;, Flicker_1, Flicker_2, Flicker_3, Flicker_4, Flicker_5, Flicker_6, Flicker_7, Flicker_8, Flicker_9, Flicker_10 };</span>
+<span class="f2">+    String[] handArray = {RIGHT, RIGHT, LEFT};</span>
+<span class="f2">+    String[] radiusArray = {RADIUS_1, RADIUS_1,RADIUS_2, RADIUS_3, RADIUS_4, RADIUS_5, RADIUS_5, RADIUS_6, RADIUS_7};</span>
+<span class="f2">+    String[] gainArray = {MEDIUM, VERY_LOW, LOW, MEDIUM, HIGH, VERY_HIGH};</span>
+<span class="f2">+    String gainString;</span>
+<span class="f2">+    String[] selectionModeArray = {FIRST_ENTRY, FIRST_ENTRY, DWELL_500, DWELL_400, DWELL_300};</span>
+<span class="f2">+    boolean vibrotactileFeedback = true;</span>
+<span class="f2">+    boolean auditoryFeedback = false;</span>
+<span class="f2">+</span>
+<span class="f2">+    SharedPreferences sp;</span>
+<span class="f2">+    SharedPreferences.Editor spe;</span>
+<span class="f2">+</span>
+<span class="f2">+    private Spinner spinParticipant, spinSession, spinGroup, spinCondition, spinHand, spinRadius;</span>
+<span class="f2">+    private Spinner spinNumTargets, spinAmplitude, spinWidth, spinBallScale;</span>
+<span class="f2">+    private Spinner spinOrderOfControl;</span>
+<span class="f2">+    private Spinner spinFrictionCoefficient, spinFlickMult;</span>
+<span class="f2">+    private Spinner spinTG;</span>
+<span class="f2">+    private Spinner spinSelectionMode;</span>
+<span class="f2">+    private CheckBox checkVibrotactileFeedback;</span>
+<span class="f2">+    private CheckBox checkAuditoryFeedback;</span>
+<span class="f2">+</span>
+<span class="f2">+    /**</span>
+<span class="f2">+     * Called when the activity is first created.</span>
+<span class="f2">+     */</span>
+<span class="f2">+    @Override</span>
+<span class="f2">+    public void onCreate(Bundle savedInstanceState)</span>
+<span class="f2">+    {</span>
+<span class="f2">+        super.onCreate(savedInstanceState);</span>
+<span class="f2">+        setContentView(R.layout.setup);</span>
+<span class="f2">+</span>
+<span class="f2">+        sp = this.getPreferences(MODE_PRIVATE);</span>
+<span class="f2">+</span>
+<span class="f2">+        // load preferences</span>
+<span class="f2">+        sp = this.getPreferences(MODE_PRIVATE);</span>
+<span class="f2">+        participantCode[0] = sp.getString(&quot;participantCode&quot;, participantCode[0]);</span>
+<span class="f2">+        sessionCode[0] = sp.getString(&quot;sessionCode&quot;, sessionCode[0]);</span>
+<span class="f2">+        // block code initialized in main activity (based on existing filenames)</span>
+<span class="f2">+        groupCode[0] = sp.getString(&quot;groupCode&quot;, groupCode[0]);</span>
+<span class="f2">+        conditionCode[0] = sp.getString(&quot;conditionCode&quot;, conditionCode[0]);</span>
+<span class="f2">+        numberOfTargetsArray[0] = sp.getString(&quot;numberOfTargets&quot;, numberOfTargetsArray[0]);</span>
+<span class="f2">+        amplitudesArray[0] = sp.getString(&quot;amplitudes&quot;, amplitudesArray[0]);</span>
+<span class="f2">+        orderOfControlArray[0] = sp.getString(&quot;orderOfControl&quot;, orderOfControlArray[0]);</span>
+<span class="f2">+        frictionCoefficientArray[0] = sp.getString(&quot;frictionCoefficient&quot;, frictionCoefficientArray[0]);</span>
+<span class="f2">+        radiusArray[0] = sp.getString(&quot;radius&quot;, radiusArray[0]);</span>
+<span class="f2">+        handArray[0] = sp.getString(&quot;hand&quot;, handArray[0]);</span>
+<span class="f2">+        flickerMultiplier[0] = sp.getString(&quot;flickMultiplier&quot;, flickerMultiplier[0]);</span>
+<span class="f2">+        widthsArray[0] = sp.getString(&quot;widths&quot;, widthsArray[0]);</span>
+<span class="f2">+        ballScaleArray[0] = sp.getString(&quot;ballScale&quot;, ballScaleArray[0]);</span>
+<span class="f2">+        gainArray[0] = sp.getString(&quot;gain&quot;, gainArray[0]);</span>
+<span class="f2">+        selectionModeArray[0] = sp.getString(&quot;selectionMode&quot;, selectionModeArray[0]);</span>
+<span class="f2">+        vibrotactileFeedback = sp.getBoolean(&quot;vibrotactileFeedback&quot;, vibrotactileFeedback);</span>
+<span class="f2">+        auditoryFeedback = sp.getBoolean(&quot;auditoryFeedback&quot;, auditoryFeedback);</span>
+<span class="f2">+</span>
+<span class="f2">+        // get references to widget elements</span>
+<span class="f2">+        spinParticipant = (Spinner)findViewById(R.id.paramPart);</span>
+<span class="f2">+        spinSession = (Spinner)findViewById(R.id.paramSess);</span>
+<span class="f2">+        Spinner spinBlock = (Spinner)findViewById(R.id.paramBlock);</span>
+<span class="f2">+        spinFrictionCoefficient = (Spinner) findViewById(R.id.paramFrictionCoefficient);</span>
+<span class="f2">+        spinFlickMult = (Spinner) findViewById(R.id.paramFlicketMultiplier);</span>
+<span class="f2">+        spinGroup = (Spinner)findViewById(R.id.paramGroup);</span>
+<span class="f2">+        spinCondition = (Spinner)findViewById(R.id.paramCondition);</span>
+<span class="f2">+        spinNumTargets = (Spinner)findViewById(R.id.paramTargets);</span>
+<span class="f2">+        spinAmplitude = (Spinner)findViewById(R.id.paramAmplitude);</span>
+<span class="f2">+        spinWidth = (Spinner)findViewById(R.id.paramWidth);</span>
+<span class="f2">+        spinBallScale = (Spinner)findViewById(R.id.paramBallScale);</span>
+<span class="f2">+        spinOrderOfControl = (Spinner)findViewById(R.id.paramOrderOfControl);</span>
+<span class="f2">+        spinHand = (Spinner) findViewById(R.id.paramHand);</span>
+<span class="f2">+        spinRadius = (Spinner) findViewById(R.id.paramRaduis);</span>
+<span class="f2">+        spinTG = (Spinner)findViewById(R.id.paramTG);</span>
+<span class="f2">+        spinSelectionMode = (Spinner)findViewById(R.id.paramSelectionMode);</span>
+<span class="f2">+        checkVibrotactileFeedback = (CheckBox)findViewById(R.id.paramVibrotactileFeedback);</span>
+<span class="f2">+        checkAuditoryFeedback = (CheckBox)findViewById(R.id.paramAuditoryFeedback);</span>
+<span class="f2">+</span>
+<span class="f2">+        // initialise spinner adapters</span>
+<span class="f2">+        ArrayAdapter&lt;CharSequence&gt; adapterPC</span>
+<span class="f2">+                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, participantCode);</span>
+<span class="f2">+        spinParticipant.setAdapter(adapterPC);</span>
+<span class="f2">+</span>
+<span class="f2">+        ArrayAdapter&lt;CharSequence&gt; adapterSS</span>
+<span class="f2">+                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, sessionCode);</span>
+<span class="f2">+        spinSession.setAdapter(adapterSS);</span>
+<span class="f2">+</span>
+<span class="f2">+        ArrayAdapter&lt;CharSequence&gt; adapterB</span>
+<span class="f2">+                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, blockCode);</span>
+<span class="f2">+        spinBlock.setAdapter(adapterB);</span>
+<span class="f2">+</span>
+<span class="f2">+        ArrayAdapter&lt;CharSequence&gt; adapterG</span>
+<span class="f2">+                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, groupCode);</span>
+<span class="f2">+        spinGroup.setAdapter(adapterG);</span>
+<span class="f2">+</span>
+<span class="f2">+        ArrayAdapter&lt;CharSequence&gt; adapterC</span>
+<span class="f2">+                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, conditionCode);</span>
+<span class="f2">+        spinCondition.setAdapter(adapterC);</span>
+<span class="f2">+</span>
+<span class="f2">+        ArrayAdapter&lt;CharSequence&gt; adapterNP</span>
+<span class="f2">+                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, numberOfTargetsArray);</span>
+<span class="f2">+        spinNumTargets.setAdapter(adapterNP);</span>
+<span class="f2">+</span>
+<span class="f2">+        ArrayAdapter&lt;CharSequence&gt; adapterA</span>
+<span class="f2">+                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, amplitudesArray);</span>
+<span class="f2">+        spinAmplitude.setAdapter(adapterA);</span>
+<span class="f2">+</span>
+<span class="f2">+        ArrayAdapter&lt;CharSequence&gt; adapterW</span>
+<span class="f2">+                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, widthsArray);</span>
+<span class="f2">+        spinWidth.setAdapter(adapterW);</span>
+<span class="f2">+</span>
+<span class="f2">+        ArrayAdapter&lt;CharSequence&gt; adapterBS</span>
+<span class="f2">+                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, ballScaleArray);</span>
+<span class="f2">+        spinBallScale.setAdapter(adapterBS);</span>
+<span class="f2">+</span>
+<span class="f2">+        ArrayAdapter&lt;CharSequence&gt; adapterOC</span>
+<span class="f2">+                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, orderOfControlArray);</span>
+<span class="f2">+        spinOrderOfControl.setAdapter(adapterOC);</span>
+<span class="f2">+</span>
+<span class="f2">+        ArrayAdapter&lt;CharSequence&gt; adapterFriction</span>
+<span class="f2">+                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, frictionCoefficientArray);</span>
+<span class="f2">+        spinFrictionCoefficient.setAdapter(adapterFriction);</span>
+<span class="f2">+</span>
+<span class="f2">+        ArrayAdapter&lt;CharSequence&gt; adapterHand</span>
+<span class="f2">+                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, handArray);</span>
+<span class="f2">+        spinHand.setAdapter(adapterHand);</span>
+<span class="f2">+</span>
+<span class="f2">+        ArrayAdapter&lt;CharSequence&gt; adapterRadius</span>
+<span class="f2">+                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, radiusArray);</span>
+<span class="f2">+        spinRadius.setAdapter(adapterRadius);</span>
+<span class="f2">+</span>
+<span class="f2">+        ArrayAdapter&lt;CharSequence&gt; adapterFlicker</span>
+<span class="f2">+                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, flickerMultiplier);</span>
+<span class="f2">+        spinFlickMult.setAdapter(adapterFlicker);</span>
+<span class="f2">+</span>
+<span class="f2">+        ArrayAdapter&lt;CharSequence&gt; adapterTVG</span>
+<span class="f2">+                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, gainArray);</span>
+<span class="f2">+        spinTG.setAdapter(adapterTVG);</span>
+<span class="f2">+</span>
+<span class="f2">+        ArrayAdapter&lt;CharSequence&gt; adapterSM</span>
+<span class="f2">+                = new ArrayAdapter&lt;CharSequence&gt;(this, R.layout.spinnerstyle, selectionModeArray);</span>
+<span class="f2">+        spinSelectionMode.setAdapter(adapterSM);</span>
+<span class="f2">+</span>
+<span class="f2">+        checkVibrotactileFeedback.setChecked(vibrotactileFeedback);</span>
+<span class="f2">+        checkAuditoryFeedback.setChecked(auditoryFeedback);</span>
+<span class="f2">+    }</span>
+<span class="f2">+</span>
+<span class="f2">+    // called when the &quot;OK&quot; button is pressed</span>
+<span class="f2">+    public void clickOK(View view)</span>
+<span class="f2">+    {</span>
+<span class="f2">+        // get user's choices</span>
+<span class="f2">+        String part = participantCode[spinParticipant.getSelectedItemPosition()];</span>
+<span class="f2">+        String sess = sessionCode[spinSession.getSelectedItemPosition()];</span>
+<span class="f2">+        //String block = blockCode[spinBlock.getSelectedItemPosition()];</span>
+<span class="f2">+        String group = groupCode[spinGroup.getSelectedItemPosition()];</span>
+<span class="f2">+        String condition = conditionCode[spinCondition.getSelectedItemPosition()];</span>
+<span class="f2">+        int numTargets = Integer.parseInt(numberOfTargetsArray[spinNumTargets.getSelectedItemPosition()]);</span>
+<span class="f2">+        String amplitude = amplitudesArray[spinAmplitude.getSelectedItemPosition()];</span>
+<span class="f2">+        String width = widthsArray[spinWidth.getSelectedItemPosition()];</span>
+<span class="f2">+        String bScaleString = ballScaleArray[spinBallScale.getSelectedItemPosition()];</span>
+<span class="f2">+        String frictionCoefficient = frictionCoefficientArray[spinFrictionCoefficient.getSelectedItemPosition()];</span>
+<span class="f2">+        String flickMutliplier = flickerMultiplier[spinFlickMult.getSelectedItemPosition()];</span>
+<span class="f2">+        String radius = radiusArray[spinRadius.getSelectedItemPosition()];</span>
+<span class="f2">+        String hand = handArray[spinHand.getSelectedItemPosition()];</span>
+<span class="f2">+        String orderOfControl = orderOfControlArray[spinOrderOfControl.getSelectedItemPosition()];</span>
+<span class="f2">+        String gainString = gainArray[spinTG.getSelectedItemPosition()];</span>
+<span class="f2">+</span>
+<span class="f2">+        // actual gain value depends on order of control</span>
+<span class="f2">+        int gain = getGain(orderOfControl, gainString);</span>
+<span class="f2">+        float bScale = Float.parseFloat(bScaleString);</span>
+<span class="f2">+</span>
+<span class="f2">+        String selectionMode = selectionModeArray[spinSelectionMode.getSelectedItemPosition()];</span>
+<span class="f2">+        boolean vibrotactileFeedback = checkVibrotactileFeedback.isChecked();</span>
+<span class="f2">+        boolean auditoryFeedback = checkAuditoryFeedback.isChecked();</span>
+<span class="f2">+</span>
+<span class="f2">+        // put the setup up parameters in a bundle</span>
+<span class="f2">+        Bundle b = new Bundle();</span>
+<span class="f2">+        b.putString(&quot;participantCode&quot;, part);</span>
+<span class="f2">+        b.putString(&quot;sessionCode&quot;, sess);</span>
+<span class="f2">+        //b.putString(&quot;blockCode&quot;, block);</span>
+<span class="f2">+        b.putString(&quot;groupCode&quot;, group);</span>
+<span class="f2">+        b.putString(&quot;conditionCode&quot;, condition);</span>
+<span class="f2">+        b.putInt(&quot;numberOfTargets&quot;, numTargets);</span>
+<span class="f2">+        b.putString(&quot;amplitudes&quot;, amplitude);</span>
+<span class="f2">+        b.putString(&quot;widths&quot;, width);</span>
+<span class="f2">+        b.putFloat(&quot;ballScale&quot;, bScale);</span>
+<span class="f2">+        b.putString(&quot;radius&quot;, radius);</span>
+<span class="f2">+        b.putString(&quot;hand&quot;, hand);</span>
+<span class="f2">+        b.putString(&quot;orderOfControl&quot;, orderOfControl);</span>
+<span class="f2">+        b.putString(&quot;frictionCoefficient&quot;, frictionCoefficient);</span>
+<span class="f2">+        b.putString(&quot;flickMultiplier&quot;, flickMutliplier);</span>
+<span class="f2">+        b.putInt(&quot;gain&quot;, gain);</span>
+<span class="f2">+        b.putString(&quot;selectionMode&quot;, selectionMode);</span>
+<span class="f2">+        b.putBoolean(&quot;vibrotactileFeedback&quot;, vibrotactileFeedback);</span>
+<span class="f2">+        b.putBoolean(&quot;auditoryFeedback&quot;, auditoryFeedback);</span>
+<span class="f2">+</span>
+<span class="f2">+        // start experiment activity (passing along the bundle)</span>
+<span class="f2">+        Intent i = new Intent(getApplicationContext(), FittsTiltActivity.class);</span>
+<span class="f2">+        i.putExtras(b);</span>
+<span class="f2">+        startActivity(i);</span>
+<span class="f2">+        //finish();</span>
+<span class="f2">+    }</span>
+<span class="f2">+</span>
+<span class="f2">+    // called when the &quot;Save button is pressed</span>
+<span class="f2">+    public void clickSave(View view)</span>
+<span class="f2">+    {</span>
+<span class="f2">+        spe = sp.edit();</span>
+<span class="f2">+        spe.putString(&quot;participantCode&quot;, participantCode[spinParticipant.getSelectedItemPosition()]);</span>
+<span class="f2">+        spe.putString(&quot;sessionCode&quot;, sessionCode[spinSession.getSelectedItemPosition()]);</span>
+<span class="f2">+        spe.putString(&quot;groupCode&quot;, groupCode[spinGroup.getSelectedItemPosition()]);</span>
+<span class="f2">+        spe.putString(&quot;conditionCode&quot;, conditionCode[spinCondition.getSelectedItemPosition()]);</span>
+<span class="f2">+        spe.putString(&quot;numberOfTargets&quot;, numberOfTargetsArray[spinNumTargets.getSelectedItemPosition()]);</span>
+<span class="f2">+        spe.putString(&quot;amplitudes&quot;, amplitudesArray[spinAmplitude.getSelectedItemPosition()]);</span>
+<span class="f2">+        spe.putString(&quot;widths&quot;, widthsArray[spinWidth.getSelectedItemPosition()]);</span>
+<span class="f2">+        spe.putString(&quot;ballScale&quot;, ballScaleArray[spinBallScale.getSelectedItemPosition()]);</span>
+<span class="f2">+        spe.putString(&quot;orderOfControl&quot;, orderOfControlArray[spinOrderOfControl.getSelectedItemPosition()]);</span>
+<span class="f2">+        spe.putString(&quot;gain&quot;, gainArray[spinTG.getSelectedItemPosition()]);</span>
+<span class="f2">+        spe.putString(&quot;radius&quot;, radiusArray[spinRadius.getSelectedItemPosition()]);</span>
+<span class="f2">+        spe.putString(&quot;hand&quot;, handArray[spinHand.getSelectedItemPosition()]);</span>
+<span class="f2">+        spe.putString(&quot;frictionCoefficient&quot;, frictionCoefficientArray[spinFrictionCoefficient.getSelectedItemPosition()]);</span>
+<span class="f2">+        spe.putString(&quot;flickMultiplier&quot;, flickerMultiplier[spinFlickMult.getSelectedItemPosition()]);</span>
+<span class="f2">+        spe.putString(&quot;selectionMode&quot;, selectionModeArray[spinSelectionMode.getSelectedItemPosition()]);</span>
+<span class="f2">+        spe.putBoolean(&quot;vibrotactileFeedback&quot;, checkVibrotactileFeedback.isChecked());</span>
+<span class="f2">+        spe.putBoolean(&quot;auditoryFeedback&quot;, checkAuditoryFeedback.isChecked());</span>
+<span class="f2">+        spe.apply();</span>
+<span class="f2">+        Toast.makeText(this, &quot;Preferences saved!&quot;, Toast.LENGTH_SHORT).show();</span>
+<span class="f2">+    }</span>
+<span class="f2">+</span>
+<span class="f2">+    // called when the &quot;Exit&quot; button is pressed</span>
+<span class="f2">+    public void clickExit(View view)</span>
+<span class="f2">+    {</span>
+<span class="f2">+        super.onDestroy(); // cleanup</span>
+<span class="f2">+        this.finish(); // terminate</span>
+<span class="f2">+    }</span>
+<span class="f2">+</span>
+<span class="f2">+    // convoluted way to get gain (should probably use a key-value Map)</span>
+<span class="f2">+    public int getGain(String orderOfControl, String gainArg)</span>
+<span class="f2">+    {</span>
+<span class="f2">+        int gain = -1;</span>
+<span class="f2">+        if (orderOfControl.equals(VELOCITY))</span>
+<span class="f2">+        {</span>
+<span class="f2">+            if (gainArg.equals(VERY_LOW))</span>
+<span class="f2">+                gain = GAIN_ARG_VELOCITY_CONTROL[0];</span>
+<span class="f2">+            else if (gainArg.equals(LOW))</span>
+<span class="f2">+                gain = GAIN_ARG_VELOCITY_CONTROL[1];</span>
+<span class="f2">+            else if (gainArg.equals(MEDIUM))</span>
+<span class="f2">+                gain = GAIN_ARG_VELOCITY_CONTROL[2];</span>
+<span class="f2">+            else if (gainArg.equals(HIGH))</span>
+<span class="f2">+                gain = GAIN_ARG_VELOCITY_CONTROL[3];</span>
+<span class="f2">+            else if (gainArg.equals(VERY_HIGH))</span>
+<span class="f2">+                gain = GAIN_ARG_VELOCITY_CONTROL[4];</span>
+<span class="f2">+        } else if (orderOfControl.equals(POSITION))</span>
+<span class="f2">+        {</span>
+<span class="f2">+            if (gainArg.equals(VERY_LOW))</span>
+<span class="f2">+                gain = GAIN_ARG_POSITION_CONTROL[0];</span>
+<span class="f2">+            else if (gainArg.equals(LOW))</span>
+<span class="f2">+                gain = GAIN_ARG_POSITION_CONTROL[1];</span>
+<span class="f2">+            else if (gainArg.equals(MEDIUM))</span>
+<span class="f2">+                gain = GAIN_ARG_POSITION_CONTROL[2];</span>
+<span class="f2">+            else if (gainArg.equals(HIGH))</span>
+<span class="f2">+                gain = GAIN_ARG_POSITION_CONTROL[3];</span>
+<span class="f2">+            else if (gainArg.equals(VERY_HIGH))</span>
+<span class="f2">+                gain = GAIN_ARG_POSITION_CONTROL[4];</span>
+<span class="f2">+</span>
+<span class="f2">+        } else if (orderOfControl.equals(PHYSICS1))</span>
+<span class="f2">+        {</span>
+<span class="f2">+            if (gainArg.equals(VERY_LOW))</span>
+<span class="f2">+                gain = GAIN_ARG_PHYSICS1_CONTROL[0];</span>
+<span class="f2">+            else if (gainArg.equals(LOW))</span>
+<span class="f2">+                gain = GAIN_ARG_PHYSICS1_CONTROL[1];</span>
+<span class="f2">+            else if (gainArg.equals(MEDIUM))</span>
+<span class="f2">+                gain = GAIN_ARG_PHYSICS1_CONTROL[2];</span>
+<span class="f2">+            else if (gainArg.equals(HIGH))</span>
+<span class="f2">+                gain = GAIN_ARG_PHYSICS1_CONTROL[3];</span>
+<span class="f2">+            else if (gainArg.equals(VERY_HIGH))</span>
+<span class="f2">+                gain = GAIN_ARG_PHYSICS1_CONTROL[4];</span>
+<span class="f2">+</span>
+<span class="f2">+        }else if (orderOfControl.equals(FLICKER))</span>
+<span class="f2">+        {</span>
+<span class="f2">+            if (gainArg.equals(VERY_LOW))</span>
+<span class="f2">+                gain = GAIN_ARG_PHYSICS2_CONTROL[0];</span>
+<span class="f2">+            else if (gainArg.equals(LOW))</span>
+<span class="f2">+                gain = GAIN_ARG_PHYSICS2_CONTROL[1];</span>
+<span class="f2">+            else if (gainArg.equals(MEDIUM))</span>
+<span class="f2">+                gain = GAIN_ARG_PHYSICS2_CONTROL[2];</span>
+<span class="f2">+            else if (gainArg.equals(HIGH))</span>
+<span class="f2">+                gain = GAIN_ARG_PHYSICS2_CONTROL[3];</span>
+<span class="f2">+            else if (gainArg.equals(VERY_HIGH))</span>
+<span class="f2">+                gain = GAIN_ARG_PHYSICS2_CONTROL[4];</span>
+<span class="f2">+        }</span>
+<span class="f2">+        return gain;</span>
+<span class="f2">+    }</span>
+<span class="f2">+}</span>
+<span class="bold">diff --git a/app/src/main/java/ca/yorku/cse/mack/fittstilt/Trace.java b/app/src/main/java/ca/yorku/cse/mack/fittstilt/Trace.java</span>
+<span class="bold">index 05e1a52..a3a4556 100644</span>
+<span class="bold">--- a/app/src/main/java/ca/yorku/cse/mack/fittstilt/Trace.java</span>
+<span class="bold">+++ b/app/src/main/java/ca/yorku/cse/mack/fittstilt/Trace.java</span>
+<span class="f6">@@ -1,258 +1,258 @@</span>
+<span class="f1">-package ca.yorku.cse.mack.fittstilt;</span>
+<span class="f1">-</span>
+<span class="f1">-// information needed to for a trace</span>
+<span class="f1">-public class Trace</span>
+<span class="f1">-{</span>
+<span class="f1">-	final float TWO_TIMES_PI = 6.283185307f;</span>
+<span class="f1">-</span>
+<span class="f1">-	int a, w; // target amplitude, target width</span>
+<span class="f1">-	int fromX, fromY, targetX, targetY;</span>
+<span class="f1">-	int selectX, selectY;</span>
+<span class="f1">-	int positioningTime, selectionTime, movementTime;</span>
+<span class="f1">-	int ballDiameter; // diameter of the ball that is moved to a target</span>
+<span class="f1">-	int transformedSelectX;</span>
+<span class="f1">-</span>
+<span class="f1">-	TracePoint[] p;  // raw trace points</span>
+<span class="f1">-	TracePoint[] tp; // transformed trace points (1D horizontal movement to right)</span>
+<span class="f1">-	</span>
+<span class="f1">-	int tre; // target re-entries</span>
+<span class="f1">-	int tac; // task axis crossings</span>
+<span class="f1">-	int mdc; // movement direction changes</span>
+<span class="f1">-	int odc; // orthogonal direction changes</span>
+<span class="f1">-	float mv; // movement variability</span>
+<span class="f1">-	float me; // movement error</span>
+<span class="f1">-	float mo; // movement offset</span>
+<span class="f1">-	</span>
+<span class="f1">-	Trace(int aArg, int wArg, int fromXArg, int fromYArg, </span>
+<span class="f1">-			int targetXArg, int targetYArg, int ballDiameterArg, TracePoint[] pArg)</span>
+<span class="f1">-	{</span>
+<span class="f1">-		a = aArg;</span>
+<span class="f1">-		w = wArg;</span>
+<span class="f1">-		fromX = fromXArg;</span>
+<span class="f1">-		fromY = fromYArg;</span>
+<span class="f1">-		targetX = targetXArg;</span>
+<span class="f1">-		targetY = targetYArg;</span>
+<span class="f1">-		ballDiameter = ballDiameterArg;</span>
+<span class="f1">-		p = pArg;</span>
+<span class="f1">-		tp = transform();</span>
+<span class="f1">-		</span>
+<span class="f1">-		selectX = p[p.length - 1].x;</span>
+<span class="f1">-		selectY = p[p.length - 1].y;</span>
+<span class="f1">-		transformedSelectX = Math.abs(tp[tp.length - 1].x);</span>
+<span class="f1">-		</span>
+<span class="f1">-		computeMeasures();</span>
+<span class="f1">-	}</span>
+<span class="f1">-	</span>
+<span class="f1">-	public String getMeasures()</span>
+<span class="f1">-	{</span>
+<span class="f1">-		return a + &quot;,&quot; + w + &quot;,&quot; + fromX + &quot;,&quot; + fromY + &quot;,&quot; +</span>
+<span class="f1">-			targetX + &quot;,&quot; + targetY + &quot;,&quot; + selectX + &quot;,&quot; + selectY + &quot;,&quot; +</span>
+<span class="f1">-			transformedSelectX + &quot;,&quot; +</span>
+<span class="f1">-			positioningTime + &quot;,&quot; + selectionTime + &quot;,&quot; + movementTime + &quot;,&quot; +</span>
+<span class="f1">-			tre + &quot;,&quot; + tac + &quot;,&quot; + mdc + &quot;,&quot; + odc + &quot;,&quot; + </span>
+<span class="f1">-			mv + &quot;,&quot; + me + &quot;,&quot; + mo;</span>
+<span class="f1">-	}</span>
+<span class="f1">-	</span>
+<span class="f1">-	public String tPoints()</span>
+<span class="f1">-	{</span>
+<span class="f1">-		StringBuilder sb = new StringBuilder();</span>
+<span class="f1">-		for (TracePoint tp : p)</span>
+<span class="f1">-			sb.append(String.format(&quot;%d,&quot;, tp.t));</span>
+<span class="f1">-		sb.deleteCharAt(sb.length() - 1); // delete last comma</span>
+<span class="f1">-		return sb.toString();</span>
+<span class="f1">-	}</span>
+<span class="f1">-	public String xPoints()</span>
+<span class="f1">-	{</span>
+<span class="f1">-		StringBuilder sb = new StringBuilder();</span>
+<span class="f1">-		for (TracePoint tp : p)</span>
+<span class="f1">-			sb.append(String.format(&quot;%d,&quot;, tp.x));</span>
+<span class="f1">-		sb.deleteCharAt(sb.length() - 1); // delete last comma</span>
+<span class="f1">-		return sb.toString();</span>
+<span class="f1">-	}</span>
+<span class="f1">-	public String yPoints()</span>
+<span class="f1">-	{</span>
+<span class="f1">-		StringBuilder sb = new StringBuilder();</span>
+<span class="f1">-		for (TracePoint tp : p)</span>
+<span class="f1">-			sb.append(String.format(&quot;%d,&quot;, tp.y));</span>
+<span class="f1">-		sb.deleteCharAt(sb.length() - 1); // delete last comma</span>
+<span class="f1">-		return sb.toString();</span>
+<span class="f1">-	}</span>
+<span class="f1">-	public String tiltPoints()</span>
+<span class="f1">-	{</span>
+<span class="f1">-		StringBuilder sb = new StringBuilder();</span>
+<span class="f1">-		for (TracePoint tp : p)</span>
+<span class="f1">-			sb.append(String.format(&quot;%.1f,&quot;, tp.tilt));</span>
+<span class="f1">-		sb.deleteCharAt(sb.length() - 1); // delete last comma</span>
+<span class="f1">-		return sb.toString();</span>
+<span class="f1">-	}</span>
+<span class="f1">-	</span>
+<span class="f1">-	private TracePoint[] transform() </span>
+<span class="f1">-	{</span>
+<span class="f1">-		TracePoint[] tp = new TracePoint[p.length];</span>
+<span class="f1">-</span>
+<span class="f1">-		int dx = fromX;</span>
+<span class="f1">-		int dy = fromY;</span>
+<span class="f1">-		for (int i = 0; i &lt; p.length; ++i)</span>
+<span class="f1">-			tp[i] = new TracePoint((p[i].x - dx), (int)(p[i].y - dy), p[i].t, p[i].tilt);</span>
+<span class="f1">-</span>
+<span class="f1">-		dx = targetX - fromX;</span>
+<span class="f1">-		dy = targetY - fromY;</span>
+<span class="f1">-		double theta = Math.atan((double)dy / dx);</span>
+<span class="f1">-		theta = (TWO_TIMES_PI) - theta;</span>
+<span class="f1">-</span>
+<span class="f1">-		for (TracePoint tracePoint : tp)</span>
+<span class="f1">-		{</span>
+<span class="f1">-			float xx = tracePoint.x;</span>
+<span class="f1">-			float yy = tracePoint.y;</span>
+<span class="f1">-			tracePoint.x = (int)Math.round(xx * Math.cos(theta) - yy	* Math.sin(theta));</span>
+<span class="f1">-			tracePoint.y = (int)Math.round(xx * Math.sin(theta) + yy	* Math.cos(theta));</span>
+<span class="f1">-		}</span>
+<span class="f1">-		return tp;</span>
+<span class="f1">-	}	</span>
+<span class="f1">-	</span>
+<span class="f1">-	private void computeMeasures() </span>
+<span class="f1">-	{</span>
+<span class="f1">-		// ----------------------</span>
+<span class="f1">-		int i;</span>
+<span class="f1">-		float distanceFromTargetCenter;</span>
+<span class="f1">-		float radius = (float)w / 2f;</span>
+<span class="f1">-		for (i = 0; i &lt; p.length; ++i)</span>
+<span class="f1">-		{</span>
+<span class="f1">-			distanceFromTargetCenter =</span>
+<span class="f1">-					(float)Math.sqrt((p[i].x - targetX) * (p[i].x - targetX) +</span>
+<span class="f1">-							(p[i].y - targetY) * (p[i].y - targetY));</span>
+<span class="f1">-			if (distanceFromTargetCenter &lt; radius - (ballDiameter / 2f))</span>
+<span class="f1">-				break;					</span>
+<span class="f1">-		}</span>
+<span class="f1">-		i = i &lt; p.length ? i : p.length - 1; // in case 'break' didn't occur</span>
+<span class="f1">-		positioningTime = p[i].t - p[0].t;</span>
+<span class="f1">-		selectionTime = p[p.length - 1].t - p[i].t;</span>
+<span class="f1">-		movementTime = positioningTime + selectionTime;</span>
+<span class="f1">-		</span>
+<span class="f1">-		// ----------------------</span>
+<span class="f1">-		tre = 0;</span>
+<span class="f1">-		boolean inTargetPrevious;</span>
+<span class="f1">-		boolean inTargetCurrent = false;</span>
+<span class="f1">-		for (i = 1; i &lt; p.length; ++i) </span>
+<span class="f1">-		{</span>
+<span class="f1">-			inTargetPrevious = inTargetCurrent;</span>
+<span class="f1">-			distanceFromTargetCenter =</span>
+<span class="f1">-					(float)Math.sqrt((p[i].x - targetX) * (p[i].x - targetX) +</span>
+<span class="f1">-							(p[i].y - targetY) * (p[i].y - targetY));</span>
+<span class="f1">-</span>
+<span class="f1">-			inTargetCurrent = distanceFromTargetCenter &lt; radius - (ballDiameter / 2f);</span>
+<span class="f1">-</span>
+<span class="f1">-			if (inTargetCurrent &amp;&amp; !inTargetPrevious)</span>
+<span class="f1">-				++tre;</span>
+<span class="f1">-		}</span>
+<span class="f1">-		--tre; // adjust (don't count first target entry)</span>
+<span class="f1">-		tre = tre &lt; 0 ? 0 : tre;</span>
+<span class="f1">-</span>
+<span class="f1">-		// -----------------------</span>
+<span class="f1">-		tac = 0;</span>
+<span class="f1">-		final int THRESHOLD = 3;</span>
+<span class="f1">-		boolean belowAxis = false;</span>
+<span class="f1">-		boolean aboveAxis = false;</span>
+<span class="f1">-		for (i = 0; i &lt; tp.length; ++i) </span>
+<span class="f1">-		{</span>
+<span class="f1">-			// don't check for TAC if pointer is inside either target</span>
+<span class="f1">-			double d1 = Math.hypot(tp[i].x, tp[i].y); // distance from 0,0</span>
+<span class="f1">-			double d2 = Math.hypot(a - tp[i].x, tp[i].y); // distance from A,0</span>
+<span class="f1">-			if (d1 &lt; radius || d2 &lt; radius)</span>
+<span class="f1">-				continue;</span>
+<span class="f1">-</span>
+<span class="f1">-			// NOTE: y axis is &quot;flipped&quot; in Java's coordinate system</span>
+<span class="f1">-			if (tp[i].y &gt; THRESHOLD)</span>
+<span class="f1">-				belowAxis = true;</span>
+<span class="f1">-			if (tp[i].y &lt; -THRESHOLD)</span>
+<span class="f1">-				aboveAxis = true;</span>
+<span class="f1">-			if (i == 0)</span>
+<span class="f1">-				continue; // just get bearings on first sample</span>
+<span class="f1">-</span>
+<span class="f1">-			if (belowAxis &amp;&amp; tp[i].y &lt; -THRESHOLD) {</span>
+<span class="f1">-				++tac;</span>
+<span class="f1">-				belowAxis = false;</span>
+<span class="f1">-				aboveAxis = true;</span>
+<span class="f1">-			} else if (aboveAxis &amp;&amp; tp[i].y &gt; THRESHOLD) {</span>
+<span class="f1">-				++tac;</span>
+<span class="f1">-				belowAxis = true;</span>
+<span class="f1">-				aboveAxis = false;</span>
+<span class="f1">-			}</span>
+<span class="f1">-		}</span>
+<span class="f1">-</span>
+<span class="f1">-		// -------------------</span>
+<span class="f1">-		mdc = 0;</span>
+<span class="f1">-		String pattern = &quot;&quot;;</span>
+<span class="f1">-		for (i = 0; i &lt; tp.length - 1; ++i) </span>
+<span class="f1">-		{</span>
+<span class="f1">-			double d1 = Math.hypot(tp[i].x, tp[i].y); // distance from 0,0</span>
+<span class="f1">-			double d2 = Math.hypot(a - tp[i].x, tp[i].y); // distance from A,0</span>
+<span class="f1">-			if (d1 &lt; radius || d2 &lt; radius)</span>
+<span class="f1">-				continue;</span>
+<span class="f1">-			if ((tp[i + 1].y - tp[i].y) &gt;= 0)</span>
+<span class="f1">-				pattern += &quot;1&quot;;</span>
+<span class="f1">-			else</span>
+<span class="f1">-				pattern += &quot;0&quot;;</span>
+<span class="f1">-		}</span>
+<span class="f1">-		// smooth pattern (010 -&gt; 000, 101 -&gt; 111)</span>
+<span class="f1">-		for (i = 0; i &lt; pattern.length() - 2; ++i)</span>
+<span class="f1">-			if (pattern.charAt(i) == pattern.charAt(i + 2)</span>
+<span class="f1">-					&amp;&amp; pattern.charAt(i) != pattern.charAt(i + 1))</span>
+<span class="f1">-				pattern = pattern.substring(0, i) + pattern.charAt(i)</span>
+<span class="f1">-						+ pattern.charAt(i) + pattern.substring(i + 2);</span>
+<span class="f1">-</span>
+<span class="f1">-		// scan pattern for changes</span>
+<span class="f1">-		for (i = 0; i &lt; pattern.length() - 1; ++i)</span>
+<span class="f1">-			if (pattern.charAt(i) != pattern.charAt(i + 1))</span>
+<span class="f1">-				++mdc;</span>
+<span class="f1">-</span>
+<span class="f1">-		// ------------------</span>
+<span class="f1">-		odc = 0;</span>
+<span class="f1">-		pattern = &quot;&quot;;</span>
+<span class="f1">-		for (i = 0; i &lt; tp.length - 1; ++i) </span>
+<span class="f1">-		{</span>
+<span class="f1">-			double d1 = Math.hypot(tp[i].x, tp[i].y); // distance from 0,0</span>
+<span class="f1">-			double d2 = Math.hypot(a - tp[i].x, tp[i].y); // distance from A,0</span>
+<span class="f1">-			if (d1 &lt; radius || d2 &lt; radius)</span>
+<span class="f1">-				continue;</span>
+<span class="f1">-			if ((tp[i + 1].x - tp[i].x) &gt;= 0)</span>
+<span class="f1">-				pattern += &quot;1&quot;;</span>
+<span class="f1">-			else</span>
+<span class="f1">-				pattern += &quot;0&quot;;</span>
+<span class="f1">-		}</span>
+<span class="f1">-		// smooth pattern (010 -&gt; 000, 101 -&gt; 111)</span>
+<span class="f1">-		for (i = 0; i &lt; pattern.length() - 2; ++i)</span>
+<span class="f1">-			if (pattern.charAt(i) == pattern.charAt(i + 2)</span>
+<span class="f1">-					&amp;&amp; pattern.charAt(i) != pattern.charAt(i + 1))</span>
+<span class="f1">-				pattern = pattern.substring(0, i) + pattern.charAt(i)</span>
+<span class="f1">-						+ pattern.charAt(i) + pattern.substring(i + 2);</span>
+<span class="f1">-</span>
+<span class="f1">-		for (i = 0; i &lt; pattern.length() - 1; ++i)</span>
+<span class="f1">-			if (pattern.charAt(i) != pattern.charAt(i + 1))</span>
+<span class="f1">-				++odc;</span>
+<span class="f1">-</span>
+<span class="f1">-		// ----------------------</span>
+<span class="f1">-		mv = me = mo = 0.0f;</span>
+<span class="f1">-		float[] yy = new float[tp.length];</span>
+<span class="f1">-		for (i = 0; i &lt; tp.length; ++i)</span>
+<span class="f1">-			yy[i] = tp[i].y;</span>
+<span class="f1">-		float meanY = mean(yy);</span>
+<span class="f1">-		mo = meanY;</span>
+<span class="f1">-		for (i = 0; i &lt; tp.length; ++i) </span>
+<span class="f1">-		{</span>
+<span class="f1">-			mv += ((double) tp[i].y - meanY) * ((double) tp[i].y - meanY);</span>
+<span class="f1">-			me += Math.abs(tp[i].y);</span>
+<span class="f1">-		}</span>
+<span class="f1">-		mv = (float)Math.sqrt(mv / (tp.length - 1));</span>
+<span class="f1">-		me = me / tp.length;</span>
+<span class="f1">-	}</span>
+<span class="f1">-	</span>
+<span class="f1">-	// compute the mean of values in a float array</span>
+<span class="f1">-	private float  mean(float n[]) </span>
+<span class="f1">-	{</span>
+<span class="f1">-		float mean = 0.0f;</span>
+<span class="f1">-		for (float f : n)</span>
+<span class="f1">-			mean += f;</span>
+<span class="f1">-		return mean / n.length;</span>
+<span class="f1">-	}</span>
+<span class="f2">+package ca.yorku.cse.mack.fittstilt;</span>
+<span class="f2">+</span>
+<span class="f2">+// information needed to for a trace</span>
+<span class="f2">+public class Trace</span>
+<span class="f2">+{</span>
+<span class="f2">+</span>	<span class="f2">final float TWO_TIMES_PI = 6.283185307f;</span>
+<span class="f2">+</span>
+<span class="f2">+</span>	<span class="f2">int a, w; // target amplitude, target width</span>
+<span class="f2">+</span>	<span class="f2">int fromX, fromY, targetX, targetY;</span>
+<span class="f2">+</span>	<span class="f2">int selectX, selectY;</span>
+<span class="f2">+</span>	<span class="f2">int positioningTime, selectionTime, movementTime;</span>
+<span class="f2">+</span>	<span class="f2">int ballDiameter; // diameter of the ball that is moved to a target</span>
+<span class="f2">+</span>	<span class="f2">int transformedSelectX;</span>
+<span class="f2">+</span>
+<span class="f2">+</span>	<span class="f2">TracePoint[] p;  // raw trace points</span>
+<span class="f2">+</span>	<span class="f2">TracePoint[] tp; // transformed trace points (1D horizontal movement to right)</span>
+<span class="f2">+</span><span class="b1">	</span>
+<span class="f2">+</span>	<span class="f2">int tre; // target re-entries</span>
+<span class="f2">+</span>	<span class="f2">int tac; // task axis crossings</span>
+<span class="f2">+</span>	<span class="f2">int mdc; // movement direction changes</span>
+<span class="f2">+</span>	<span class="f2">int odc; // orthogonal direction changes</span>
+<span class="f2">+</span>	<span class="f2">float mv; // movement variability</span>
+<span class="f2">+</span>	<span class="f2">float me; // movement error</span>
+<span class="f2">+</span>	<span class="f2">float mo; // movement offset</span>
+<span class="f2">+</span><span class="b1">	</span>
+<span class="f2">+</span>	<span class="f2">Trace(int aArg, int wArg, int fromXArg, int fromYArg,</span><span class="b1"> </span>
+<span class="f2">+</span>			<span class="f2">int targetXArg, int targetYArg, int ballDiameterArg, TracePoint[] pArg)</span>
+<span class="f2">+</span>	<span class="f2">{</span>
+<span class="f2">+</span>		<span class="f2">a = aArg;</span>
+<span class="f2">+</span>		<span class="f2">w = wArg;</span>
+<span class="f2">+</span>		<span class="f2">fromX = fromXArg;</span>
+<span class="f2">+</span>		<span class="f2">fromY = fromYArg;</span>
+<span class="f2">+</span>		<span class="f2">targetX = targetXArg;</span>
+<span class="f2">+</span>		<span class="f2">targetY = targetYArg;</span>
+<span class="f2">+</span>		<span class="f2">ballDiameter = ballDiameterArg;</span>
+<span class="f2">+</span>		<span class="f2">p = pArg;</span>
+<span class="f2">+</span>		<span class="f2">tp = transform();</span>
+<span class="f2">+</span><span class="b1">		</span>
+<span class="f2">+</span>		<span class="f2">selectX = p[p.length - 1].x;</span>
+<span class="f2">+</span>		<span class="f2">selectY = p[p.length - 1].y;</span>
+<span class="f2">+</span>		<span class="f2">transformedSelectX = Math.abs(tp[tp.length - 1].x);</span>
+<span class="f2">+</span><span class="b1">		</span>
+<span class="f2">+</span>		<span class="f2">computeMeasures();</span>
+<span class="f2">+</span>	<span class="f2">}</span>
+<span class="f2">+</span><span class="b1">	</span>
+<span class="f2">+</span>	<span class="f2">public String getMeasures()</span>
+<span class="f2">+</span>	<span class="f2">{</span>
+<span class="f2">+</span>		<span class="f2">return a + &quot;,&quot; + w + &quot;,&quot; + fromX + &quot;,&quot; + fromY + &quot;,&quot; +</span>
+<span class="f2">+</span>			<span class="f2">targetX + &quot;,&quot; + targetY + &quot;,&quot; + selectX + &quot;,&quot; + selectY + &quot;,&quot; +</span>
+<span class="f2">+</span>			<span class="f2">transformedSelectX + &quot;,&quot; +</span>
+<span class="f2">+</span>			<span class="f2">positioningTime + &quot;,&quot; + selectionTime + &quot;,&quot; + movementTime + &quot;,&quot; +</span>
+<span class="f2">+</span>			<span class="f2">tre + &quot;,&quot; + tac + &quot;,&quot; + mdc + &quot;,&quot; + odc + &quot;,&quot; +</span><span class="b1"> </span>
+<span class="f2">+</span>			<span class="f2">mv + &quot;,&quot; + me + &quot;,&quot; + mo;</span>
+<span class="f2">+</span>	<span class="f2">}</span>
+<span class="f2">+</span><span class="b1">	</span>
+<span class="f2">+</span>	<span class="f2">public String tPoints()</span>
+<span class="f2">+</span>	<span class="f2">{</span>
+<span class="f2">+</span>		<span class="f2">StringBuilder sb = new StringBuilder();</span>
+<span class="f2">+</span>		<span class="f2">for (TracePoint tp : p)</span>
+<span class="f2">+</span>			<span class="f2">sb.append(String.format(&quot;%d,&quot;, tp.t));</span>
+<span class="f2">+</span>		<span class="f2">sb.deleteCharAt(sb.length() - 1); // delete last comma</span>
+<span class="f2">+</span>		<span class="f2">return sb.toString();</span>
+<span class="f2">+</span>	<span class="f2">}</span>
+<span class="f2">+</span>	<span class="f2">public String xPoints()</span>
+<span class="f2">+</span>	<span class="f2">{</span>
+<span class="f2">+</span>		<span class="f2">StringBuilder sb = new StringBuilder();</span>
+<span class="f2">+</span>		<span class="f2">for (TracePoint tp : p)</span>
+<span class="f2">+</span>			<span class="f2">sb.append(String.format(&quot;%d,&quot;, tp.x));</span>
+<span class="f2">+</span>		<span class="f2">sb.deleteCharAt(sb.length() - 1); // delete last comma</span>
+<span class="f2">+</span>		<span class="f2">return sb.toString();</span>
+<span class="f2">+</span>	<span class="f2">}</span>
+<span class="f2">+</span>	<span class="f2">public String yPoints()</span>
+<span class="f2">+</span>	<span class="f2">{</span>
+<span class="f2">+</span>		<span class="f2">StringBuilder sb = new StringBuilder();</span>
+<span class="f2">+</span>		<span class="f2">for (TracePoint tp : p)</span>
+<span class="f2">+</span>			<span class="f2">sb.append(String.format(&quot;%d,&quot;, tp.y));</span>
+<span class="f2">+</span>		<span class="f2">sb.deleteCharAt(sb.length() - 1); // delete last comma</span>
+<span class="f2">+</span>		<span class="f2">return sb.toString();</span>
+<span class="f2">+</span>	<span class="f2">}</span>
+<span class="f2">+</span>	<span class="f2">public String tiltPoints()</span>
+<span class="f2">+</span>	<span class="f2">{</span>
+<span class="f2">+</span>		<span class="f2">StringBuilder sb = new StringBuilder();</span>
+<span class="f2">+</span>		<span class="f2">for (TracePoint tp : p)</span>
+<span class="f2">+</span>			<span class="f2">sb.append(String.format(&quot;%.1f,&quot;, tp.tilt));</span>
+<span class="f2">+</span>		<span class="f2">sb.deleteCharAt(sb.length() - 1); // delete last comma</span>
+<span class="f2">+</span>		<span class="f2">return sb.toString();</span>
+<span class="f2">+</span>	<span class="f2">}</span>
+<span class="f2">+</span><span class="b1">	</span>
+<span class="f2">+</span>	<span class="f2">private TracePoint[] transform()</span><span class="b1"> </span>
+<span class="f2">+</span>	<span class="f2">{</span>
+<span class="f2">+</span>		<span class="f2">TracePoint[] tp = new TracePoint[p.length];</span>
+<span class="f2">+</span>
+<span class="f2">+</span>		<span class="f2">int dx = fromX;</span>
+<span class="f2">+</span>		<span class="f2">int dy = fromY;</span>
+<span class="f2">+</span>		<span class="f2">for (int i = 0; i &lt; p.length; ++i)</span>
+<span class="f2">+</span>			<span class="f2">tp[i] = new TracePoint((p[i].x - dx), (int)(p[i].y - dy), p[i].t, p[i].tilt);</span>
+<span class="f2">+</span>
+<span class="f2">+</span>		<span class="f2">dx = targetX - fromX;</span>
+<span class="f2">+</span>		<span class="f2">dy = targetY - fromY;</span>
+<span class="f2">+</span>		<span class="f2">double theta = Math.atan((double)dy / dx);</span>
+<span class="f2">+</span>		<span class="f2">theta = (TWO_TIMES_PI) - theta;</span>
+<span class="f2">+</span>
+<span class="f2">+</span>		<span class="f2">for (TracePoint tracePoint : tp)</span>
+<span class="f2">+</span>		<span class="f2">{</span>
+<span class="f2">+</span>			<span class="f2">float xx = tracePoint.x;</span>
+<span class="f2">+</span>			<span class="f2">float yy = tracePoint.y;</span>
+<span class="f2">+</span>			<span class="f2">tracePoint.x = (int)Math.round(xx * Math.cos(theta) - yy	* Math.sin(theta));</span>
+<span class="f2">+</span>			<span class="f2">tracePoint.y = (int)Math.round(xx * Math.sin(theta) + yy	* Math.cos(theta));</span>
+<span class="f2">+</span>		<span class="f2">}</span>
+<span class="f2">+</span>		<span class="f2">return tp;</span>
+<span class="f2">+</span>	<span class="f2">}</span><span class="b1">	</span>
+<span class="f2">+</span><span class="b1">	</span>
+<span class="f2">+</span>	<span class="f2">private void computeMeasures()</span><span class="b1"> </span>
+<span class="f2">+</span>	<span class="f2">{</span>
+<span class="f2">+</span>		<span class="f2">// ----------------------</span>
+<span class="f2">+</span>		<span class="f2">int i;</span>
+<span class="f2">+</span>		<span class="f2">float distanceFromTargetCenter;</span>
+<span class="f2">+</span>		<span class="f2">float radius = (float)w / 2f;</span>
+<span class="f2">+</span>		<span class="f2">for (i = 0; i &lt; p.length; ++i)</span>
+<span class="f2">+</span>		<span class="f2">{</span>
+<span class="f2">+</span>			<span class="f2">distanceFromTargetCenter =</span>
+<span class="f2">+</span>					<span class="f2">(float)Math.sqrt((p[i].x - targetX) * (p[i].x - targetX) +</span>
+<span class="f2">+</span>							<span class="f2">(p[i].y - targetY) * (p[i].y - targetY));</span>
+<span class="f2">+</span>			<span class="f2">if (distanceFromTargetCenter &lt; radius - (ballDiameter / 2f))</span>
+<span class="f2">+</span>				<span class="f2">break;</span><span class="b1">					</span>
+<span class="f2">+</span>		<span class="f2">}</span>
+<span class="f2">+</span>		<span class="f2">i = i &lt; p.length ? i : p.length - 1; // in case 'break' didn't occur</span>
+<span class="f2">+</span>		<span class="f2">positioningTime = p[i].t - p[0].t;</span>
+<span class="f2">+</span>		<span class="f2">selectionTime = p[p.length - 1].t - p[i].t;</span>
+<span class="f2">+</span>		<span class="f2">movementTime = positioningTime + selectionTime;</span>
+<span class="f2">+</span><span class="b1">		</span>
+<span class="f2">+</span>		<span class="f2">// ----------------------</span>
+<span class="f2">+</span>		<span class="f2">tre = 0;</span>
+<span class="f2">+</span>		<span class="f2">boolean inTargetPrevious;</span>
+<span class="f2">+</span>		<span class="f2">boolean inTargetCurrent = false;</span>
+<span class="f2">+</span>		<span class="f2">for (i = 1; i &lt; p.length; ++i)</span><span class="b1"> </span>
+<span class="f2">+</span>		<span class="f2">{</span>
+<span class="f2">+</span>			<span class="f2">inTargetPrevious = inTargetCurrent;</span>
+<span class="f2">+</span>			<span class="f2">distanceFromTargetCenter =</span>
+<span class="f2">+</span>					<span class="f2">(float)Math.sqrt((p[i].x - targetX) * (p[i].x - targetX) +</span>
+<span class="f2">+</span>							<span class="f2">(p[i].y - targetY) * (p[i].y - targetY));</span>
+<span class="f2">+</span>
+<span class="f2">+</span>			<span class="f2">inTargetCurrent = distanceFromTargetCenter &lt; radius - (ballDiameter / 2f);</span>
+<span class="f2">+</span>
+<span class="f2">+</span>			<span class="f2">if (inTargetCurrent &amp;&amp; !inTargetPrevious)</span>
+<span class="f2">+</span>				<span class="f2">++tre;</span>
+<span class="f2">+</span>		<span class="f2">}</span>
+<span class="f2">+</span>		<span class="f2">--tre; // adjust (don't count first target entry)</span>
+<span class="f2">+</span>		<span class="f2">tre = tre &lt; 0 ? 0 : tre;</span>
+<span class="f2">+</span>
+<span class="f2">+</span>		<span class="f2">// -----------------------</span>
+<span class="f2">+</span>		<span class="f2">tac = 0;</span>
+<span class="f2">+</span>		<span class="f2">final int THRESHOLD = 3;</span>
+<span class="f2">+</span>		<span class="f2">boolean belowAxis = false;</span>
+<span class="f2">+</span>		<span class="f2">boolean aboveAxis = false;</span>
+<span class="f2">+</span>		<span class="f2">for (i = 0; i &lt; tp.length; ++i)</span><span class="b1"> </span>
+<span class="f2">+</span>		<span class="f2">{</span>
+<span class="f2">+</span>			<span class="f2">// don't check for TAC if pointer is inside either target</span>
+<span class="f2">+</span>			<span class="f2">double d1 = Math.hypot(tp[i].x, tp[i].y); // distance from 0,0</span>
+<span class="f2">+</span>			<span class="f2">double d2 = Math.hypot(a - tp[i].x, tp[i].y); // distance from A,0</span>
+<span class="f2">+</span>			<span class="f2">if (d1 &lt; radius || d2 &lt; radius)</span>
+<span class="f2">+</span>				<span class="f2">continue;</span>
+<span class="f2">+</span>
+<span class="f2">+</span>			<span class="f2">// NOTE: y axis is &quot;flipped&quot; in Java's coordinate system</span>
+<span class="f2">+</span>			<span class="f2">if (tp[i].y &gt; THRESHOLD)</span>
+<span class="f2">+</span>				<span class="f2">belowAxis = true;</span>
+<span class="f2">+</span>			<span class="f2">if (tp[i].y &lt; -THRESHOLD)</span>
+<span class="f2">+</span>				<span class="f2">aboveAxis = true;</span>
+<span class="f2">+</span>			<span class="f2">if (i == 0)</span>
+<span class="f2">+</span>				<span class="f2">continue; // just get bearings on first sample</span>
+<span class="f2">+</span>
+<span class="f2">+</span>			<span class="f2">if (belowAxis &amp;&amp; tp[i].y &lt; -THRESHOLD) {</span>
+<span class="f2">+</span>				<span class="f2">++tac;</span>
+<span class="f2">+</span>				<span class="f2">belowAxis = false;</span>
+<span class="f2">+</span>				<span class="f2">aboveAxis = true;</span>
+<span class="f2">+</span>			<span class="f2">} else if (aboveAxis &amp;&amp; tp[i].y &gt; THRESHOLD) {</span>
+<span class="f2">+</span>				<span class="f2">++tac;</span>
+<span class="f2">+</span>				<span class="f2">belowAxis = true;</span>
+<span class="f2">+</span>				<span class="f2">aboveAxis = false;</span>
+<span class="f2">+</span>			<span class="f2">}</span>
+<span class="f2">+</span>		<span class="f2">}</span>
+<span class="f2">+</span>
+<span class="f2">+</span>		<span class="f2">// -------------------</span>
+<span class="f2">+</span>		<span class="f2">mdc = 0;</span>
+<span class="f2">+</span>		<span class="f2">String pattern = &quot;&quot;;</span>
+<span class="f2">+</span>		<span class="f2">for (i = 0; i &lt; tp.length - 1; ++i)</span><span class="b1"> </span>
+<span class="f2">+</span>		<span class="f2">{</span>
+<span class="f2">+</span>			<span class="f2">double d1 = Math.hypot(tp[i].x, tp[i].y); // distance from 0,0</span>
+<span class="f2">+</span>			<span class="f2">double d2 = Math.hypot(a - tp[i].x, tp[i].y); // distance from A,0</span>
+<span class="f2">+</span>			<span class="f2">if (d1 &lt; radius || d2 &lt; radius)</span>
+<span class="f2">+</span>				<span class="f2">continue;</span>
+<span class="f2">+</span>			<span class="f2">if ((tp[i + 1].y - tp[i].y) &gt;= 0)</span>
+<span class="f2">+</span>				<span class="f2">pattern += &quot;1&quot;;</span>
+<span class="f2">+</span>			<span class="f2">else</span>
+<span class="f2">+</span>				<span class="f2">pattern += &quot;0&quot;;</span>
+<span class="f2">+</span>		<span class="f2">}</span>
+<span class="f2">+</span>		<span class="f2">// smooth pattern (010 -&gt; 000, 101 -&gt; 111)</span>
+<span class="f2">+</span>		<span class="f2">for (i = 0; i &lt; pattern.length() - 2; ++i)</span>
+<span class="f2">+</span>			<span class="f2">if (pattern.charAt(i) == pattern.charAt(i + 2)</span>
+<span class="f2">+</span>					<span class="f2">&amp;&amp; pattern.charAt(i) != pattern.charAt(i + 1))</span>
+<span class="f2">+</span>				<span class="f2">pattern = pattern.substring(0, i) + pattern.charAt(i)</span>
+<span class="f2">+</span>						<span class="f2">+ pattern.charAt(i) + pattern.substring(i + 2);</span>
+<span class="f2">+</span>
+<span class="f2">+</span>		<span class="f2">// scan pattern for changes</span>
+<span class="f2">+</span>		<span class="f2">for (i = 0; i &lt; pattern.length() - 1; ++i)</span>
+<span class="f2">+</span>			<span class="f2">if (pattern.charAt(i) != pattern.charAt(i + 1))</span>
+<span class="f2">+</span>				<span class="f2">++mdc;</span>
+<span class="f2">+</span>
+<span class="f2">+</span>		<span class="f2">// ------------------</span>
+<span class="f2">+</span>		<span class="f2">odc = 0;</span>
+<span class="f2">+</span>		<span class="f2">pattern = &quot;&quot;;</span>
+<span class="f2">+</span>		<span class="f2">for (i = 0; i &lt; tp.length - 1; ++i)</span><span class="b1"> </span>
+<span class="f2">+</span>		<span class="f2">{</span>
+<span class="f2">+</span>			<span class="f2">double d1 = Math.hypot(tp[i].x, tp[i].y); // distance from 0,0</span>
+<span class="f2">+</span>			<span class="f2">double d2 = Math.hypot(a - tp[i].x, tp[i].y); // distance from A,0</span>
+<span class="f2">+</span>			<span class="f2">if (d1 &lt; radius || d2 &lt; radius)</span>
+<span class="f2">+</span>				<span class="f2">continue;</span>
+<span class="f2">+</span>			<span class="f2">if ((tp[i + 1].x - tp[i].x) &gt;= 0)</span>
+<span class="f2">+</span>				<span class="f2">pattern += &quot;1&quot;;</span>
+<span class="f2">+</span>			<span class="f2">else</span>
+<span class="f2">+</span>				<span class="f2">pattern += &quot;0&quot;;</span>
+<span class="f2">+</span>		<span class="f2">}</span>
+<span class="f2">+</span>		<span class="f2">// smooth pattern (010 -&gt; 000, 101 -&gt; 111)</span>
+<span class="f2">+</span>		<span class="f2">for (i = 0; i &lt; pattern.length() - 2; ++i)</span>
+<span class="f2">+</span>			<span class="f2">if (pattern.charAt(i) == pattern.charAt(i + 2)</span>
+<span class="f2">+</span>					<span class="f2">&amp;&amp; pattern.charAt(i) != pattern.charAt(i + 1))</span>
+<span class="f2">+</span>				<span class="f2">pattern = pattern.substring(0, i) + pattern.charAt(i)</span>
+<span class="f2">+</span>						<span class="f2">+ pattern.charAt(i) + pattern.substring(i + 2);</span>
+<span class="f2">+</span>
+<span class="f2">+</span>		<span class="f2">for (i = 0; i &lt; pattern.length() - 1; ++i)</span>
+<span class="f2">+</span>			<span class="f2">if (pattern.charAt(i) != pattern.charAt(i + 1))</span>
+<span class="f2">+</span>				<span class="f2">++odc;</span>
+<span class="f2">+</span>
+<span class="f2">+</span>		<span class="f2">// ----------------------</span>
+<span class="f2">+</span>		<span class="f2">mv = me = mo = 0.0f;</span>
+<span class="f2">+</span>		<span class="f2">float[] yy = new float[tp.length];</span>
+<span class="f2">+</span>		<span class="f2">for (i = 0; i &lt; tp.length; ++i)</span>
+<span class="f2">+</span>			<span class="f2">yy[i] = tp[i].y;</span>
+<span class="f2">+</span>		<span class="f2">float meanY = mean(yy);</span>
+<span class="f2">+</span>		<span class="f2">mo = meanY;</span>
+<span class="f2">+</span>		<span class="f2">for (i = 0; i &lt; tp.length; ++i)</span><span class="b1"> </span>
+<span class="f2">+</span>		<span class="f2">{</span>
+<span class="f2">+</span>			<span class="f2">mv += ((double) tp[i].y - meanY) * ((double) tp[i].y - meanY);</span>
+<span class="f2">+</span>			<span class="f2">me += Math.abs(tp[i].y);</span>
+<span class="f2">+</span>		<span class="f2">}</span>
+<span class="f2">+</span>		<span class="f2">mv = (float)Math.sqrt(mv / (tp.length - 1));</span>
+<span class="f2">+</span>		<span class="f2">me = me / tp.length;</span>
+<span class="f2">+</span>	<span class="f2">}</span>
+<span class="f2">+</span><span class="b1">	</span>
+<span class="f2">+</span>	<span class="f2">// compute the mean of values in a float array</span>
+<span class="f2">+</span>	<span class="f2">private float  mean(float n[])</span><span class="b1"> </span>
+<span class="f2">+</span>	<span class="f2">{</span>
+<span class="f2">+</span>		<span class="f2">float mean = 0.0f;</span>
+<span class="f2">+</span>		<span class="f2">for (float f : n)</span>
+<span class="f2">+</span>			<span class="f2">mean += f;</span>
+<span class="f2">+</span>		<span class="f2">return mean / n.length;</span>
+<span class="f2">+</span>	<span class="f2">}</span>
+ }
+\ No newline at end of file
+<span class="bold">diff --git a/app/src/main/java/ca/yorku/cse/mack/fittstilt/TracePoint.java b/app/src/main/java/ca/yorku/cse/mack/fittstilt/TracePoint.java</span>
+<span class="bold">index 0e06389..4047d7d 100644</span>
+<span class="bold">--- a/app/src/main/java/ca/yorku/cse/mack/fittstilt/TracePoint.java</span>
+<span class="bold">+++ b/app/src/main/java/ca/yorku/cse/mack/fittstilt/TracePoint.java</span>
+<span class="f6">@@ -1,14 +1,14 @@</span>
+<span class="f1">-package ca.yorku.cse.mack.fittstilt;</span>
+<span class="f1">-</span>
+<span class="f1">-class TracePoint</span>
+<span class="f1">-{</span>
+<span class="f1">-	int x, y, t;</span>
+<span class="f1">-	float tilt;</span>
+<span class="f1">-	TracePoint(int xArg, int yArg, int tArg, float tiltArg)</span>
+<span class="f1">-	{</span>
+<span class="f1">-		x = xArg;</span>
+<span class="f1">-		y = yArg;</span>
+<span class="f1">-		t = tArg;</span>
+<span class="f1">-		tilt = tiltArg;</span>
+<span class="f1">-	}</span>
+<span class="f1">-}</span>
+<span class="f2">+package ca.yorku.cse.mack.fittstilt;</span>
+<span class="f2">+</span>
+<span class="f2">+class TracePoint</span>
+<span class="f2">+{</span>
+<span class="f2">+</span>	<span class="f2">int x, y, t;</span>
+<span class="f2">+</span>	<span class="f2">float tilt;</span>
+<span class="f2">+</span>	<span class="f2">TracePoint(int xArg, int yArg, int tArg, float tiltArg)</span>
+<span class="f2">+</span>	<span class="f2">{</span>
+<span class="f2">+</span>		<span class="f2">x = xArg;</span>
+<span class="f2">+</span>		<span class="f2">y = yArg;</span>
+<span class="f2">+</span>		<span class="f2">t = tArg;</span>
+<span class="f2">+</span>		<span class="f2">tilt = tiltArg;</span>
+<span class="f2">+</span>	<span class="f2">}</span>
+<span class="f2">+}</span>
+</pre>
+</body>
+</html>
